@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Brief — KEMA Debate Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="daily">
+
+<header>
+  <nav class="nav">
+    <a class="brand" href="index.html">🎤 KEMA Debate Tracker</a>
+    <a class="link" href="index.html">Overview</a>
+    <a class="link active" href="daily.html">Daily Brief</a>
+    <a class="link" href="for.html">For (15)</a>
+    <a class="link" href="against.html">Against (15)</a>
+    <a class="link" href="press.html">Press Room</a>
+    <a class="link" href="issues.html">Key Issues</a>
+    <a class="link" href="stances.html">Players</a>
+    <a class="link" href="trends.html">Trends</a>
+    <a class="link" href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="kicker">Today's Edition · 5 picks per side</span>
+    <h1>The Daily <span class="grad">Brief</span></h1>
+    <p class="sub">The 5 strongest articles for each side today, tagged to the Key Issue they feed and
+    why they matter in committee — plus how today's coverage actually tilts.</p>
+    <div class="status-chip" id="status-chip"><span class="dot"></span><span class="label">Checking today's edition…</span></div>
+  </div>
+
+  <section>
+    <h2 class="sec"><span class="bar"></span>Today's Coverage Tilt</h2>
+    <p class="sec-sub">Computed from today's 30 articles: total stance-signal strength on each side.
+    A heavy tilt is itself a debate point — who's winning the narrative today?</p>
+    <div class="panel">
+      <div class="gauge">
+        <div class="g-for" id="g-for" style="width:50%"></div>
+        <div class="g-against" id="g-against" style="width:50%"></div>
+      </div>
+      <div class="gauge-labels">
+        <span class="l-for" id="g-for-label">Pro-corporate signal —</span>
+        <span class="l-against" id="g-against-label">— creative-freedom signal</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>📊 Which issues dominate today's news</h3>
+      <p class="hint">Each of today's 30 articles mapped to its closest <a href="issues.html">Key Issue</a> battleground.</p>
+      <div id="issue-bars"><div class="loader"><div class="spinner"></div></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="sec t-for"><span class="bar"></span>Today's 5 Picks: Pro-Corporate</h2>
+    <p class="sec-sub">The strongest evidence for the corporate model today. <button class="btn" id="btn-refresh" style="padding:4px 14px;font-size:.78rem;margin-left:6px">↻ Force refresh</button></p>
+    <div class="article-list" id="brief-for"></div>
+  </section>
+
+  <section>
+    <h2 class="sec t-against"><span class="bar"></span>Today's 5 Picks: Creative Freedom</h2>
+    <p class="sec-sub">The strongest evidence for the artists' side today.</p>
+    <div class="article-list" id="brief-against"></div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">KEMA Debate Tracker · Tilt and issue charts are computed live from each day's articles — they change every day.</div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

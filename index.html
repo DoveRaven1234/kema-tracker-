@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KEMA Debate Tracker — The Seoul of K-Pop</title>
+<meta name="description" content="Daily-updated top 30 articles on K-pop's corporate competition vs. creative freedom debate, with issue recaps, player stances, and debate-prep dossiers.">
+<meta property="og:title" content="KEMA Debate Tracker — The Seoul of K-Pop">
+<meta property="og:description" content="The top 30 articles on the corporate-vs-creative-freedom debate, refreshed daily, plus issue recaps and player dossiers.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<header>
+  <nav class="nav">
+    <a class="brand" href="index.html">🎤 KEMA Debate Tracker</a>
+    <a class="link active" href="index.html">Overview</a>
+    <a class="link" href="daily.html">Daily Brief</a>
+    <a class="link" href="for.html">For (15)</a>
+    <a class="link" href="against.html">Against (15)</a>
+    <a class="link" href="press.html">Press Room</a>
+    <a class="link" href="issues.html">Key Issues</a>
+    <a class="link" href="stances.html">Players</a>
+    <a class="link" href="trends.html">Trends</a>
+    <a class="link" href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <span class="kicker">Korea Entertainment Management Association · Daily Brief</span>
+    <h1>The Seoul of K-Pop:<br><span class="grad">Corporate Competition vs. Creative Freedom</span></h1>
+    <p class="sub">The top 30 articles on the debate, refreshed every day — 15 leaning toward the
+    corporate model, 15 leaning toward artists' creative freedom — plus a recap of the issues that drive it.</p>
+    <div class="status-chip" id="status-chip"><span class="dot"></span><span class="label">Checking today's edition…</span></div>
+  </div>
+
+  <section>
+    <h2 class="sec"><span class="bar"></span>Quick Recap: What This Debate Is About</h2>
+    <p class="sec-sub">The 60-second version before you dive into the articles. Full breakdown on the <a href="issues.html">Key Issues</a> page.</p>
+    <div class="grid cols-2">
+      <div class="recap-card side-neutral">
+        <span class="emoji">⚖️</span>
+        <h3>The Core Tension</h3>
+        <p>K-pop grew from a regional scene into a billion-dollar global export by centralizing everything —
+        training, songwriting, concepts, even artists' private lives — inside entertainment corporations.
+        That same machine is accused of stripping artists of creative autonomy. KEMA's mandate is to balance both.</p>
+      </div>
+      <div class="recap-card side-for">
+        <span class="emoji">🏢</span>
+        <h3>The Corporate Case (For)</h3>
+        <p>The agency system works: heavy upfront investment in trainees, world-class production teams, and
+        coordinated global marketing are exactly why K-pop outcompetes internationally. Companies bear the
+        financial risk, so they argue they've earned the right to manage the product.</p>
+      </div>
+      <div class="recap-card side-against">
+        <span class="emoji">🎨</span>
+        <h3>The Artist Case (Against)</h3>
+        <p>Long exclusive contracts, trainee debt, dating bans, and centralized creative decisions blur the line
+        between artistic expression and corporate control. High-profile disputes — from the 2009 "slave contract"
+        cases to the NewJeans–ADOR battle — show artists pushing back, sometimes at career-ending cost.</p>
+      </div>
+      <div class="recap-card side-neutral">
+        <span class="emoji">🏛️</span>
+        <h3>Where It Stands</h3>
+        <p>Korea's Fair Trade Commission capped exclusive contracts at 7 years and issues standard contract
+        templates, but enforcement is patchy. Self-producing idols are rising, multi-label structures are
+        spreading risk, and regulators, fans, and KEMA are all being pulled into the fight.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="sec"><span class="bar"></span>Today's Top Headlines</h2>
+    <p class="sec-sub">Top 5 per side, auto-ranked by relevance and freshness. <button class="btn" id="btn-refresh" style="padding:4px 14px;font-size:.78rem;margin-left:6px">↻ Force refresh</button></p>
+    <div class="split">
+      <div>
+        <h2 class="sec t-for" style="font-size:1.05rem"><span class="bar"></span>Leaning Pro-Corporate</h2>
+        <div class="article-list" id="list-for"></div>
+        <a class="view-all" href="for.html">View all 15 →</a>
+      </div>
+      <div>
+        <h2 class="sec t-against" style="font-size:1.05rem"><span class="bar"></span>Leaning Creative Freedom</h2>
+        <div class="article-list" id="list-against"></div>
+        <a class="view-all" href="against.html">View all 15 →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    KEMA Debate Tracker · Built for the Jakarta MUN study guide topic "The Seoul of K-Pop" ·
+    Articles via Google News · Stance labels are automated estimates — read before you cite.
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

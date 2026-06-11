@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Press Room — KEMA Debate Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="press">
+
+<header>
+  <nav class="nav">
+    <a class="brand" href="index.html">🎤 KEMA Debate Tracker</a>
+    <a class="link" href="index.html">Overview</a>
+    <a class="link" href="daily.html">Daily Brief</a>
+    <a class="link" href="for.html">For (15)</a>
+    <a class="link" href="against.html">Against (15)</a>
+    <a class="link active" href="press.html">Press Room</a>
+    <a class="link" href="issues.html">Key Issues</a>
+    <a class="link" href="stances.html">Players</a>
+    <a class="link" href="trends.html">Trends</a>
+    <a class="link" href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="kicker">Direct from the Source · English + 한국어</span>
+    <h1>The Press <span class="grad">Room</span></h1>
+    <p class="sub">Real articles straight from named outlets — Soompi, Koreaboo, and NME in English;
+    Yonhap, SBS, and Hankyoreh in Korean. No Google redirects: every link goes directly to the publisher.
+    Debate-relevant stories are flagged and float to the top.</p>
+    <div class="status-chip" id="status-chip"><span class="dot"></span><span class="label">Contacting outlets…</span></div>
+  </div>
+
+  <section>
+    <div class="filters">
+      <button class="on" data-lang="ALL">All outlets</button>
+      <button data-lang="EN">English</button>
+      <button data-lang="KR">한국어</button>
+      <button id="btn-refresh-press" data-lang="ALL" style="margin-left:auto">↻ Force refresh</button>
+    </div>
+    <div class="article-list" id="press-list"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">KEMA Debate Tracker · Press feeds refresh daily · Korean items are a window into the domestic
+  debate — coverage there often differs sharply from the international framing.</div>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/press.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Creative Freedom — KEMA Debate Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="against">
+
+<header>
+  <nav class="nav">
+    <a class="brand" href="index.html">🎤 KEMA Debate Tracker</a>
+    <a class="link" href="index.html">Overview</a>
+    <a class="link" href="daily.html">Daily Brief</a>
+    <a class="link" href="for.html">For (15)</a>
+    <a class="link active" href="against.html">Against (15)</a>
+    <a class="link" href="press.html">Press Room</a>
+    <a class="link" href="issues.html">Key Issues</a>
+    <a class="link" href="stances.html">Players</a>
+    <a class="link" href="trends.html">Trends</a>
+    <a class="link" href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="kicker">15 articles · refreshed daily</span>
+    <h1>Leaning <span class="grad">Creative Freedom</span></h1>
+    <p class="sub">Coverage critical of corporate control: contract disputes, artist rights, mental health,
+    restrictive management practices, and artists fighting for autonomy.</p>
+    <div class="status-chip" id="status-chip"><span class="dot"></span><span class="label">Checking today's edition…</span></div>
+  </div>
+
+  <section>
+    <p class="sec-sub">Ranked by relevance + freshness. Stance labels are automated estimates — read before you cite.
+    <button class="btn" id="btn-refresh" style="padding:4px 14px;font-size:.78rem;margin-left:6px">↻ Force refresh</button></p>
+    <div class="article-list" id="list-against"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">KEMA Debate Tracker · Articles via Google News · <a href="for.html">See the other side →</a></div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

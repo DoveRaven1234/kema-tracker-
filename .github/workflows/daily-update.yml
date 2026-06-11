@@ -1,0 +1,31 @@
+name: Daily article refresh
+
+# Runs every day at 23:00 UTC = 06:00 WIB (Jakarta), and on demand.
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile today's top 30 articles
+        run: python automation/update_articles.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "kema-bot"
+          git config user.email "actions@github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Daily article refresh $(date -u +%F)"
+          git push

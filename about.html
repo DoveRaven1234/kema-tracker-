@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — KEMA Debate Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+
+<header>
+  <nav class="nav">
+    <a class="brand" href="index.html">🎤 KEMA Debate Tracker</a>
+    <a class="link" href="index.html">Overview</a>
+    <a class="link" href="daily.html">Daily Brief</a>
+    <a class="link" href="for.html">For (15)</a>
+    <a class="link" href="against.html">Against (15)</a>
+    <a class="link" href="press.html">Press Room</a>
+    <a class="link" href="issues.html">Key Issues</a>
+    <a class="link" href="stances.html">Players</a>
+    <a class="link" href="trends.html">Trends</a>
+    <a class="link active" href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="hero" style="text-align:left">
+    <span class="kicker">Methodology</span>
+    <h1>How This <span class="grad">Works</span></h1>
+  </div>
+
+  <div class="prose">
+    <h2>What this site is</h2>
+    <p>A daily research companion for the Jakarta MUN / KEMA committee topic
+    <em>"The Seoul of K-Pop: Balancing Corporate Competition with Creative Freedom."</em>
+    It compiles the top 30 current articles on the debate — 15 leaning toward the corporate
+    model, 15 leaning toward artists' creative freedom — plus a curated recap of the major issues.</p>
+
+    <h2>Where the articles come from</h2>
+    <p>The For/Against pages pull from <strong>Google News RSS</strong> using four targeted searches
+    (two angled at each side of the debate). Results are de-duplicated, scored, and ranked.
+    The <strong>Press Room</strong> additionally pulls real RSS feeds directly from six named outlets —
+    Soompi, Koreaboo, and NME in English; Yonhap, SBS, and Hankyoreh in Korean — with links going
+    straight to the publisher. No API keys, accounts, or servers are required.</p>
+
+    <h2>How Trends works</h2>
+    <p>Once per day the tracker snapshots the coverage tilt, issue counts, and source diversity.
+    Opening the site locally records the snapshot in your browser; the GitHub Action records it in
+    <code>data/history.json</code> when deployed. The Trends page merges both, so the chart grows one
+    point per day.</p>
+
+    <h2>How "daily updates" work</h2>
+    <ul>
+      <li><strong>Opened locally or on any static host:</strong> the first visit each day fetches fresh
+      articles and caches them in your browser. Every later visit that day is instant; the next day it
+      refreshes automatically. The <em>↻ Force refresh</em> button clears the cache on demand.</li>
+      <li><strong>Deployed on GitHub Pages (optional):</strong> the included GitHub Action
+      (<code>.github/workflows/daily-update.yml</code>) re-generates <code>data/articles.json</code>
+      every day at 06:00 WIB, so the site is fresh even before anyone visits.</li>
+    </ul>
+
+    <h2>How stance labels are assigned</h2>
+    <p>Each article's title and summary are scored against two keyword lists — one for
+    pro-corporate signals (growth, investment, revenue, expansion…) and one for
+    creative-freedom signals (lawsuit, dispute, exploitation, mental health, artist rights…).
+    The higher score wins; ties fall back to which search surfaced the article.</p>
+    <p><strong>This is a heuristic, not a judgment.</strong> Automated stance detection is approximate:
+    a news report about a lawsuit isn't necessarily <em>advocating</em> for the artist, and an earnings
+    story isn't an editorial defending the system. Treat labels as a starting sort —
+    always read the article before citing it in committee.</p>
+
+    <h2>Ranking</h2>
+    <p>Rank = stance-confidence × 2 + a freshness bonus (up to +7 for same-day articles).
+    Strongly on-topic, recent coverage floats to the top.</p>
+
+    <h2>Honest limitations</h2>
+    <ul>
+      <li>Google News links route through Google's redirect URLs.</li>
+      <li>Feeds are fetched through four free gateways tried in order (allorigins → rss2json →
+      corsproxy.io → codetabs). If all are down, the site falls back to yesterday's cached edition,
+      then to curated search links — it never shows a blank page.</li>
+      <li>Keyword classification can mislabel sarcasm, neutral reporting, and opinion pieces.</li>
+    </ul>
+
+    <h2>Disclaimer</h2>
+    <p>An independent study aid. Not affiliated with the Korea Entertainment Management Association,
+    Jakarta MUN, Google, or any entertainment company. Article content belongs to its publishers.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">KEMA Debate Tracker · Built with plain HTML/CSS/JS · No tracking, no cookies (just a local article cache).</div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
