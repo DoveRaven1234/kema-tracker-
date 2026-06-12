@@ -282,6 +282,32 @@ p.sec-sub { color: var(--text-dim); margin-bottom: 20px; font-size: .93rem; }
 }
 .link-card:hover { border-color: var(--accent); text-decoration: none; color: var(--accent); }
 
+/* allies / opponents */
+.rel-h { font-size: .76rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin: 18px 0 9px; display: block; }
+.rel-h.a { color: #4ade80; }
+.rel-h.o { color: var(--against); }
+.rel-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
+@media (max-width: 700px) { .rel-grid { grid-template-columns: 1fr; } }
+.rel-card { background: var(--bg-soft); border-radius: 10px; padding: 13px 15px; font-size: .84rem; color: var(--text-dim); }
+.rel-card strong { display: block; margin-bottom: 3px; color: var(--text); }
+.rel-card.ally { border: 1px solid rgba(74,222,128,.28); }
+.rel-card.ally strong { color: #4ade80; }
+.rel-card.opp { border: 1px solid rgba(251,113,133,.28); }
+.rel-card.opp strong { color: var(--against); }
+
+/* issues binder */
+.itable { width: 100%; border-collapse: collapse; font-size: .84rem; margin: 10px 0 6px; }
+.itable th { text-align: left; color: var(--text-dim); font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; padding: 7px 10px; border-bottom: 1px solid rgba(255,255,255,.16); }
+.itable td { padding: 8px 10px; border-bottom: 1px solid rgba(255,255,255,.07); color: var(--text-dim); vertical-align: top; }
+.itable td:first-child { color: var(--gold); font-weight: 700; white-space: nowrap; }
+.itable .win-a { color: #4ade80; font-weight: 700; }
+.itable .win-c { color: var(--for); font-weight: 700; }
+.itable .win-x { color: var(--gold); font-weight: 700; }
+.binder-label { font-size: .73rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin: 18px 0 8px; display: block; }
+.src-list { margin-top: 14px; padding-top: 10px; border-top: 1px dashed rgba(255,255,255,.12); font-size: .78rem; color: var(--text-dim); line-height: 1.9; }
+.lever { font-size: .86rem; color: var(--text-dim); padding-left: 19px; position: relative; margin-bottom: 7px; }
+.lever::before { content: '🛠'; position: absolute; left: 0; font-size: .72rem; }
+
 .dossier-pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 30px; }
 .dossier-pager a { font-size: .87rem; font-weight: 600; }
 

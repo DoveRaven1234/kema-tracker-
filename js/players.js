@@ -23,16 +23,33 @@ const PLAYERS = [
     query: 'HYBE entertainment k-pop',
     dossier: {
       stance: [
-        `HYBE's public thesis is that scale serves artists: a multi-label structure gives each label
-         creative identity while the parent supplies capital, global distribution, and technology
-         (Weverse). In this telling, the corporation doesn't constrain creativity — it's the only
-         thing that can afford it. Billion-won trainee development, world tours, and US/India/Latin
-         America expansion all require a balance sheet no independent artist could carry.`,
-        `In practice, the NewJeans conflict revealed where the thesis hits its limit: when a
-         subsidiary's creative leadership and its artists tried to act independently, HYBE used
-         audits, board control, and injunctions to hold the structure together. The company's
-         consistent position: exclusive contracts are the foundation of the entire investment
-         model, and unilateral exits cannot be tolerated regardless of public sympathy.`,
+        `<strong>Who they are.</strong> HYBE is the largest entertainment company in K-pop history —
+         a holding structure over BigHit Music, Pledis, ADOR, KOZ, Source Music and overseas arms in
+         the US, Japan, and Latin America, plus the Weverse platform. It was the industry's biggest
+         IPO (2020) and is the only K-pop company whose scale puts it in conversation with Western
+         major labels. Whatever HYBE does becomes, by weight alone, industry policy.`,
+        `<strong>On creative control.</strong> HYBE's official architecture is "creative independence
+         within structure": each label keeps its own producers, identity, and roster, while
+         headquarters owns capital allocation, governance, and distribution. The ADOR experiment was
+         the showcase of this philosophy — and its collapse demonstrated the fine print: creative
+         independence is delegated, revocable, and subordinate to shareholder interest whenever the
+         two collide.`,
+        `<strong>On contracts and talent.</strong> HYBE treats the exclusive contract as the
+         load-bearing wall of the entire business: years of unprofitable trainee investment are only
+         rational if the company captures the profitable years that follow. Its renewal record with
+         established acts (BTS, SEVENTEEN renewed early and amicably) is genuinely strong — its
+         tolerance for unilateral exit is zero, and it litigates exits as existential threats rather
+         than personnel matters.`,
+        `<strong>In disputes.</strong> The 2024–26 record shows a consistent playbook: audit first,
+         remove leadership through board control, enforce contracts through injunctions, and accept
+         enormous reputational damage as the cost of preserving precedent. HYBE repeatedly chose the
+         legally-winning, publicly-losing move — which tells you it believes the precedent is worth
+         more than the public.`,
+        `<strong>Trajectory (2026).</strong> Expansion continues outward — India, Latin America,
+         US-formed groups, AI ventures — meaning HYBE is exporting not just K-pop but the K-pop
+         management model into jurisdictions with stronger labor norms. Simultaneously it faces
+         National Assembly scrutiny and regulator attention at home. The company that most benefits
+         from the current rules is also the one most likely to trigger their rewriting.`,
       ],
       controversies: [
         { yr: '2024', title: 'Internal monitoring reports', sev: 'high',
@@ -63,21 +80,23 @@ const PLAYERS = [
         provesFor: 'Courts repeatedly found the contracts valid and the investment-protection logic sound. The system held.',
         provesAgainst: 'The one serious experiment in "autonomy within the corporation" ended in audits and injunctions — suggesting the autonomy was always conditional.',
       },
-      framing: {
-        angle: `Frame HYBE as the strongest version of the corporate case — if the model is defensible
-          anywhere, it's here (biggest investment, biggest results). That also makes it the highest-value
-          target: concessions extracted from the HYBE example apply everywhere downstream.`,
-        useFor: 'The scale argument: only corporate consolidation produces a company that can take K-pop global and absorb billion-won trainee losses.',
-        useAgainst: 'The concentration argument: the NewJeans saga and monitoring-report scandal show what happens when one company holds that much power over artists.',
-        counters: [
-          { they: 'HYBE won every court case — the system is legitimate.',
-            you: 'Legality isn’t legitimacy. The KFTC’s 7-year cap was also preceded by courts enforcing 13-year contracts; law catches up to fairness, not the reverse.' },
-          { they: 'Multi-label structure already gives artists creative freedom.',
-            you: 'ADOR is the test of that claim, and the test failed — independence lasted exactly as long as it didn’t conflict with the parent’s interests.' },
+      relations: {
+        stance: `Firmly pro-corporate-control. HYBE is the model's chief institutional defender —
+          not out of ideology but exposure: it has more capital invested in exclusive contracts than
+          anyone else, so any weakening of contract enforcement costs HYBE the most. Expect it to
+          concede artist-welfare process (counseling, transparency) readily, and contract-power
+          substance (exit rights, penalty caps) never.`,
+        allies: [
+          { name: 'KEMA', why: 'The association’s tampering doctrine and contract-enforcement posture protect HYBE’s core interest in every dispute.' },
+          { name: 'SM · JYP · YG (the majors)', why: 'Fierce business rivals, doctrinal allies — on contracts, trainee investment, and exit enforcement they vote as a bloc.' },
+          { name: 'Institutional investors', why: 'KOSPI shareholders demand contract enforcement; every artist-side concession is a stock-price event (see the 2024–25 volatility).' },
+          { name: 'The current legal framework', why: 'Courts applying existing contract law have ruled for HYBE at nearly every step of the NewJeans saga — the status quo is its ally.' },
         ],
-        lines: [
-          'If creative freedom inside HYBE were real, we would not know Min Hee-jin’s name.',
-          'HYBE proves the model’s ceiling and its floor at once: nobody invests more in artists, and nobody has fought harder to keep them.',
+        opponents: [
+          { name: 'Min Hee-jin & the old ADOR', why: 'The defining internal enemy: the executive whose independence experiment HYBE funded, then dismantled.' },
+          { name: 'NewJeans / NJZ & the Bunnies fandom', why: 'The artists who declared its contracts void, and the organized fandom running a permanent pressure campaign.' },
+          { name: 'National Assembly scrutiny', why: 'Hearings over the monitoring-report leak and platform power put HYBE first in line for any new legislation.' },
+          { name: 'Foreign labor norms', why: 'As HYBE exports the model (US, India, Latin America), it walks into jurisdictions where standard K-pop practices may be unlawful.' },
         ],
       },
       verdict: {
@@ -105,14 +124,30 @@ const PLAYERS = [
     query: '"SM Entertainment"',
     dossier: {
       stance: [
-        `SM invented the thing being debated. Lee Soo-man's "cultural technology" codified every step —
-         casting, training, songwriting camps, concept design, fan management — into a corporate
-         process that could manufacture stars repeatably. SM's historical stance is that K-pop IS this
-         process: the artist is one input into a system that creates value far beyond any individual.`,
-        `Post-2023 (Kakao takeover, founder ousted), "SM 3.0" decentralized artists into internal
-         production centers and talks more about artist individuality. Structurally, though, the
-         company still owns the creative process end-to-end. SM is the best evidence that the industry
-         reforms its rhetoric faster than its architecture.`,
+        `<strong>Who they are.</strong> SM is the architect: founded 1995 by Lee Soo-man, it invented
+         the idol-production pipeline that defines the industry — systematic casting, multi-year
+         training, in-house songwriting camps, total concept design, organized fandom management.
+         Every company in this debate, including HYBE, runs on machinery SM built first. Since 2023
+         it has been controlled by Kakao after the industry's wildest takeover battle.`,
+        `<strong>On creative control.</strong> Lee Soo-man's "cultural technology" doctrine codified
+         creative decisions into a corporate manual — famously detailed down to choreography angles
+         and concept rollouts. The artist, in this philosophy, is one input into a repeatable
+         star-manufacturing process. "SM 3.0" (post-Kakao) decentralizes execution into multiple
+         in-house production centers, but ownership of the creative process never leaves the company.`,
+        `<strong>On contracts and talent.</strong> SM operates under the reformed standard its own
+         scandal created: the 2009 TVXQ lawsuit produced the KFTC's 7-year cap and template contract.
+         Its rosters are the industry's longest-running (TVXQ, Girls' Generation, EXO, NCT's
+         open-member experiment), which it cites as proof of stability; its critics cite the same
+         longevity as proof exit is functionally impossible.`,
+        `<strong>In disputes.</strong> Three waves of artist conflict — TVXQ/JYJ (2009), EXO's Kris,
+         Luhan and Tao plus Jessica (2014–15), and periodic fan-led revolts since — taught SM to
+         settle quietly and avoid courtroom spectacle. The alleged informal blacklisting of JYJ after
+         their legal win remains the industry's defining cautionary tale about the price of winning.`,
+        `<strong>Trajectory (2026).</strong> The founder is gone (ousted amid the Kakao takeover and
+         his own royalty-contract controversy), yet the model runs on without him — the strongest
+         evidence that the control architecture is institutional, not personal. SM now answers to a
+         platform conglomerate (Kakao) with its own regulatory baggage, adding a second layer of
+         corporate interest above the artists.`,
       ],
       controversies: [
         { yr: '2009', title: 'TVXQ "slave contract" lawsuit', sev: 'high',
@@ -138,19 +173,20 @@ const PLAYERS = [
         provesFor: 'The system self-corrects: the worst abuses were outlawed fifteen years ago, and the industry kept thriving under the reformed rules.',
         provesAgainst: 'Winning in court cost JYJ their broadcast careers. The formal rules changed; the power structure that punishes exit did not.',
       },
-      framing: {
-        angle: `Use SM as the historical spine of any argument: whatever you want to claim about the
-          industry, SM has a precedent for it — the original sin (2009), the repeat offenses (2014),
-          and the rebranding of control as "3.0".`,
-        useFor: 'Exhibit A that the system self-corrects: the company that caused the 2009 scandal now operates under the reformed standard it forced into existence.',
-        useAgainst: 'Exhibit A that reform is cosmetic: three waves of artist exits from the same company under the same fundamental model.',
-        counters: [
-          { they: 'The 7-year cap fixed the contract problem.',
-            you: 'Then why did EXO members file in 2014, and why are 2024–26 disputes still about exit penalties and control? The cap shortened the leash; it didn’t remove it.' },
+      relations: {
+        stance: `Pro-corporate-control — the historical architect. SM's institutional identity IS the
+          production system, so it cannot concede that centralized creative control is the problem
+          without conceding itself. Expect process modernization ("3.0", artist "individuality"
+          marketing) and zero structural concession on who owns the creative pipeline.`,
+        allies: [
+          { name: 'Kakao', why: 'Its controlling shareholder — a platform giant whose content strategy depends on SM’s pipeline running exactly as designed.' },
+          { name: 'KEMA & the majors', why: 'SM practices became the industry standards KEMA codifies; on contract doctrine the majors defend SM precedents as their own.' },
+          { name: 'The trainee pipeline’s beneficiaries', why: 'Generations of successful SM artists and producers whose careers validate the system — the company’s living evidence.' },
         ],
-        lines: [
-          'Every rule in K-pop contract law has an SM case number attached to it.',
-          '"Cultural technology" is a euphemism with a manual.',
+        opponents: [
+          { name: 'Its own alumni', why: 'JYJ, Kris/Luhan/Tao, Jessica — the industry’s longest list of artists who fought the same company over the same structural terms.' },
+          { name: 'KFTC', why: 'The regulator’s signature rules (7-year cap, standard contract) were written specifically against SM-era practices, and it keeps watching.' },
+          { name: 'Lee Soo-man’s shadow', why: 'The ousted founder’s royalty deals and exit fights turned SM’s own governance into a public exhibit of corporate self-dealing.' },
         ],
       },
       verdict: {
@@ -178,14 +214,28 @@ const PLAYERS = [
     query: '"JYP Entertainment"',
     dossier: {
       stance: [
-        `JYP's stance is that the corporate model and artist wellbeing are compatible — and that JYP
-         itself is the proof. Founder Park Jin-young publicly preaches values, health, and longevity;
-         the company points to GOT7's amicable exit and serial full-group renewals as evidence that
-         artists stay when treated well. It is the corporate side's favorite character witness.`,
-        `The fine print: creative direction, production, and concepts remain centralized, dating
-         restrictions for young artists are openly acknowledged policy, and the company's signature
-         export is the trainee system itself (NiziU in Japan, VCHA in the US). The 2026 KG lawsuit
-         alleges the exported model includes its harshest practices — JYP denies the claims.`,
+        `<strong>Who they are.</strong> Founded 1997 by Park Jin-young — the only major whose founder
+         is himself a still-active performing artist and producer. Home to TWICE, Stray Kids, ITZY,
+         NMIXX, and the localization experiments NiziU (Japan) and VCHA (US). JYP brands itself as
+         the values-driven major: "artist first," health over schedules, longevity over peaks.`,
+        `<strong>On creative control.</strong> Production and concept authority remain centralized —
+         Park Jin-young personally shaped the company's sound for decades — but JYP runs the
+         industry's most visible internal exception: Stray Kids debuted *because* its members
+         (3RACHA) produce their own music. The company's revealed position: creative input is a
+         feature it grants when it sells, not a right it recognizes.`,
+        `<strong>On contracts and talent.</strong> The renewal record is the best in the industry —
+         TWICE and Stray Kids re-signed as full groups, and GOT7's 2021 exit was amicable enough that
+         the members kept using the group name. At the same time, JYP is the major that most openly
+         admits private-life policy: a stated 3-year dating ban for new artists, framed as protecting
+         both the group and the artist's development.`,
+        `<strong>In disputes.</strong> JYP historically avoids public contract wars — until VCHA.
+         Facing KG's 2026 abuse and mistreatment allegations in a US court, the company responded
+         with firm public denial and legal defense, showing that under its softer brand sits the
+         same enforcement instinct as its peers when the model itself is challenged.`,
+        `<strong>Trajectory (2026).</strong> JYP's strategic bet is exporting the system itself —
+         build local idols with K-pop methodology in Japan, the US, and beyond. That makes the KG
+         case existential beyond its size: if the methodology is found abusive under US law, the
+         export strategy, not just one group, is what's on trial.`,
       ],
       controversies: [
         { yr: '2026', title: 'VCHA’s KG sues JYP USA', sev: 'high',
@@ -211,19 +261,20 @@ const PLAYERS = [
         provesFor: 'One lawsuit among hundreds of artists; if the claims fail in the artist-friendliest legal environment, the model is vindicated.',
         provesAgainst: 'The company with the best reputation in the industry is the one being tested — if even JYP’s export can’t pass US standards, the problem is the model, not the operator.',
       },
-      framing: {
-        angle: `JYP is the "best-case operator" — use it to isolate the variable. If you argue
-          pro-corporate, JYP shows the model run humanely. If you argue creative freedom, JYP shows
-          that even the humane version centralizes creativity and polices private lives.`,
-        useFor: 'The benchmark argument: renewals and goodwill exits prove the model can be humane without changing its structure.',
-        useAgainst: 'The export argument: the KG lawsuit suggests practices that pass in Seoul may be legally indefensible abroad — a problem as the industry globalizes.',
-        counters: [
-          { they: 'JYP proves the system works when run with good values.',
-            you: 'Then the system depends on the benevolence of whoever runs it — which is precisely the definition of unaccountable power. Good kings are not a constitution.' },
+      relations: {
+        stance: `Pro-corporate-control, softest edge. JYP genuinely invests in artist relations and
+          can point to the receipts — but its position in the debate is unambiguous: the company,
+          not the artist, decides how much freedom is healthy. It is the corporate bloc's best
+          character witness and will defend the model's structure while volunteering welfare reforms.`,
+        allies: [
+          { name: 'KEMA & the majors', why: 'Full alignment on contract doctrine; JYP’s clean reputation makes it the bloc’s preferred public face.' },
+          { name: 'Republic Records & Sony Music', why: 'Western partners (VCHA, NiziU) whose distribution power depends on JYP’s production system delivering.' },
+          { name: 'Its renewed artists', why: 'TWICE, Stray Kids, and GOT7 alumni function as voluntary testimonials that staying (or leaving amicably) works.' },
         ],
-        lines: [
-          'JYP is what the industry looks like on its best behavior — note that even its best behavior includes a dating ban.',
-          'The VCHA case asks one question: does K-pop management survive contact with employment law?',
+        opponents: [
+          { name: 'VCHA’s KG and US plaintiffs’ counsel', why: 'The lawsuit attacks not JYP’s conduct alone but the legality of the exported trainee-management model itself.' },
+          { name: 'US labor norms', why: 'Minor-performer and employment law in the US does not recognize the Seoul-standard contract logic JYP built VCHA on.' },
+          { name: 'Private-life-control critics', why: 'JYP’s openly admitted dating ban makes it the citable example for everyone arguing image control is policy, not accident.' },
         ],
       },
       verdict: {
@@ -250,14 +301,29 @@ const PLAYERS = [
     query: '"YG Entertainment"',
     dossier: {
       stance: [
-        `YG's traditional stance is curation through control: fewer comebacks, heavier brand
-         management, strict internal discipline — scarcity as strategy. Of the majors, it has
-         historically given artists the least scheduling freedom while cultivating a "crew, not
-         company" image rooted in its hip-hop origins.`,
-        `The BLACKPINK renewal rewired the conversation: group activities stay with YG while members'
-         solo careers run through their own companies (Lisa's LLOUD, Jennie's ODD ATELIER). YG
-         effectively conceded that at the very top, total control is no longer enforceable — the
-         most important voluntary unbundling of corporate control the industry has produced.`,
+        `<strong>Who they are.</strong> Founded 1996 by Yang Hyun-suk out of Seo Taiji and Boys'
+         legacy — the major with a hip-hop "crew" identity and the industry's most curated release
+         strategy. Home historically to BIGBANG, 2NE1, and BLACKPINK; currently rebuilding around
+         TREASURE and BABYMONSTER after a bruising half-decade.`,
+        `<strong>On creative control.</strong> YG's control style is aesthetic and temporal rather
+         than micromanagerial: a strong house sound (long anchored by producer Teddy), heavy brand
+         gatekeeping, and total control of *when* artists work — the years-long gaps fans call "the
+         dungeon." Top-tier artists get real creative input (G-Dragon's auteur status was a selling
+         point); everyone below that tier waits.`,
+        `<strong>On contracts and talent.</strong> Strict conduct expectations and image discipline
+         were the YG brand long before the industry standardized them. Then came the 2023 BLACKPINK
+         renewal: group activities under YG, each member's solo career managed by her own company.
+         It is the single most important voluntary unbundling of corporate control in K-pop history —
+         and YG signed it because the alternative was losing everything.`,
+        `<strong>In disputes.</strong> YG's crises have been governance, not contract, disputes: the
+         2019 Burning Sun scandal took down Seungri and forced the founder's resignation, followed by
+         years of legal proceedings around him. Artist conflicts, by contrast, get handled through
+         silence and shelving rather than courtrooms — control exercised by calendar.`,
+        `<strong>Trajectory (2026).</strong> The BLACKPINK hybrid is now the precedent every
+         negotiating superstar cites, making YG the accidental author of the industry's most
+         artist-favorable template. Whether the company repeats it for TREASURE or BABYMONSTER —
+         artists without world-historical leverage — is the live test of whether 2023 was evolution
+         or a one-time ransom.`,
       ],
       controversies: [
         { yr: '2019', title: 'Burning Sun scandal', sev: 'high',
@@ -282,19 +348,20 @@ const PLAYERS = [
         provesFor: 'The market solves this without regulation: when artists earn enough leverage, companies adapt voluntarily.',
         provesAgainst: 'Only the single most successful girl group on Earth could buy this freedom — leverage-based liberty is privilege, not policy.',
       },
-      framing: {
-        angle: `YG gives you both extremes in one company: the strictest legacy control culture AND the
-          boldest unbundling experiment. Pick whichever face serves your argument, and be ready for
-          your opponent to pick the other.`,
-        useFor: 'The flexibility argument: the BLACKPINK deal shows corporates can adapt and unbundle control when artists earn leverage.',
-        useAgainst: 'The leverage argument: everyone below BLACKPINK’s tier stays fully controlled — rights that must be earned by stardom are not rights.',
-        counters: [
-          { they: 'BLACKPINK proves the system evolves on its own.',
-            you: 'One deal at the absolute apex after seven years of global dominance is not evolution — it’s an exception priced for superstars. Ask what TREASURE’s renewal looks like.' },
+      relations: {
+        stance: `Pro-corporate-control, strictest legacy — with one historic concession. YG defends
+          the model as firmly as any major, but having signed the BLACKPINK unbundling, it cannot
+          argue total control is non-negotiable. Its real position: control is the default, and
+          freedom is something a superstar may purchase at market price.`,
+        allies: [
+          { name: 'KEMA & the majors', why: 'Standard alignment on contracts and enforcement; YG’s scarcity discipline is the control model in its purest form.' },
+          { name: 'BLACKPINK members (negotiated)', why: 'Former leverage opponents converted into structural partners — the hybrid deal binds both sides’ incentives to keep the group alive.' },
+          { name: 'The Black Label', why: 'The Teddy-led affiliated label extends YG’s sound and interests while operating with the autonomy YG’s own artists historically lacked.' },
         ],
-        lines: [
-          'YG sells scarcity to fans and calls it strategy; artists experience the same scarcity and call it the dungeon.',
-          'The BLACKPINK deal is the industry admitting, in contract form, that total control has a price ceiling.',
+        opponents: [
+          { name: 'Regulators & prosecutors (post-2019)', why: 'Burning Sun made YG the permanent example of entertainment-industry governance failure; scrutiny never fully left.' },
+          { name: 'Fans of shelved artists', why: 'The "dungeon" grievance — organized fandoms protesting years of inactivity are protesting control exercised by calendar.' },
+          { name: 'Every renegotiating superstar', why: 'The BLACKPINK precedent is now cited against YG itself by any top-tier artist whose renewal comes due.' },
         ],
       },
       verdict: {
@@ -322,16 +389,31 @@ const PLAYERS = [
     query: 'ADOR OR "Min Hee-jin" k-pop',
     dossier: {
       stance: [
-        `ADOR existed to answer the debate's central question inside one company: give a creative
-         director (Min Hee-jin, the visual architect of SM's golden era) her own label, her own
-         roster, and creative authority — within HYBE's capital structure. NewJeans' instant,
-         enormous success initially looked like proof that artist-centered, auteur-led K-pop
-         outperforms the committee-driven kind.`,
-        `The 2024 collapse turned ADOR from experiment into evidence. Min Hee-jin's side frames it as
-         a corporation crushing creative independence the moment it stopped being convenient; HYBE's
-         side frames it as an executive attempting to seize a subsidiary built with corporate money.
-         Both framings are now permanent fixtures of the debate — and the courts siding with the
-         corporate reading settled the law without settling the argument.`,
+        `<strong>Who they are.</strong> ADOR ("All Doors One Room") was founded in 2021 as a HYBE
+         subsidiary built around one person: Min Hee-jin, the former SM creative director who shaped
+         the visual identity of K-pop's golden era. Its only group, NewJeans, became the biggest
+         debut of its generation. ADOR was explicitly pitched as the answer to this debate —
+         creative independence, funded by a corporation.`,
+        `<strong>On creative control.</strong> Min Hee-jin's philosophy was auteur-led and
+         artist-centered: a single creative vision over committee A&R, "natural" concepts as a rebuke
+         of the K-pop template, and unusually close producer-artist bonds. NewJeans' success was
+         immediately read as market proof that loosening the formula outperforms it — which made the
+         experiment threatening as well as profitable.`,
+        `<strong>On contracts and equity.</strong> The structural innovation — and the fuse — was
+         that creative independence was supposed to be formalized in governance: Min Hee-jin held an
+         ADOR equity stake with a put option, and her side claims the shareholder agreement promised
+         operational autonomy. The fight that followed was, at bottom, about whether autonomy written
+         into a corporate document means anything when the parent controls the board.`,
+        `<strong>In disputes.</strong> The 2024–26 war ran through every venue at once: a HYBE audit
+         and takeover allegations, a viral press conference, her removal and exit, NewJeans declaring
+         their contracts terminated, injunctions enforcing them, Danielle's termination and the ~₩33bn
+         claim, and prosecutors declining her criminal complaint against HYBE in 2026. Both sides
+         escalated publicly at every step — by design.`,
+        `<strong>Trajectory (2026).</strong> ADOR-the-label continues under HYBE management; ADOR-the-
+         experiment is dead, and the name now means the dispute. Min Hee-jin's next move is the most
+         watched free-agency question in the industry: an independent label by the era's most proven
+         creative director would re-run the experiment outside corporate walls — the version the
+         debate never got to see.`,
       ],
       controversies: [
         { yr: '2024 Apr', title: 'Audit and viral press conference', sev: 'high',
@@ -359,19 +441,21 @@ const PLAYERS = [
         provesFor: 'Governance reality: shareholders cannot allow subsidiaries to defect, and courts agreed at every step. Independence was never the deal — investment was.',
         provesAgainst: 'The industry’s one serious attempt at internal creative autonomy was dismantled within three years of succeeding. The system cannot host what the debate asks of it.',
       },
-      framing: {
-        angle: `ADOR is your case study regardless of side — the question is what it proves. Decide
-          early whether you read it as a governance story (FOR) or a creative-freedom story (AGAINST),
-          and pre-empt the other reading.`,
-        useFor: 'Proof that "independence inside a corporation" fails for governance reasons, not artistic ones.',
-        useAgainst: 'Proof that the industry has no working model for creative autonomy: the one serious attempt was crushed.',
-        counters: [
-          { they: 'Min Hee-jin tried to steal a subsidiary; this is corporate law, not creative freedom.',
-            you: 'Then explain the artists: five members with no equity stake risked everything to follow her. Employees don’t mutiny for a thief — they mutiny for the only autonomy they’ve ever experienced.' },
+      relations: {
+        stance: `Pro-creative-freedom — by position, if not by purity. Min Hee-jin's fight mixed
+          genuine creative-autonomy principle with an equity-and-power dispute, but functionally the
+          old ADOR stands as the era's creative-freedom standard-bearer: it is the only case where
+          autonomy was promised in writing, demonstrated commercially, and then revoked.`,
+        allies: [
+          { name: 'NewJeans / NJZ', why: 'The artists chose her over the corporation at catastrophic personal cost — the alliance that defines both parties.' },
+          { name: 'The Bunnies fandom', why: 'Ran (and runs) the sustained public-pressure campaign keeping the dispute alive after the courts closed it.' },
+          { name: 'Creative-industry sympathizers', why: 'Producers, directors, and commentators who read the saga as every creative’s fight with every holding company.' },
         ],
-        lines: [
-          'ADOR was the control group of the entire debate — and the experiment was terminated early by the people who funded it.',
-          'Whatever Min Hee-jin’s motives, NewJeans’ choice is the data point: given one taste of artist-centered production, they preferred career destruction to going back.',
+        opponents: [
+          { name: 'HYBE & Bang Si-hyuk', why: 'The funder, auditor, and ultimate dismantler of the experiment — and the winner of nearly every court round.' },
+          { name: 'Current ADOR management', why: 'The post-Min label enforcing the contracts, terminating Danielle’s deal, and pursuing the ₩33bn claim.' },
+          { name: 'KEMA’s tampering doctrine', why: 'Industry norms that froze the members’ market options during the dispute operate squarely against the artists’ side.' },
+          { name: 'The court record', why: 'Injunctions, upheld contracts, and a declined criminal complaint — the legal system has consistently read the saga HYBE’s way.' },
         ],
       },
       verdict: {
@@ -399,16 +483,30 @@ const PLAYERS = [
     query: '"Korea Entertainment Management Association"',
     dossier: {
       stance: [
-        `KEMA is a trade association: its members are the management companies, its dues come from
-         them, and its institutional instinct is to protect the contract system that its members run
-         on. In the industry's biggest disputes (Fifty Fifty, NewJeans), it has consistently warned
-         against "tampering" — third parties engaging artists who are in unresolved contract disputes —
-         which in practice reinforces the company side's leverage.`,
-        `Its defense is real, too: somebody has to set working standards, run mediation, and discipline
-         rogue agencies, and a legislature can't react at industry speed. The committee question is
-         whether KEMA can be rebuilt into a genuinely neutral arbiter — independent funding, artist
-         representation, enforcement teeth — or whether neutrality requires taking those functions
-         away from it.`,
+        `<strong>Who they are.</strong> The Korea Entertainment Management Association is the trade
+         body of the management industry: its members are the agencies, its dues come from them, and
+         its officers come from their executive ranks. It writes industry standards, runs mediation
+         channels, certifies managers, and speaks publicly for the management side in every major
+         dispute. It is also the body your committee simulates.`,
+        `<strong>On creative control.</strong> KEMA takes no formal position on who should own the
+         art — and that silence is a position. Its standards govern contracts, payments, and conduct;
+         creative decision rights appear nowhere in them, which leaves the default (the company
+         decides) untouched. An association that standardizes everything except creative authority
+         has effectively standardized creative authority.`,
+        `<strong>On contracts.</strong> KEMA's core doctrine is contract sanctity plus anti-tampering:
+         exclusive contracts must be honored until formally resolved, and third parties who engage a
+         disputing artist threaten the whole industry's investment logic. In practice this extends a
+         company's leverage beyond the courtroom — an artist who challenges a contract faces an
+         industry-wide chill, not just a lawsuit.`,
+        `<strong>In disputes.</strong> The track record reads consistently company-side: backing
+         ATTRAKT's position during Fifty Fifty (2023), cautioning the industry against engaging
+         NewJeans during their conflict (2024–25). KEMA frames these as neutral standard-keeping;
+         no equivalent public warnings against agency over-reach exist to balance the ledger.`,
+        `<strong>Trajectory (2026).</strong> Pressure on KEMA is rising from both directions:
+         lawmakers cite its toothless mediation when proposing statutes, and fandoms now file
+         complaints and publicity campaigns against its interventions. The association faces the
+         classic self-regulator's fork — reform into a genuinely neutral arbiter (artist members,
+         independent funding, binding arbitration) or watch its functions migrate to the state.`,
       ],
       controversies: [
         { yr: '2023', title: 'Fifty Fifty intervention', sev: 'med',
@@ -433,19 +531,20 @@ const PLAYERS = [
         provesFor: 'Tampering norms protect the integrity of every contract in the industry — without them, rich rivals could simply shop for unhappy artists.',
         provesAgainst: 'The chill is the punishment: an artist can win in court and still lose their career, because the association coordinates the market against them.',
       },
-      framing: {
-        angle: `You are not debating ABOUT KEMA — you are KEMA. Every argument should end in what the
-          association should do: amend standard contracts? create independent arbitration? cap
-          penalties? admit artist representatives as members?`,
-        useFor: 'Self-regulation preserves flexibility: KEMA can update standards faster than any legislature and understands the economics.',
-        useAgainst: 'Structural conflict of interest: an association funded by management companies cannot neutrally arbitrate their disputes.',
-        counters: [
-          { they: 'Industry bodies regulate themselves in every field — this is normal.',
-            you: 'Normal self-regulators (medicine, law) answer to licensing statutes and admit the regulated profession’s counterparties. KEMA has neither artists as members nor binding enforcement.' },
+      relations: {
+        stance: `Balancer by mandate, pro-corporate by structure. KEMA's stated mission is industry
+          health and dispute resolution; its funding, membership, and track record align it with the
+          management side in every contested case. Treat its official neutrality as the open question
+          your committee exists to answer.`,
+        allies: [
+          { name: 'The major agencies', why: 'HYBE, SM, JYP, YG anchor the membership — KEMA’s doctrine on contracts and tampering is their collective interest, codified.' },
+          { name: 'Small and mid-tier agencies', why: 'Depend on KEMA standards and tampering norms even more than the majors — they can’t afford to litigate leverage they can get by association rule.' },
+          { name: 'Status-quo legal framework', why: 'Courts enforcing contracts as written do KEMA’s doctrinal work for it, letting the association present enforcement as neutral law.' },
         ],
-        lines: [
-          'KEMA’s neutrality is the resolution’s first clause, not its assumption.',
-          'An association that only warns against tampering, and never against over-reach, has already chosen a side.',
+        opponents: [
+          { name: 'Artist-side advocates & plaintiff lawyers', why: 'View KEMA mediation as structurally captured; push disputes into courts and legislatures where the association has no home advantage.' },
+          { name: 'Organized fandoms', why: 'Treat KEMA interventions (Fifty Fifty, NewJeans) as the industry closing ranks, and campaign against it directly.' },
+          { name: 'Reform-minded lawmakers', why: 'Every statute that binds agencies is an implicit verdict that KEMA’s self-regulation failed — the association’s relevance shrinks with each one.' },
         ],
       },
       verdict: {
@@ -472,13 +571,27 @@ const PLAYERS = [
     query: 'Korea "Fair Trade Commission" entertainment',
     dossier: {
       stance: [
-        `The KFTC's stance is procedural, not ideological: entertainment contracts are consumer/
-         competition matters, and one-sided terms get struck down when challenged. Its interventions —
-         the 7-year cap, the standard contract, periodic crackdowns on penalty clauses and automatic
-         renewals — form the actual legal floor under every artist in the industry.`,
-        `Its structural weakness is reactivity: it acts after scandals, case-by-case, and its standard
-         contract is a template, not a mandate. Each new dispute (Fifty Fifty, NewJeans) still goes to
-         civil court first, because the regulator polices terms, not power.`,
+        `<strong>Who they are.</strong> South Korea's national competition and consumer-protection
+         regulator — the only body in this debate with statutory power over contract terms across the
+         whole industry at once. Entertainment is a small fraction of its portfolio, which shapes
+         everything about how (and how slowly) it engages.`,
+        `<strong>On creative control.</strong> Outside its jurisdiction, and deliberately so: the
+         KFTC polices whether contract terms are unfair, not who decides the concept or writes the
+         songs. This boundary is why fifteen years of KFTC intervention reformed contract length and
+         penalty math while leaving the lived experience of creative control essentially untouched.`,
+        `<strong>On contracts.</strong> Its interventions form the actual legal floor of the industry:
+         the 7-year ceiling on exclusive contracts (2009, after TVXQ), the standard exclusive-contract
+         template (2010, revised since), and recurring crackdowns on excessive penalty clauses,
+         automatic renewals, and overbroad image rights. Every artist's baseline protection traces to
+         a KFTC document.`,
+        `<strong>In disputes.</strong> The KFTC does not referee individual fights — Fifty Fifty and
+         NewJeans went to civil court, not to the regulator. Its pattern is to wait for a scandal to
+         expose a clause type, then strike that clause industry-wide: systematic, retrospective, and
+         always one scandal behind the frontier of dispute.`,
+        `<strong>Trajectory (2026).</strong> Each new conflict renews calls for the KFTC to revisit
+         the standard contract — penalty formulas, recoupment transparency, post-termination
+         restrictions. As the industry globalizes, it also faces a jurisdiction problem: the model's
+         newest battlegrounds (US courts, foreign trainees) sit outside its reach entirely.`,
       ],
       controversies: [
         { yr: '2009–10', title: 'The founding intervention', sev: 'med',
@@ -503,19 +616,19 @@ const PLAYERS = [
         provesFor: 'The guardrails exist and work; disputes are resolved within a framework the KFTC already built. Extend the framework, don’t replace the industry.',
         provesAgainst: 'Fifteen years on, artists still choose career destruction over staying — the cap fixed contract length, not the experience of being controlled.',
       },
-      framing: {
-        angle: `The KFTC is your model for what regulation CAN do — cite it to prove feasibility
-          (rules can bind this industry) and to prove insufficiency (look what's still happening).
-          Resolutions that extend KFTC mechanisms inherit its credibility.`,
-        useFor: 'No new bureaucracy needed: the regulator, the template, and the precedents already exist — sharpen them.',
-        useAgainst: 'Reactive by design: every fix came after a scandal, years late, and enforcement depends on artists litigating first.',
-        counters: [
-          { they: 'More regulation will kill the industry’s competitiveness.',
-            you: 'The 7-year cap was supposed to do that in 2009. Instead the most regulated era of K-pop is also its most globally successful.' },
+      relations: {
+        stance: `Structural balancer — the closest thing to a neutral actor in the debate. The KFTC
+          sides with whoever the law puts it against: agencies when terms are unfair, implicitly
+          companies when its template legitimizes the reformed status quo. It has no stake in the
+          model itself, only in its terms.`,
+        allies: [
+          { name: 'Artists seeking structural limits', why: 'Every binding protection artists actually have (7-year cap, standard contract) is a KFTC product — it is their only proven institutional channel.' },
+          { name: 'Reform-minded lawmakers', why: 'Statutes and KFTC rules reinforce each other; the Assembly legislates the principle, the regulator operationalizes the terms.' },
+          { name: 'Compliant agencies', why: 'Counter-intuitively: companies that adopt the template gain a legitimacy shield — "our contracts follow the KFTC standard" is the industry’s favorite defense.' },
         ],
-        lines: [
-          'The 7-year cap is proof that the sky doesn’t fall when artist protections bind.',
-          'A template you may ignore is a suggestion wearing a uniform.',
+        opponents: [
+          { name: 'Agencies’ contract drafters', why: 'A standing cat-and-mouse: struck-down clause types keep reappearing in new forms, and each crackdown targets the latest workaround.' },
+          { name: 'Its own mandate limits', why: 'Less an enemy than a ceiling — voluntary templates, case-by-case enforcement, and no jurisdiction over creative control or foreign disputes.' },
         ],
       },
       verdict: {
@@ -541,15 +654,29 @@ const PLAYERS = [
     query: 'South Korea entertainment law artist rights',
     dossier: {
       stance: [
-        `The legislature's revealed stance is scandal-driven incrementalism: it doesn't regulate the
-         management model as such, but each high-profile abuse produces a targeted statute — minor
-         performer protections, payment-statement duties ("Lee Seung-gi law"), education guarantees.
-         The Ministry of Culture sits in a genuine bind: it promotes K-pop as a strategic export
-         while being responsible for the welfare of the people who make it.`,
-        `The trend line matters more than any single law: protections only move in one direction.
-         For the committee, lawmakers are both a tool (statutes can do what KEMA's standards can't —
-         bind) and a warning (if the industry doesn't self-correct, correction arrives with less
-         nuance and more politics).`,
+        `<strong>Who they are.</strong> The National Assembly and the Ministry of Culture, Sports and
+         Tourism — the actors who turn industry norms into binding law. The Ministry carries a genuine
+         double mandate: it promotes K-pop as a strategic national export (Hallyu policy, soft-power
+         budgets) while bearing responsibility for the welfare of the people who produce it.`,
+        `<strong>On creative control.</strong> No Korean statute regulates who owns creative
+         decisions, and none is seriously proposed — lawmakers treat creative control as a private
+         contractual matter. Their entry points are adjacent: minors' welfare, payment transparency,
+         working conditions. Creative freedom reaches the Assembly only when it arrives dressed as a
+         labor or consumer issue.`,
+        `<strong>On contracts and welfare.</strong> The statutory record is real and growing: the
+         Popular Culture and Arts Industry Development Act framework, working-hour and education
+         protections for minor performers, and the post-2022 "Lee Seung-gi law" amendments requiring
+         agencies to provide regular settlement statements and accounting access. Transparency and
+         child protection are the two fronts where Korean law actually binds agencies.`,
+        `<strong>In disputes.</strong> Lawmakers don't adjudicate, they dramatize: National Assembly
+         hearings (HYBE's 2024 appearance over the monitoring reports) convert industry conflicts
+         into political theater and political theater into legislative momentum. Every major scandal
+         since 2009 has produced at least a bill proposal within a session.`,
+        `<strong>Trajectory (2026).</strong> The direction of travel is one-way — protections
+         accumulate and never repeal — but the pace is scandal-clocked. The open questions on the
+         table: penalty-fee caps, mandatory arbitration, trainee-contract standards, and whether the
+         tampering norm itself restrains trade. Whichever passes first will be the industry's
+         biggest forced change since the 7-year cap.`,
       ],
       controversies: [
         { yr: '2014–', title: 'Minor-performer rules', sev: 'low',
@@ -573,18 +700,20 @@ const PLAYERS = [
         provesFor: 'Targeted statute fixed a specific abuse without touching the management model — regulate conduct, not structure.',
         provesAgainst: 'It took 18 years and a superstar to surface one missing payment. How many artists without his platform never find out?',
       },
-      framing: {
-        angle: `Use lawmakers as the committee's BATNA: every resolution implicitly asks "fix this
-          within the industry, or wait for the Assembly to fix it for you — more bluntly."`,
-        useFor: 'Evidence that precise legislation works and the model survives it — the sky-is-falling argument keeps losing.',
-        useAgainst: 'Evidence the industry never reforms voluntarily: every protection on the books exists because a scandal forced it.',
-        counters: [
-          { they: 'Legislation is too blunt for an industry this fast-moving.',
-            you: 'The settlement-statement duty is surgically narrow and works fine. Precision is a drafting choice, not a property of legislatures.' },
+      relations: {
+        stance: `Balancer drifting pro-artist. The legislature has no quarrel with the management
+          model as a business — it has a one-way ratchet of artist protections driven by public
+          outrage. Functionally, lawmakers are the artist side's slowest but only binding weapon,
+          and the industry's strongest argument for pre-emptive self-reform.`,
+        allies: [
+          { name: 'Public opinion', why: 'The actual engine: no entertainment statute has ever passed without a scandal supplying the votes.' },
+          { name: 'Artist advocates & unions', why: 'Supply the testimony, case files, and bill drafts that convert outrage into legislative text.' },
+          { name: 'KFTC', why: 'The enforcement partner — the Assembly sets duties, the regulator polices terms, and each cites the other’s gaps to justify acting.' },
         ],
-        lines: [
-          'In this industry, the law is a scar tissue — every statute marks where someone got hurt first.',
-          'The Assembly is the deadline: self-regulate, or be regulated.',
+        opponents: [
+          { name: 'The industry lobby', why: 'Agencies and KEMA argue every bill threatens export competitiveness — the sky-is-falling defense that has lost, slowly, every time.' },
+          { name: 'The Ministry’s own export mandate', why: 'Hallyu promotion budgets depend on the industry’s success, building a brake against regulation into the very ministry responsible for welfare.' },
+          { name: 'Legislative attention spans', why: 'Scandal-clocked lawmaking means reform stalls the moment headlines move on — the industry’s most reliable defense is time.' },
         ],
       },
       verdict: {
@@ -611,15 +740,29 @@ const PLAYERS = [
     query: 'k-pop self-produced idol songwriting',
     dossier: {
       stance: [
-        `Not an organization but a market fact: the era's biggest commercial outcomes belong to acts
-         with genuine creative input. BTS's self-written catalog drove the largest export run in
-         K-pop history; Stray Kids hit consecutive Billboard 200 #1s with fully in-house production;
-         Soyeon and Woozi function as their groups' lead producers. "Artists with pens sell more" is
-         now a data point, not a hope.`,
-        `The contested part is causality. The artist side reads it as proof that creative freedom is
-         a growth strategy. The corporate side reads it as proof the system works: companies scouted
-         these writers, trained them for years, then handed over the pen once they'd earned it —
-         autonomy as graduation, not as right.`,
+        `<strong>Who they are.</strong> Not an organization but a market fact: the cohort of idols
+         with substantive creative authorship — BTS (members hold hundreds of KOMCA-registered
+         writing credits), Stray Kids (3RACHA produce the catalog in-house), SEVENTEEN (Woozi leads
+         production), (G)I-DLE (Soyeon writes and produces the hits). They are simultaneously
+         products of the trainee system and the strongest evidence against its creative premises.`,
+        `<strong>On creative control.</strong> Their existence redefines the question. The classical
+         model assumed professional A&R outperforms artist instinct; this cohort's commercial record —
+         the biggest export run in K-pop history (BTS), consecutive Billboard 200 #1 debuts (Stray
+         Kids) — inverts the assumption at the top of the market. Authorship also compounds: artists
+         who write own publishing income and narrative identity that management can't replace.`,
+        `<strong>On contracts.</strong> Notably, the self-producers are also the great renewers: BTS,
+         SEVENTEEN, and Stray Kids all re-signed with their companies, early and publicly. Creative
+         stake appears to do what enforcement cannot — make staying rational. No self-producing
+         flagship act has ever litigated an exit; the dispute docket is populated entirely by artists
+         without creative authority.`,
+        `<strong>In disputes.</strong> They stay out of them — and that absence is the data. Their
+         leverage operates invisibly, through renegotiated terms and creative latitude rather than
+         courtrooms. Agencies, in turn, now market "self-producing" as a debut concept, an admission
+         that the industry's own consumers price creative authenticity at a premium.`,
+        `<strong>Trajectory (2026).</strong> The fourth and fifth generations launch with writing
+         credits from day one, normalizing what was once exceptional. The open question is depth
+         versus branding: credits are public record, but creative control over concepts, schedules,
+         and image remains contractual — and that's where the next version of this debate lives.`,
       ],
       controversies: [
         { yr: 'framing', title: '"Self-producing" as marketing', sev: 'med',
@@ -642,18 +785,19 @@ const PLAYERS = [
         provesFor: 'The system at its best: company scouting and infrastructure plus artist creativity. No regulation produced this — alignment of interests did.',
         provesAgainst: 'If artist-driven production is this profitable, the industry’s default of centralized control is a choice — and the burden of justifying it flips.',
       },
-      framing: {
-        angle: `This is the AGAINST side's economic exhibit and the FOR side's adoption story. Whoever
-          claims it first frames it; whoever claims it second must explain it away.`,
-        useFor: 'These acts prove the system works: identify talent, fund it for years, hand over the pen once it’s earned.',
-        useAgainst: 'These acts prove control is unnecessary: the best commercial outcomes happened exactly where control was loosened.',
-        counters: [
-          { they: 'They earned autonomy — trainees haven’t.',
-            you: 'Earned by what metric, judged by whom? A right that one party grants for good behavior is a privilege, and privileges get revoked.' },
+      relations: {
+        stance: `Pro-creative-freedom by demonstration, not declaration. This cohort never campaigns —
+          their renewals, credits, and sales do the arguing. They are the artist side's economic
+          exhibit and, simultaneously, the corporate side's favorite adoption story ("the system
+          made them"). Both blocs will claim them; neither fully owns them.`,
+        allies: [
+          { name: 'Their own agencies', why: 'Genuine alignment: HYBE, JYP, and Pledis profit enormously from their autonomy, which is exactly why these artists renew instead of litigate.' },
+          { name: 'Global fandoms', why: 'Authorship is central to these fandoms’ loyalty — the audience pays a premium for creative authenticity and defends it politically.' },
+          { name: 'Artist-side debaters', why: 'Every argument that creative freedom is commercially superior cites this cohort as its data set.' },
         ],
-        lines: [
-          'The most valuable export K-pop ever produced was written by the artists themselves.',
-          'If freedom had to be earned, note who got to set the price.',
+        opponents: [
+          { name: 'No direct enemies — structural ones', why: 'Nobody fights them; the control-model’s defenders simply reframe them as system outputs rather than counter-examples.' },
+          { name: 'The "graduation" narrative', why: 'The argument that autonomy must be earned through the standard pipeline uses their trainee origins to defend the very control they outgrew.' },
         ],
       },
       verdict: {
@@ -678,14 +822,30 @@ const PLAYERS = [
     query: 'k-pop idol contract lawsuit dispute',
     dossier: {
       stance: [
-        `The artists who litigated form the debate's casualty list and its evidence base. Their common
-         claim: the exclusive-contract system leaves no internal path to autonomy, so exit — however
-         ruinous — becomes the only move. Their common fate: courts usually side with companies,
-         and the industry's informal machinery (tampering norms, casting chill) punishes even winners.`,
-        `The exceptions define the boundaries. Chuu won — her agency's conduct was egregious enough to
-         void the relationship and defeat the defamation counterattack. Fifty Fifty lost everything at
-         their commercial peak. NewJeans lost legally but moved global opinion. Together they map what
-         the current system permits, punishes, and cannot survive being seen doing.`,
+        `<strong>Who they are.</strong> The litigation cohort: NewJeans/NJZ (and now Danielle
+         individually), Fifty Fifty, Chuu, Omega X, and VCHA's KG — the artists who tested the
+         exclusive-contract system in court rather than serving it out. They span the industry's
+         full range: its biggest new act, a viral one-hit phenomenon, a top-tier soloist, a
+         small-agency boy group, and a US-formed rookie.`,
+        `<strong>On creative control.</strong> Their common testimony is that the system offers no
+         internal path: grievances about management, autonomy, or treatment have no mechanism short
+         of exit, and exit means war. Notably, none of them litigated over songwriting credits —
+         they litigated over the structure that makes every other grievance unresolvable. Creative
+         freedom arrives in court dressed as contract law.`,
+        `<strong>On contracts.</strong> Their cases map the system's actual boundaries. Chuu proved
+         contracts void when agency misconduct is extreme and documented. Fifty Fifty proved that
+         ambiguous claims fail and carry career death. NewJeans proved that even maximal fame,
+         public sympathy, and global attention do not move Korean courts off the contract text.
+         KG is now testing whether US law reads the same text differently.`,
+        `<strong>In disputes.</strong> The pattern across all five: courts usually side with
+         companies; the industry's informal machinery (tampering norms, casting chill, advertiser
+         caution) punishes even the winners; and public opinion increasingly breaks for the artists
+         regardless of the legal outcome. The legal scoreboard and the legitimacy scoreboard have
+         fully diverged.`,
+        `<strong>Trajectory (2026).</strong> The frontier is jurisdictional and individual: Danielle's
+         ₩33bn countersuit saga tests what an artist owes after termination, and KG's US case tests
+         whether the model survives foreign employment law. Every future artist's lawyer is reading
+         these dockets — the next dispute starts where these end.`,
       ],
       controversies: [
         { yr: '2021–22', title: 'Omega X — mistreatment on camera', sev: 'med',
@@ -715,18 +875,20 @@ const PLAYERS = [
         provesFor: 'Courts weigh each case on facts and sometimes side with artists — the process works, and frivolous exits fail as they should.',
         provesAgainst: 'A system where the price of a 50/50 case is your entire career doesn’t have a justice problem — it has a deterrence design.',
       },
-      framing: {
-        angle: `Argue patterns, not personalities: any single case can be explained away, but five
-          cases in four years with the same shape is a system describing itself.`,
-        useFor: 'The pattern is tampering and bad advice, not oppression: courts examined each case and upheld contracts almost every time.',
-        useAgainst: 'The pattern is desperation: artists at their commercial peak keep choosing career destruction over staying.',
-        counters: [
-          { they: 'Courts keep ruling for companies — the artists were simply wrong.',
-            you: 'Courts apply the contracts as written; the debate is whether contracts written by one side, signed by teenagers, should be the last word. Citing the scoreboard assumes the rules.' },
+      relations: {
+        stance: `Pro-creative-freedom — the evidence base in human form. These artists are not a
+          movement and never coordinated; their stance is revealed by action: each concluded that
+          exit, at any cost, beat staying. Collectively they are the primary sources every abstract
+          claim in this debate eventually cites.`,
+        allies: [
+          { name: 'Their fandoms', why: 'Fund, amplify, translate court filings, and pressure advertisers — the only sustained institutional support disputing artists have.' },
+          { name: 'Public opinion (increasingly)', why: 'Legal losses keep converting into legitimacy wins; global coverage now defaults to the artist’s framing of these disputes.' },
+          { name: 'Plaintiff-side entertainment lawyers', why: 'A growing specialist bar building case law, case by case, on the artist side of the docket.' },
         ],
-        lines: [
-          'People at the peak of their careers do not jump off it for fun — measure the system by what its stars are willing to lose to leave it.',
-          'Chuu’s win tells you where the line is; everything north of that line is legal.',
+        opponents: [
+          { name: 'Their agencies', why: 'ADOR, ATTRAKT, Blockberry, JYP USA — the direct adversaries, with the contract text and (usually) the courts behind them.' },
+          { name: 'KEMA’s tampering doctrine', why: 'Industry norms freeze a disputing artist’s market options, turning every lawsuit into a siege the company can usually outlast.' },
+          { name: 'The court record', why: 'Korean civil courts enforce the contracts as written almost every time — the structural headwind every new case faces.' },
         ],
       },
       verdict: {
@@ -753,14 +915,31 @@ const PLAYERS = [
     query: 'k-pop fans protest agency',
     dossier: {
       stance: [
-        `Organized fandoms are the industry's only non-state check that companies actually fear.
-         Truck protests outside headquarters, advertiser boycott campaigns, mass refund demands,
-         translated court filings, regulatory complaints — fan collectives perform oversight,
-         advocacy, and punishment functions that no formal institution provides for artists.`,
-        `The complication is that fan power points wherever fans aim it: the same machinery defends
-         artists from agencies one month and polices artists' dating lives the next. Fans are
-         simultaneously the artist side's army and the original reason agencies built private-life
-         control — both sides of the committee can recruit them, and both should be nervous doing so.`,
+        `<strong>Who they are.</strong> Organized fandoms — ARMYs, Bunnies, ONCEs and their peers —
+         operating as coordinated political actors: funded, multilingual, legally literate, and
+         permanently online. They are simultaneously the industry's revenue base and its only
+         non-state check that companies demonstrably fear.`,
+        `<strong>On creative control.</strong> Fandom opinion increasingly prices authenticity:
+         self-produced and artist-driven work commands deeper loyalty than template output, and fans
+         reward labels that visibly grant latitude. At the same time, fandoms enforce their own
+         creative expectations — concept changes and image shifts can trigger revolts as fierce as
+         any company directive. Fans contest who controls the artist; they don't propose the artist
+         be uncontrolled.`,
+        `<strong>On contracts.</strong> Fan collectives have no legal standing and total practical
+         standing: they fund legal analyses, translate filings, file consumer and regulatory
+         complaints, and run advertiser-pressure campaigns during disputes. In the NewJeans conflict,
+         fan organization kept a legally settled matter reputationally open for years — a power no
+         statute grants and none can revoke.`,
+        `<strong>In disputes.</strong> The toolkit is institutionalized: LED protest trucks outside
+         headquarters, coordinated mass statements, boycott and refund campaigns, stock-forum and
+         shareholder-meeting appearances. The same machinery cuts both ways — it has defended
+         artists from agencies, and it has policed artists' dating lives and demanded member
+         removals. Fan power points wherever fans aim it.`,
+        `<strong>Trajectory (2026).</strong> Fandom action is professionalizing — legal funds,
+         press contacts, regulatory literacy — and its targets are escalating from artist treatment
+         to corporate governance itself. The industry built its economics on organized parasocial
+         devotion; that organization is now the closest thing artists have to a union, and the
+         closest thing companies have to an uncontrollable shareholder.`,
       ],
       controversies: [
         { yr: '2010s–', title: 'Truck protests become standard', sev: 'low',
@@ -785,18 +964,20 @@ const PLAYERS = [
         provesFor: 'Mob dynamics with no accountability: campaigns run on emotion and selective information, and companies must answer to courts, not hashtags.',
         provesAgainst: 'When the customers themselves organize against the control model, the "we restrict idols to protect fan revenue" justification collapses.',
       },
-      framing: {
-        angle: `Cite fans as evidence about legitimacy, not law: courts measure contracts, fandoms
-          measure consent of the audience the whole industry monetizes.`,
-        useFor: 'Fan economics justify image management: one scandal collapses revenue for the whole group and its staff.',
-        useAgainst: 'Fans themselves are rejecting that bargain — the people the control supposedly serves are protesting against it.',
-        counters: [
-          { they: 'Fan campaigns are emotional noise, not evidence.',
-            you: 'That noise is the revenue. An industry built on monetizing fan sentiment doesn’t get to dismiss fan sentiment when it turns critical.' },
+      relations: {
+        stance: `Pro-artist, conditionally and unpredictably. Fan collectives defend artists against
+          companies more often than the reverse in the current era — but their loyalty is to their
+          artist and their own expectations, not to creative-freedom principle. They are a power
+          bloc both sides can recruit and neither can command.`,
+        allies: [
+          { name: 'Artists (usually)', why: 'In nearly every recent dispute the organized fandom backed the artist against the agency — funding, amplifying, and outlasting the news cycle.' },
+          { name: 'Global media', why: 'Fan translation and documentation pipelines are how Korean industry disputes become international stories framed the artist’s way.' },
+          { name: 'Disputing artists’ legal teams', why: 'Crowdsourced evidence-gathering, filing translations, and public-pressure timing that no plaintiff could afford to buy.' },
         ],
-        lines: [
-          'The industry’s only effective labor union is made of its customers.',
-          'When the people paying for the product protest the treatment of the people making it, the business model is on notice.',
+        opponents: [
+          { name: 'Agencies under campaign', why: 'HYBE, ATTRAKT, Blockberry and others have all faced the trucks, the boycotts, and the regulatory complaints.' },
+          { name: 'Artists’ private lives (historically)', why: 'The same machinery has policed dating, demanded apologies, and forced member removals — the paradox that justifies agencies’ image control.' },
+          { name: 'KEMA & industry bodies', why: 'Fan campaigns now target association statements and industry norms directly, treating them as the cartel’s public voice.' },
         ],
       },
       verdict: {
@@ -841,7 +1022,7 @@ function dossierHTML(p) {
     <button class="on" data-tab="t1">📋 Stance</button>
     <button data-tab="t2">⚡ Controversies</button>
     <button data-tab="t3">📚 Case Study</button>
-    <button data-tab="t4">🎭 Framing</button>
+    <button data-tab="t4">🤝 Allies & Opponents</button>
     <button data-tab="t5">⚖️ Verdict & Links</button>
   </div>
 
@@ -876,24 +1057,14 @@ function dossierHTML(p) {
   </section>
 
   <section class="dossier-section" id="t4">
-    <h2 class="sec"><span class="bar"></span>Committee Framing</h2>
-    <div class="cs-block"><h4>🧭 How to frame this player</h4><p>${d.framing.angle}</p></div>
-    <div class="positions" style="margin-bottom:18px">
-      <div class="pos for"><strong>If you argue pro-corporate</strong>${d.framing.useFor}</div>
-      <div class="pos against"><strong>If you argue creative freedom</strong>${d.framing.useAgainst}</div>
-    </div>
-    <div class="cs-block">
-      <h4>🛡️ Counter-arguments</h4>
-      ${d.framing.counters.map(c => `
-        <div class="counter">
-          <div class="they"><strong>If they say:</strong> “${c.they}”</div>
-          <div class="you"><strong>You answer:</strong> ${c.you}</div>
-        </div>`).join('')}
-    </div>
-    <div class="cs-block">
-      <h4>💬 Lines you can use <span style="font-weight:400;font-size:.74rem;color:var(--text-dim)">(written for this site — not real quotes)</span></h4>
-      ${d.framing.lines.map(l => `<div class="soundbite">${l}</div>`).join('')}
-    </div>
+    <h2 class="sec"><span class="bar"></span>Stance, Allies & Opponents</h2>
+    <div class="cs-block"><h4>🧭 Determined stance</h4><p>${d.relations.stance}</p></div>
+    <span class="rel-h a">🤝 Allies — who stands with them, and why</span>
+    <div class="rel-grid">${d.relations.allies.map(a =>
+      `<div class="rel-card ally"><strong>${a.name}</strong>${a.why}</div>`).join('')}</div>
+    <span class="rel-h o">⚔️ Opponents — who stands against them, and why</span>
+    <div class="rel-grid">${d.relations.opponents.map(o =>
+      `<div class="rel-card opp"><strong>${o.name}</strong>${o.why}</div>`).join('')}</div>
   </section>
 
   <section class="dossier-section" id="t5">
