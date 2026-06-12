@@ -1,5 +1,5 @@
 /* =========================================================================
-   KEMA Debate Tracker — article engine
+   KEMA Debate Tracker - article engine
    Pulls live K-pop industry news from Google News RSS, classifies each
    article as leaning FOR the corporate model or AGAINST it (pro creative
    freedom), ranks them, and caches the result once per day.
@@ -21,9 +21,9 @@ const TOPIC = {
 const CORE_RE = /k[\s-]?pop|idol|hybe|ador|newjeans|njz|\bjyp\b|yg entertainment|sm entertainment|big hit|pledis|starship|cube enter|fnc enter|kakao enter|korean (?:music|entertainment|agency|label)|k-?entertainment/i;
 const isCore = item => CORE_RE.test(`${item.title} ${item.snippet || ''}`);
 
-/* Keyword scoring. Title hits count double. This is a heuristic — the About
+/* Keyword scoring. Title hits count double. This is a heuristic - the About
    page explains that "leaning" labels are automated and approximate. */
-/* Scoring is deliberately centered on the study-guide question — creative
+/* Scoring is deliberately centered on the study-guide question - creative
    freedom vs. corporate control. Adjacent themes (mental health, dating
    bans) no longer drive classification; they only surface when an article
    also carries core contract/control language. */
@@ -147,7 +147,7 @@ function rank(item) {
 async function fetchFeed(feed) {
   for (const source of FEED_SOURCES) {
     try { return await source(feed.q, feed.hint); }
-    catch { /* gateway down — try the next one */ }
+    catch { /* gateway down - try the next one */ }
   }
   throw new Error('all feed sources failed');
 }
@@ -208,7 +208,7 @@ function writeCache(data) {
       .filter(k => k.startsWith(CACHE_PREFIX))
       .forEach(k => localStorage.removeItem(k));
     localStorage.setItem(CACHE_PREFIX + data.generatedAt, JSON.stringify(data));
-  } catch { /* storage full or blocked — fine, live fetch still works */ }
+  } catch { /* storage full or blocked - fine, live fetch still works */ }
 }
 
 /* Offline fallback: links go to Google News searches for well-documented
@@ -265,7 +265,7 @@ function recordHistory(data) {
     });
     hist.sort((x, y) => x.date.localeCompare(y.date));
     localStorage.setItem('kema-history', JSON.stringify(hist.slice(-120)));
-  } catch { /* storage blocked — trends just won't accumulate */ }
+  } catch { /* storage blocked - trends just won't accumulate */ }
 }
 
 /* ---------- issue tagging (Daily Brief) ---------- */
@@ -275,22 +275,22 @@ function recordHistory(data) {
 const ISSUES = [
   { id: 'contracts', label: 'Contracts & Disputes', emoji: '📜',
     words: ['contract', 'lawsuit', 'sue', 'sued', 'dispute', 'termination', 'terminate', 'injunction', 'court', 'tribunal', 'penalty', 'renewal', 'breach'],
-    why: 'Goes to the heart of the exclusive-contract and 7-year-rule fight (Issue 1) — the most litigated line in the whole debate.' },
+    why: 'Goes to the heart of the exclusive-contract and 7-year-rule fight (Issue 1) - the most litigated line in the whole debate.' },
   { id: 'trainee', label: 'Trainee System', emoji: '🎓',
     words: ['trainee', 'training system', 'audition', 'debut', 'debt', 'minor'],
     why: 'Evidence on how the trainee pipeline treats future idols before they have any leverage (Issue 2).' },
   { id: 'creative', label: 'Creative Control', emoji: '🎨',
     words: ['creative', 'self-produc', 'songwrit', 'producer', 'artistic', 'concept', 'freedom'],
-    why: 'Directly tests who owns the art — the exact line the KEMA study guide asks delegates to police (Issue 3).' },
+    why: 'Directly tests who owns the art - the exact line the KEMA study guide asks delegates to police (Issue 3).' },
   { id: 'private', label: 'Image & Private Life', emoji: '🔒',
     words: ['dating', 'privacy', 'private life', 'image', 'relationship', 'weight'],
-    why: 'Supporting context on how far management control reaches (Issue 4) — check your study-guide scope before leading with it.' },
+    why: 'Supporting context on how far management control reaches (Issue 4) - check your study-guide scope before leading with it.' },
   { id: 'health', label: 'Mental Health', emoji: '🧠',
     words: ['mental health', 'depression', 'burnout', 'anxiety', 'hiatus', 'harassment', 'bullying', 'overwork'],
-    why: 'Supporting human-cost context (Issue 5) — adjacent to the core control question; check your study-guide scope.' },
+    why: 'Supporting human-cost context (Issue 5) - adjacent to the core control question; check your study-guide scope.' },
   { id: 'economy', label: 'Industry Economics', emoji: '💰',
     words: ['revenue', 'profit', 'earnings', 'stock', 'ipo', 'billion', 'investment', 'market', 'export', 'growth', 'expansion', 'sales', 'chart', 'tour', 'soft power', 'partnership', 'deal'],
-    why: 'Quantifies the economic stakes — the corporate side’s strongest exhibit (Issue 7).' },
+    why: 'Quantifies the economic stakes - the corporate side’s strongest exhibit (Issue 7).' },
   { id: 'regulation', label: 'Regulation & Policy', emoji: '🏛️',
     words: ['regulat', 'law', 'bill', 'ministry', 'government', 'fair trade', 'kftc', 'policy', 'rights', 'union', 'association'],
     why: 'Tracks the policy levers delegates can actually put in a resolution (Issue 8).' },
@@ -334,7 +334,7 @@ function briefCard(item, index) {
 function renderDaily(data) {
   const all = [...data.for, ...data.against];
 
-  // Coverage tilt — computed from today's actual stance-confidence scores
+  // Coverage tilt - computed from today's actual stance-confidence scores
   const score = side => data[side].reduce((n, i) => n + i.confidence, 0) || 1;
   const f = score('for'), a = score('against');
   const pct = Math.round((f / (f + a)) * 100);
@@ -381,10 +381,10 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g,
 
 function citeAttr(item) {
   const date = fmtDate(item.date) || 'n.d.';
-  return esc(`"${item.title}" — ${item.source}, ${date}. ${item.link}`);
+  return esc(`"${item.title}" - ${item.source}, ${date}. ${item.link}`);
 }
 
-/* Google News descriptions are often just the title again — hide those. */
+/* Google News descriptions are often just the title again - hide those. */
 function usefulSnippet(item) {
   if (!item.snippet) return '';
   const norm = s => s.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -413,18 +413,18 @@ function articleCard(item, index) {
 function renderList(el, items) {
   el.innerHTML = items.length
     ? items.map(articleCard).join('')
-    : '<p class="loader">No articles matched today — try refreshing.</p>';
+    : '<p class="loader">No articles matched today - try refreshing.</p>';
 }
 
 function renderStatus(data) {
   const chip = document.getElementById('status-chip');
   if (!chip) return;
   const label = {
-    live:   `Live — updated ${data.generatedAt}`,
+    live:   `Live - updated ${data.generatedAt}`,
     static: `Updated ${data.generatedAt} (auto-refresh)`,
     cache:  `Updated today (${data.generatedAt})`,
-    stale:  `Showing ${data.generatedAt} edition — couldn't reach news feeds`,
-    fallback: 'Offline mode — showing curated search links',
+    stale:  `Showing ${data.generatedAt} edition - couldn't reach news feeds`,
+    fallback: 'Offline mode - showing curated search links',
   }[data.mode] || data.generatedAt;
   chip.querySelector('.label').textContent = label;
   if (data.mode === 'stale' || data.mode === 'fallback') chip.classList.add('warn');
@@ -437,7 +437,7 @@ async function initPage() {
   const forEl = document.getElementById('list-for');
   const againstEl = document.getElementById('list-against');
   const briefEls = [document.getElementById('brief-for'), document.getElementById('brief-against')];
-  if (!forEl && !againstEl && !briefEls[0] && !briefEls[1]) return; // static page — nothing to load
+  if (!forEl && !againstEl && !briefEls[0] && !briefEls[1]) return; // static page - nothing to load
   [forEl, againstEl, ...briefEls].forEach(el => { if (el) el.innerHTML = LOADER; });
 
   const data = await loadArticles();

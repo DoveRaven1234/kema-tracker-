@@ -1,5 +1,5 @@
 /* =========================================================================
-   Trends — narrative momentum over time.
+   Trends - narrative momentum over time.
    Merges localStorage history (built every day this browser opens the site)
    with data/history.json (built daily by the GitHub Action when deployed),
    then charts coverage tilt, issue movement, and diversity stats.
@@ -64,7 +64,7 @@ function issueMovement(hist) {
   const rows = ISSUES.map(issue => {
     const now = latest.issues?.[issue.id] || 0;
     const before = prev ? (prev.issues?.[issue.id] || 0) : null;
-    let delta = '<span class="delta flat">—</span>';
+    let delta = '<span class="delta flat">-</span>';
     if (before !== null) {
       const d = now - before;
       delta = d > 0 ? `<span class="delta up">▲ +${d}</span>`
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const hist = await loadHistory();
   if (!hist.length) {
-    chartEl.innerHTML = '<p class="loader">No history yet — visit any article page once and come back.</p>';
+    chartEl.innerHTML = '<p class="loader">No history yet - visit any article page once and come back.</p>';
     return;
   }
 
@@ -110,12 +110,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     <div class="stat"><div class="big">${hist.length}</div><div class="lbl">days on record</div></div>
     <div class="stat"><div class="big">${latest.tilt}%</div><div class="lbl">today's pro-corporate tilt</div></div>
     <div class="stat"><div class="big">${avg}%</div><div class="lbl">average tilt, all days</div></div>
-    <div class="stat"><div class="big">${latest.sources || '—'}</div><div class="lbl">distinct sources today</div></div>`;
+    <div class="stat"><div class="big">${latest.sources || '-'}</div><div class="lbl">distinct sources today</div></div>`;
 
   const note = document.getElementById('history-note');
   if (note && hist.length === 1) {
     note.innerHTML = `<div class="notice">📈 First snapshot recorded (${latest.date}). The chart grows
-      one point per day — open the site daily, or deploy it with the GitHub Action so history builds
+      one point per day - open the site daily, or deploy it with the GitHub Action so history builds
       automatically even when nobody visits.</div>`;
   }
 });

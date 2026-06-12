@@ -1,5 +1,5 @@
 /* =========================================================================
-   Press Room — real articles straight from named outlets (no Google
+   Press Room - real articles straight from named outlets (no Google
    redirects), English and Korean, refreshed daily. Debate-relevant items
    are flagged and sorted first; everything links directly to the outlet.
    Requires app.js (esc, unesc, fmtDate, todayKey, T) loaded first.
@@ -15,8 +15,8 @@ const OUTLETS = [
 ];
 
 /* Items matching these are flagged "debate-relevant" and sorted first.
-   General feeds carry lots of off-topic celebrity news — this is the sieve. */
-/* Two-tier relevance: STRONG words are unambiguous debate signals — one hit
+   General feeds carry lots of off-topic celebrity news - this is the sieve. */
+/* Two-tier relevance: STRONG words are unambiguous debate signals - one hit
    flags the article. WEAK words are generic legal/business terms that also
    appear in random celebrity news, so they need two hits. The flag must mean
    "feeds the KEMA debate", not just "mentions a lawsuit". */
@@ -77,7 +77,7 @@ async function fetchOutlet(outlet) {
       }));
     } catch { /* next gateway */ }
   }
-  return []; // outlet down today — others still render
+  return []; // outlet down today - others still render
 }
 
 async function loadPress() {
@@ -93,7 +93,7 @@ async function loadPress() {
     try {
       Object.keys(localStorage).filter(k => k.startsWith('kema-press-')).forEach(k => localStorage.removeItem(k));
       localStorage.setItem(key, JSON.stringify(items));
-    } catch { /* storage full — fine */ }
+    } catch { /* storage full - fine */ }
   }
   return items;
 }
@@ -102,7 +102,7 @@ async function loadPress() {
 
 function pressCard(item) {
   const date = fmtDate(item.date);
-  const cite = esc(`"${item.title}" — ${item.outlet}, ${date || 'n.d.'}. ${item.link}`);
+  const cite = esc(`"${item.title}" - ${item.outlet}, ${date || 'n.d.'}. ${item.link}`);
   return `
     <a class="article-card" href="${esc(item.link)}" target="_blank" rel="noopener">
       <div class="meta">
@@ -128,7 +128,7 @@ function renderPress() {
     (b.topic > 0) - (a.topic > 0) || new Date(b.date) - new Date(a.date));
   list.innerHTML = items.length
     ? items.map(pressCard).join('')
-    : `<p class="loader">All outlets unreachable right now — try the ↻ button, or visit them directly:<br><br>
+    : `<p class="loader">All outlets unreachable right now - try the ↻ button, or visit them directly:<br><br>
        ${OUTLETS.map(o => `<a href="${o.home}" target="_blank" rel="noopener">${o.name}</a>`).join(' · ')}</p>`;
 }
 
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (chip) {
     const live = new Set(pressItems.map(i => i.outlet)).size;
     chip.querySelector('.label').textContent =
-      pressItems.length ? `${live} of ${OUTLETS.length} outlets live — ${todayKey()}` : 'Outlets unreachable';
+      pressItems.length ? `${live} of ${OUTLETS.length} outlets live - ${todayKey()}` : 'Outlets unreachable';
     if (!pressItems.length || live < 3) chip.classList.add('warn');
   }
   renderPress();
