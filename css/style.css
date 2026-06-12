@@ -220,6 +220,73 @@ p.sec-sub { color: var(--text-dim); margin-bottom: 20px; font-size: .93rem; }
 .player-card p { color: var(--text-dim); font-size: .86rem; }
 .badge.balancer { background: rgba(251,191,36,.12); color: var(--gold); border: 1px solid rgba(251,191,36,.3); }
 
+/* ===== Dossier page (player.html) ===== */
+.tabs { display: flex; gap: 7px; flex-wrap: wrap; margin: 22px 0; }
+.tabs button {
+  background: var(--bg-soft); color: var(--text-dim); border: 1px solid rgba(255,255,255,.12);
+  border-radius: 99px; padding: 8px 17px; font-size: .84rem; font-weight: 700; cursor: pointer;
+  font-family: inherit; transition: .15s;
+}
+.tabs button:hover { color: var(--text); }
+.tabs button.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.dossier-section { display: none; }
+.dossier-section.on { display: block; animation: fadein .25s; }
+@keyframes fadein { from { opacity: 0; transform: translateY(4px); } }
+
+.lean-wrap { position: relative; margin: 18px 2px 8px; }
+.lean-meter { height: 14px; border-radius: 99px;
+  background: linear-gradient(90deg, var(--for), var(--gold), var(--against)); }
+.lean-dot {
+  position: absolute; top: 50%; transform: translate(-50%, -50%);
+  width: 24px; height: 24px; border-radius: 50%; background: #fff;
+  border: 5px solid var(--bg); box-shadow: 0 0 10px rgba(0,0,0,.6);
+}
+.lean-labels { display: flex; justify-content: space-between; font-size: .74rem; margin-top: 8px; }
+.lean-labels .l { color: var(--for); font-weight: 700; }
+.lean-labels .r { color: var(--against); font-weight: 700; }
+
+.controversy {
+  border-left: 3px solid var(--text-dim); background: var(--bg-soft);
+  border-radius: 0 10px 10px 0; padding: 12px 16px; margin-bottom: 11px;
+}
+.controversy.sev-high { border-color: var(--against); }
+.controversy.sev-med { border-color: var(--gold); }
+.controversy h4 { font-size: .94rem; display: flex; gap: 9px; align-items: baseline; flex-wrap: wrap; }
+.controversy .yr { color: var(--gold); font-weight: 800; font-size: .76rem; }
+.controversy p { font-size: .85rem; color: var(--text-dim); margin-top: 4px; }
+.sev-tag { font-size: .64rem; font-weight: 800; letter-spacing: .07em; padding: 1px 8px; border-radius: 99px; }
+.sev-tag.high { background: rgba(251,113,133,.15); color: var(--against); }
+.sev-tag.med { background: rgba(251,191,36,.13); color: var(--gold); }
+.sev-tag.low { background: rgba(154,160,195,.15); color: var(--text-dim); }
+
+.cs-block { margin-bottom: 16px; }
+.cs-block h4 { font-size: .95rem; margin-bottom: 6px; color: var(--text); }
+.cs-block p { font-size: .89rem; color: var(--text-dim); }
+
+.soundbite {
+  border-left: 3px solid var(--accent); background: rgba(124,108,255,.07);
+  border-radius: 0 10px 10px 0; padding: 11px 15px; margin-bottom: 10px;
+  font-style: italic; font-size: .9rem;
+}
+.counter { margin-bottom: 12px; font-size: .87rem; }
+.counter .they { color: var(--text-dim); }
+.counter .you { color: var(--text); margin-top: 3px; }
+.counter strong { font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; }
+.counter .they strong { color: var(--against); }
+.counter .you strong { color: #4ade80; }
+
+.link-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.link-card {
+  background: var(--bg-soft); border: 1px solid rgba(255,255,255,.12); border-radius: 10px;
+  padding: 10px 17px; font-size: .85rem; font-weight: 600; color: var(--text);
+}
+.link-card:hover { border-color: var(--accent); text-decoration: none; color: var(--accent); }
+
+.dossier-pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 30px; }
+.dossier-pager a { font-size: .87rem; font-weight: 600; }
+
+.open-hint { color: var(--accent); font-size: .82rem; font-weight: 700; margin-top: 10px; display: inline-block; }
+
 /* clickable dossier behavior */
 .player-card.clickable { cursor: pointer; transition: .15s; }
 .player-card.clickable:hover { background: var(--card-hover); }

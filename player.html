@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Player Dossier — KEMA Debate Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="dossier">
+
+<header>
+  <nav class="nav">
+    <a class="brand" href="index.html">🎤 KEMA Debate Tracker</a>
+    <a class="link" href="index.html">Overview</a>
+    <a class="link" href="daily.html">Daily Brief</a>
+    <a class="link" href="for.html">For (15)</a>
+    <a class="link" href="against.html">Against (15)</a>
+    <a class="link" href="press.html">Press Room</a>
+    <a class="link" href="issues.html">Key Issues</a>
+    <a class="link active" href="stances.html">Players</a>
+    <a class="link" href="trends.html">Trends</a>
+    <a class="link" href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <p style="margin-top:18px"><a href="stances.html">← Back to all players</a></p>
+  <div id="dossier-root">
+    <div class="loader"><div class="spinner"></div>Opening dossier…</div>
+  </div>
+  <div class="dossier-pager" id="dossier-pager"></div>
+</main>
+
+<footer>
+  <div class="wrap">KEMA Debate Tracker · Dossiers are curated debate-prep analysis (current to mid-2026) —
+  "Lines you can use" are editorial phrasings, not real quotes. Verify before citing in committee.</div>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/players.js"></script>
+</body>
+</html>
