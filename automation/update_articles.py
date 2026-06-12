@@ -23,29 +23,38 @@ from pathlib import Path
 PER_SIDE = 15
 
 FEEDS = [
-    ('k-pop idol contract dispute OR lawsuit OR exploitation OR "creative freedom"', 'against'),
-    ('k-pop artist "mental health" OR "dating ban" OR trainee OR mistreatment', 'against'),
+    ('k-pop idol "exclusive contract" OR "contract dispute" OR lawsuit OR termination', 'against'),
+    ('k-pop artist "creative freedom" OR "creative control" OR "artist rights" OR autonomy', 'against'),
     ('k-pop industry growth OR revenue OR investment OR "global success"', 'for'),
     ('k-pop entertainment company HYBE OR SM OR JYP OR YG strategy OR expansion', 'for'),
 ]
 
+# Hard relevance gate — must actually be about the K-pop industry (mirrors js/app.js)
+CORE_RE = re.compile(
+    r'k[\s-]?pop|idol|hybe|ador|newjeans|njz|\bjyp\b|yg entertainment|sm entertainment'
+    r'|big hit|pledis|starship|cube enter|fnc enter|kakao enter'
+    r'|korean (?:music|entertainment|agency|label)|k-?entertainment', re.I)
+
+# Scoring centered on the study-guide question: creative freedom vs corporate
+# control. Adjacent themes (mental health, dating bans) no longer drive
+# classification (mirrors js/app.js).
 KEYWORDS = {
     'against': [
-        'exploit', 'slave contract', 'abuse', 'lawsuit', 'sue', 'sued', 'dispute',
-        'terminate', 'termination', 'mistreat', 'mental health', 'burnout',
-        'depression', 'dating ban', 'unfair', 'underpaid', 'debt', 'court',
-        'injunction', 'allegation', 'scandal', 'overwork', 'harassment',
-        'bullying', 'creative freedom', 'artist rights', 'restriction',
-        'controlled', 'leave the label', 'breakup', 'feud', 'tribunal',
-        'protest', 'criticism', 'controversy', 'fined', 'investigation',
+        'exploit', 'slave contract', 'lawsuit', 'sue', 'sued', 'dispute',
+        'terminate', 'termination', 'breach', 'unfair', 'underpaid', 'unpaid',
+        'debt', 'court', 'injunction', 'tribunal', 'allegation', 'abuse',
+        'mistreat', 'creative freedom', 'creative control', 'artistic freedom',
+        'artist rights', 'autonomy', 'self-expression', 'independence',
+        'restriction', 'controlled', 'leave the label', 'exclusive contract',
+        'feud', 'protest', 'fined', 'investigation', 'royalt', 'settlement',
     ],
     'for': [
-        'growth', 'profit', 'revenue', 'record', 'billion', 'million albums',
-        'success', 'investment', 'expansion', 'strategy', 'global', 'partnership',
-        'deal', 'soft power', 'export', 'training system', 'debut', 'chart',
-        'milestone', 'award', 'ipo', 'stock', 'earnings', 'market', 'brand',
-        'collaboration', 'sold out', 'tour', 'box office', 'streaming record',
-        'agency announces', 'new label', 'signs', 'launches',
+        'growth', 'profit', 'revenue', 'billion', 'million albums',
+        'record-breaking', 'record sales', 'success', 'investment', 'expansion',
+        'strategy', 'partnership', 'soft power', 'export', 'training system',
+        'milestone', 'ipo', 'stock', 'earnings', 'agency announces', 'new label',
+        'chart-topping', 'sold out', 'tour gross', 'box office', 'global push',
+        'multi-label', 'shareholder', 'market cap', 'subsidiary',
     ],
 }
 
@@ -106,7 +115,7 @@ ISSUE_WORDS = {
     'trainee': ['trainee', 'training system', 'audition', 'debut', 'debt', 'minor'],
     'creative': ['creative', 'self-produc', 'songwrit', 'producer', 'artistic', 'concept', 'freedom'],
     'private': ['dating', 'privacy', 'private life', 'image', 'relationship', 'weight'],
-    'health': ['mental health', 'depression', 'burnout', 'anxiety', 'hiatus', 'harassment', 'bullying', 'abuse', 'mistreat', 'overwork'],
+    'health': ['mental health', 'depression', 'burnout', 'anxiety', 'hiatus', 'harassment', 'bullying', 'overwork'],
     'economy': ['revenue', 'profit', 'earnings', 'stock', 'ipo', 'billion', 'investment', 'market', 'export', 'growth', 'expansion', 'sales', 'chart', 'tour', 'soft power', 'partnership', 'deal'],
     'regulation': ['regulat', 'law', 'bill', 'ministry', 'government', 'fair trade', 'kftc', 'policy', 'rights', 'union', 'association'],
 }
@@ -155,6 +164,8 @@ def main():
     for query, hint in FEEDS:
         try:
             for item in fetch_feed(query, hint):
+                if not CORE_RE.search(f"{item['title']} {item['snippet']}"):
+                    continue  # not actually about the K-pop industry
                 key = re.sub(r'[^a-z0-9]', '', item['title'].lower())[:60]
                 if key not in seen:
                     seen.add(key)
@@ -170,7 +181,9 @@ def main():
         'mode': 'static',
     }
     for side in ('for', 'against'):
-        ranked = sorted((i for i in pool if i['side'] == side), key=rank, reverse=True)
+        # confident stance matches first; hint-only ties are fill-in
+        ranked = sorted((i for i in pool if i['side'] == side),
+                        key=lambda i: (i['confidence'] > 0, rank(i)), reverse=True)
         out[side] = [{k: v for k, v in i.items() if k != 'hint'} for i in ranked[:PER_SIDE]]
 
     data_dir = Path(__file__).resolve().parent.parent / 'data'

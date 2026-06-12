@@ -9,32 +9,41 @@ const TOPIC = {
   perSide: 15, // 15 + 15 = top 30
   feeds: [
     // hint: which side this query is more likely to surface
-    { q: 'k-pop idol contract dispute OR lawsuit OR exploitation OR "creative freedom"', hint: 'against' },
-    { q: 'k-pop artist "mental health" OR "dating ban" OR trainee OR mistreatment',      hint: 'against' },
-    { q: 'k-pop industry growth OR revenue OR investment OR "global success"',           hint: 'for' },
-    { q: 'k-pop entertainment company HYBE OR SM OR JYP OR YG strategy OR expansion',    hint: 'for' },
+    { q: 'k-pop idol "exclusive contract" OR "contract dispute" OR lawsuit OR termination',        hint: 'against' },
+    { q: 'k-pop artist "creative freedom" OR "creative control" OR "artist rights" OR autonomy',   hint: 'against' },
+    { q: 'k-pop industry growth OR revenue OR investment OR "global success"',                     hint: 'for' },
+    { q: 'k-pop entertainment company HYBE OR SM OR JYP OR YG strategy OR expansion',              hint: 'for' },
   ],
 };
 
+/* Hard relevance gate: an article must actually be about the K-pop industry
+   (not just match a search loosely) or it's dropped before classification. */
+const CORE_RE = /k[\s-]?pop|idol|hybe|ador|newjeans|njz|\bjyp\b|yg entertainment|sm entertainment|big hit|pledis|starship|cube enter|fnc enter|kakao enter|korean (?:music|entertainment|agency|label)|k-?entertainment/i;
+const isCore = item => CORE_RE.test(`${item.title} ${item.snippet || ''}`);
+
 /* Keyword scoring. Title hits count double. This is a heuristic — the About
    page explains that "leaning" labels are automated and approximate. */
+/* Scoring is deliberately centered on the study-guide question — creative
+   freedom vs. corporate control. Adjacent themes (mental health, dating
+   bans) no longer drive classification; they only surface when an article
+   also carries core contract/control language. */
 const KEYWORDS = {
   against: [
-    'exploit', 'slave contract', 'abuse', 'lawsuit', 'sue', 'sued', 'dispute',
-    'terminate', 'termination', 'mistreat', 'mental health', 'burnout',
-    'depression', 'dating ban', 'unfair', 'underpaid', 'debt', 'court',
-    'injunction', 'allegation', 'scandal', 'overwork', 'harassment',
-    'bullying', 'creative freedom', 'artist rights', 'restriction',
-    'controlled', 'leave the label', 'breakup', 'feud', 'tribunal',
-    'protest', 'criticism', 'controversy', 'fined', 'investigation',
+    'exploit', 'slave contract', 'lawsuit', 'sue', 'sued', 'dispute',
+    'terminate', 'termination', 'breach', 'unfair', 'underpaid', 'unpaid',
+    'debt', 'court', 'injunction', 'tribunal', 'allegation', 'abuse',
+    'mistreat', 'creative freedom', 'creative control', 'artistic freedom',
+    'artist rights', 'autonomy', 'self-expression', 'independence',
+    'restriction', 'controlled', 'leave the label', 'exclusive contract',
+    'feud', 'protest', 'fined', 'investigation', 'royalt', 'settlement',
   ],
   for: [
-    'growth', 'profit', 'revenue', 'record', 'billion', 'million albums',
-    'success', 'investment', 'expansion', 'strategy', 'global', 'partnership',
-    'deal', 'soft power', 'export', 'training system', 'debut', 'chart',
-    'milestone', 'award', 'ipo', 'stock', 'earnings', 'market', 'brand',
-    'collaboration', 'sold out', 'tour', 'box office', 'streaming record',
-    'agency announces', 'new label', 'signs', 'launches',
+    'growth', 'profit', 'revenue', 'billion', 'million albums',
+    'record-breaking', 'record sales', 'success', 'investment', 'expansion',
+    'strategy', 'partnership', 'soft power', 'export', 'training system',
+    'milestone', 'ipo', 'stock', 'earnings', 'agency announces', 'new label',
+    'chart-topping', 'sold out', 'tour gross', 'box office', 'global push',
+    'multi-label', 'shareholder', 'market cap', 'subsidiary',
   ],
 };
 
@@ -157,11 +166,12 @@ async function fetchLive() {
   const results = await Promise.allSettled(TOPIC.feeds.map(fetchFeed));
   const items = results.flatMap(r => (r.status === 'fulfilled' ? r.value : []));
   if (!items.length) throw new Error('all feeds failed');
-  const classified = dedupe(items).map(classify);
+  const classified = dedupe(items).filter(isCore).map(classify);
+  // confident stance matches first; hint-only ties are fill-in, never above them
   const pick = side =>
     classified
       .filter(i => i.side === side)
-      .sort((a, b) => rank(b) - rank(a))
+      .sort((a, b) => (b.confidence > 0) - (a.confidence > 0) || rank(b) - rank(a))
       .slice(0, TOPIC.perSide);
   return { generatedAt: todayKey(), mode: 'live', for: pick('for'), against: pick('against') };
 }
@@ -214,7 +224,7 @@ const FALLBACK = {
   against: [
     { title: 'K-pop "slave contracts" and the fight for artist rights', source: 'Google News search', link: 'https://news.google.com/search?q=k-pop%20slave%20contract%20artist%20rights', date: '', snippet: 'Long-running coverage of restrictive exclusive contracts in the industry.', side: 'against', confidence: 1 },
     { title: 'NewJeans vs. ADOR/HYBE: the contract dispute that shook K-pop', source: 'Google News search', link: 'https://news.google.com/search?q=NewJeans%20ADOR%20contract%20dispute', date: '', snippet: 'The highest-profile recent battle over artist autonomy and management control.', side: 'against', confidence: 1 },
-    { title: 'Idol mental health and the cost of tightly managed careers', source: 'Google News search', link: 'https://news.google.com/search?q=k-pop%20idol%20mental%20health%20pressure', date: '', snippet: 'Reporting on burnout, privacy restrictions, and psychological pressure on artists.', side: 'against', confidence: 1 },
+    { title: 'Creative control in K-pop: who really owns the music?', source: 'Google News search', link: 'https://news.google.com/search?q=k-pop%20creative%20control%20artist', date: '', snippet: 'Coverage of centralized concept and production decisions versus self-producing artists.', side: 'against', confidence: 1 },
   ],
 };
 
@@ -274,10 +284,10 @@ const ISSUES = [
     why: 'Directly tests who owns the art — the exact line the KEMA study guide asks delegates to police (Issue 3).' },
   { id: 'private', label: 'Image & Private Life', emoji: '🔒',
     words: ['dating', 'privacy', 'private life', 'image', 'relationship', 'weight'],
-    why: 'Shows how far image management reaches into artists’ private lives (Issue 4).' },
+    why: 'Supporting context on how far management control reaches (Issue 4) — check your study-guide scope before leading with it.' },
   { id: 'health', label: 'Mental Health', emoji: '🧠',
-    words: ['mental health', 'depression', 'burnout', 'anxiety', 'hiatus', 'harassment', 'bullying', 'abuse', 'mistreat', 'overwork'],
-    why: 'The human-cost evidence that both sides must answer to (Issue 5).' },
+    words: ['mental health', 'depression', 'burnout', 'anxiety', 'hiatus', 'harassment', 'bullying', 'overwork'],
+    why: 'Supporting human-cost context (Issue 5) — adjacent to the core control question; check your study-guide scope.' },
   { id: 'economy', label: 'Industry Economics', emoji: '💰',
     words: ['revenue', 'profit', 'earnings', 'stock', 'ipo', 'billion', 'investment', 'market', 'export', 'growth', 'expansion', 'sales', 'chart', 'tour', 'soft power', 'partnership', 'deal'],
     why: 'Quantifies the economic stakes — the corporate side’s strongest exhibit (Issue 7).' },

@@ -16,19 +16,35 @@ const OUTLETS = [
 
 /* Items matching these are flagged "debate-relevant" and sorted first.
    General feeds carry lots of off-topic celebrity news — this is the sieve. */
+/* Two-tier relevance: STRONG words are unambiguous debate signals — one hit
+   flags the article. WEAK words are generic legal/business terms that also
+   appear in random celebrity news, so they need two hits. The flag must mean
+   "feeds the KEMA debate", not just "mentions a lawsuit". */
 const TOPIC_WORDS = {
-  EN: ['k-pop', 'kpop', 'idol', 'agency', 'contract', 'lawsuit', 'sue', 'court',
-       'dispute', 'trainee', 'debut', 'hybe', 'newjeans', 'njz', 'ador', 'jyp',
-       'sm entertainment', 'yg entertainment', 'min hee-jin', 'entertainment company',
-       'exclusive contract', 'termination', 'injunction', 'fandom', 'comeback'],
-  KR: ['케이팝', 'K팝', '아이돌', '소속사', '엔터테인먼트', '전속계약', '계약', '소송',
-       '법원', '하이브', '뉴진스', '어도어', '민희진', '연습생', '분쟁', '위약금',
-       '데뷔', '팬덤', '기획사', '가처분', 'JYP', 'SM', 'YG'],
+  EN: {
+    strong: ['hybe', 'newjeans', 'njz', 'ador', 'min hee-jin', 'exclusive contract',
+             'contract dispute', 'contract termination', 'creative freedom',
+             'creative control', 'artist rights', 'trainee', 'injunction',
+             'jyp entertainment', 'sm entertainment', 'yg entertainment',
+             'idol contract', 'self-produc', 'royalt'],
+    weak:   ['agency', 'contract', 'lawsuit', 'sue', 'court', 'dispute',
+             'settlement', 'label', 'exclusive', 'shareholder', 'earnings',
+             'revenue', 'investment', 'expansion', 'autonomy', 'idol', 'k-pop'],
+  },
+  KR: {
+    strong: ['전속계약', '하이브', '뉴진스', '어도어', '민희진', '위약금', '가처분',
+             '연습생', '계약 해지', '계약해지', '전속 계약', 'SM엔터', 'YG엔터', 'JYP엔터'],
+    weak:   ['소속사', '계약', '소송', '법원', '분쟁', '판결', '정산', '저작권',
+             '창작', '자율', '항소', '기획사', '매출', '실적', '아이돌', '케이팝'],
+  },
 };
 
 function topicScore(item, lang) {
   const text = `${item.title} ${item.snippet}`.toLowerCase();
-  return TOPIC_WORDS[lang].reduce((n, w) => n + (text.includes(w.toLowerCase()) ? 1 : 0), 0);
+  const hits = words => words.reduce((n, w) => n + (text.includes(w.toLowerCase()) ? 1 : 0), 0);
+  const strong = hits(TOPIC_WORDS[lang].strong);
+  const weak = hits(TOPIC_WORDS[lang].weak);
+  return (strong >= 1 || weak >= 2) ? strong * 2 + weak : 0;
 }
 
 /* gateway chain for arbitrary feed URLs (press feeds aren't Google News) */
