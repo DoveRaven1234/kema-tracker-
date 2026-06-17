@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16",
+  "generatedAt": "2026-06-17",
   "mode": "static",
   "for": [
     {
@@ -21,10 +21,10 @@
       "confidence": 6
     },
     {
-      "title": "RBW Launches 30 Billion Won K-Pop Music IP Project",
-      "source": "조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU3l1U3FQOXJkdWpBRXhwYTRxNmNid1o5TWlOYnpMUmRMdVcwakR1T2dHVUR0MVJyNWVUQ2lhSFB5RHdtQUxNemF5empJcG5xQ0h0amRIdWVhZnlUSC0taElwZ0ozNHEtbEJzcmYxVjVCT2N4NVhxSGtmd2RhOF9qWUoyWUtHSkFwSUc5Z0FB?oc=5",
-      "date": "Mon, 15 Jun 2026 06:15:51 GMT",
+      "title": "Korea to back smaller K-pop agencies’ global expansion",
+      "source": "The Korea Herald",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GLW1WdW5yZTc0OFMwNzUweWVYR0lMY1cxZDBETmNhbTJpRmZ3eUhZX1liUXBod1Q1YWczNmdTRTZ0OXhON21sQ0ozTVljQXV6Q1luWWxZMA?oc=5",
+      "date": "Tue, 16 Jun 2026 02:18:45 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 2
@@ -42,7 +42,7 @@
       "title": "K-Pop Looks to China to Supercharge Growth After Strong Earnings",
       "source": "WSJ",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONEFiSk4wblFNM2t6U281RUpfWTdYc1RqcnJqN0gzbnhhVFJ5c1I5NjVWdEhMSWpwcHFoTjBaM2tGZll1cVJYSkZzZ1VOVnlxR3pJVFUtenBRRjI4dDFUbUhfNDc3bjFpN1NlbFNaWXBuSGc3eEMwbTJHdnY0d0ZSd2p0QU5ldG9ianVKa25zclRmMUw2eExYcWxnWjJsak9mNnJjRQ?oc=5",
-      "date": "Sat, 09 Aug 2025 07:00:00 GMT",
+      "date": "Fri, 08 Aug 2025 07:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 4
@@ -120,6 +120,15 @@
       "confidence": 3
     },
     {
+      "title": "K-pop Album Exports Hit Record $300 Million",
+      "source": "Businesskorea",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkSEZvSDdtVGFSdVVaMHNVd0hDbGNqa1NUUmtZdkN1aklZWTU0TFlsb2QxbkJEMkNlVFZ0VUdOQnREcURkTFJBcTdEQjltdnFINlk4aTU5MHRleVdzYmFRM2s3Zmx3WGUtcmtzU0NoMUdtQm5f?oc=5",
+      "date": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "snippet": "K-pop Album Exports Hit Record $300 Million&nbsp;&nbsp;Businesskorea",
+      "side": "for",
+      "confidence": 3
+    },
+    {
       "title": "Hybe expands global push with India audition",
       "source": "The Korea Herald",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0eW5WVXpDblhycDlCSUc3aTZEWjl4alo4NFpTZFpmQnVXTU1NZ3g0WlRCU19xdHBwMEl0UzlhenM2OE5wUzlKWF84cC1zU0o1NGNNeGhsSQ?oc=5",
@@ -127,27 +136,9 @@
       "snippet": "Hybe expands global push with India audition&nbsp;&nbsp;The Korea Herald",
       "side": "for",
       "confidence": 3
-    },
-    {
-      "title": "K-pop’s BTS comeback tour rallies South Korea’s global ‘soft power’ drive",
-      "source": "Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY1oxeERhY1ZfZG1KRjhMal8yUWlPYm13bmpZSXl2THFENXduLS0tS3g2R0p2eURTc3pfMC1ZQ05oQXZXQnlfcXFmMWhxdFpCSTM5Z05hRnZCZWRrVUppZjVoR3N0cFdScm1UUHBzTFQ4ZkhVd0pjbWV4UFI0cVVUenl5U1EtWERvWEgtYVhiajZUNERqWWpUbGc1WlE1OHZ3emVtTl84NVR6YXpMVWlKWFpR0gG3AUFVX3lxTE9XTGlZVFhTMXluQmpUblJQVHR6bkZMVE15VnJ2ckFrNWdnNkhhSE5RdTlYZHk1azZWYTJ0MFpNcE96SUwxS1NNalNDbVI5bHdrSDhHbnNRc0RuWTZobjZjQ0xjSG81bVVHZEo2c2JtR25Pd2F6YUZDc09mTXRaczRaZVpGMkdMcnN4cFd3T1dRWFFiRmZXNlhVQ3VlVHJmeHNTQ2FZRnRpdFNnRWE5S1VMRzV0U2hnMA?oc=5",
-      "date": "Sat, 02 May 2026 07:00:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 2
     }
   ],
   "against": [
-    {
-      "title": "NewJeans: K-pop band member sued for $30m after record label feud",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBub3ZQUlVDb1ByUVFPZ1hQOXZ4TER4d2s3RHE3X0ZlVW1Hemo5N2JYU0hCcXpkajhtd2ZSN1VpVHFUd25SRVZnY2RyZVhLYnFVYnQ4QlBfSHNFZw?oc=5",
-      "date": "Tue, 30 Dec 2025 08:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 6
-    },
     {
       "title": "NewJeans member Danielle sued for millions after bitter feud with K-pop record label",
       "source": "The Guardian",
@@ -258,7 +249,7 @@
     },
     {
       "title": "ADOR Drops Danielle From NewJeans Ahead of Lawsuit",
-      "source": "hypebae.com",
+      "source": "Hypebae",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ3IxbzhzYkN5c3M2d2pfeDkxSTRrcTNDM2xTVldxbW5GclhobGZUSVdSU1ZKTHFyRGd0V2RoS3BmcFVmS3dIQ1c0VVNvVFNHVm5TbXJHeUNFWmlyb1VDUXFSLTF6S1V2LXVRT3Ayd0dqQWdGVnZUNnN1cVNzLVkxWHJpV2VIMzhzNm9UNkxnMHM?oc=5",
       "date": "Fri, 02 Jan 2026 08:00:00 GMT",
       "snippet": "",
@@ -266,10 +257,19 @@
       "confidence": 2
     },
     {
-      "title": "Virtual idols win lawsuit for damages from online comments",
-      "source": "Korea JoongAng Daily",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ1A5R1ZOMFFYQkhYbHdxaXJVaWlFa2VFNUE5TTQxY2NHRmdWc25XZUFYdDY4eDlHdkItb0RXYzhOYWZKdXBLa0N3QmpQVWNNTTRMSld4YlhiTmQ3V3ROUmtVYVJuckZtYmpTM3A4MTJfSG1NMk93elEyLUlORGlob3pyY0tndjU0N1RhclZzeEZ6S3dNLVdVUmNmT21aNlI4TlNwczlrRlRpX1pYaEhONXA2YU5fbGVMLTYwTzNEcUtmSm5DR3czNXdBU2Z0R2h1WXc5bzdiTzV0dw?oc=5",
-      "date": "Wed, 17 Sep 2025 07:00:00 GMT",
+      "title": "ADOR sues ex-NewJeans member Danielle for $31 million? Here's what we know",
+      "source": "WION",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWW5TLU1kUHF3UV9OUDdqWkNoRlBhVzNkWWNDZFU4eHdBdjV6eXNJNFh1S0ZrUjRfUlZ4OWJwTklvZHNrM3R1NmN1UGNVYTJhbzJTSTVUTlBoX0dhVW9OV2UtbWlVUV9QYS1HU1k1TjB0M1NlZ3A0QzdoejZKRXNlZm1BUFpRNHBoSFYwY2l3NWI0TzVyV0VHQnhWM1hOYkF3T0FqLVdHSlJnSnNRQXVqRElpQ1FBTUdpMFlGeWl5N2NZQdIBxwFBVV95cUxPR2MtSE9yM1VDN0VLZUdKODU1cmVMSnMyZTVjc3VMSnY3WWRfODdvTkJSZUZmOUJ5Y0NCUEdCSFZWYUJacU9mLXBjemE1MHc3X3JFSHVYbWlCbUlKRkl6ejgyQ28yUzhSbzlkdHB5WjRpd2xldkt5elZMbHpCZHhaVVBDUVNCdnFaU1dzRzBud0lTSWlvMjA5UDdCSklCYXNUQ1o0RnNkUmNjbFRjdEtSWC1YYUwydTRncmQ3ZEs2SW0ycV9HNno4?oc=5",
+      "date": "Thu, 01 Jan 2026 08:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "K-Pop Singer Park Bom’s Agency Says Her $4.5 Quadrillion Lawsuit Was Never Filed",
+      "source": "Complex",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0JuQUh3ckpuWHBlX1dRX2dUUTdZS3pmaXc3anVIcWtwYkktOS1yall3MGc2a1VCTDFfemx1Tmw3ODF2cTAxNWppdy1NLWxhT09FdzU2WHNnWEQ0U01nRndkclhacTl6SmJoRUhrSWFId1Vyc3QtQWpkYnlRN0dpY3hFMFFKNTY2LTUxOUUxNkNnbWRwcUM0b2VXdDJ3ektxNmhTVDZLRTM?oc=5",
+      "date": "Thu, 23 Oct 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
