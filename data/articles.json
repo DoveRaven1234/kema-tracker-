@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17",
+  "generatedAt": "2026-06-18",
   "mode": "static",
   "for": [
     {
@@ -16,6 +16,15 @@
       "source": "Music Business Worldwide",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOM1RWS0I4NDNkeGtyMWc5Uy1KVU1teEEtVk5QNGVGR3c2ME5BQ0lTTjJEbjNuOUpxaEt1TTEwYmVJcFVTRDdKRlJVZHE0UVF0bXZOdzc5Y2NTNWt1SC1qUHZMOXppR0tGelNsTmFmS3BoNExYZExvUnNGWmx0MzlMcnJXdjVWSjlsRml2RU1vVUw4WXhPNU0zUjk5V1ByY3dvSThLRFlGZm5DbTJjdF9QNU1wTXRWR2hyWi1PVVBUUEN2dnVFelg5U0xaVWtxYWNldk1CdEQwc1FBT1F3QnBvcDdXSQ?oc=5",
       "date": "Wed, 06 May 2026 07:00:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 6
+    },
+    {
+      "title": "HYBE Co Ltd stock (KR7352820005): K?pop giant eyes AI and global expansion as earnings stabilize",
+      "source": "AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWHB5UC15RjNOUVVtTjVZczFETWdhNHJENnlpRk4zM1pGMERxTXVjdm4xdlFJUmJaMVU1bXptV0N4TklFWm84clk1aWllbkZLaFNyN19YQnRyOVM5cGtmV25LZU9haVFIdV9rQXQxS0RQWk14NVZwZm9qVFl2U0JrWkdEMHRzRmUwcWs0YWpkSFVhRE51c1FwTWNmTjZsa1A1ZElOS3V5VDg1Qy04YjNUVjY3RWRYX3dsNW9xVnI0d253RDVRUFZLb3BR?oc=5",
+      "date": "Sat, 09 May 2026 07:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 6
@@ -84,15 +93,6 @@
       "confidence": 4
     },
     {
-      "title": "Hybe posts record-high revenue last year, profit plunges 73%",
-      "source": "The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNUJ3SzNBX0pscFdVa0RMQ2pkMFZpQ0hCbXdBdlBSdjdqZzRUVWwwNFFRVmJQOHpFTkN5c1VnaVFodUhOcTA0RkdIMkJZM21USU5KTUFMdlY4RjFuVFdCLVNxVmV1bzZDOHdBX2hvOTdBMEFUNXpvMHFtYmxRUkR1NWFYb2JrUFBpZVFKNGQ3TWJ4dUJORnZ0NDdJeTVqX1daTGdUMUdiTFlEZ2xIcFJ2Y3JxVXR6Y0HSAbwBQVVfeXFMT3JHRW5jT25ZOWpNd3dfdzdKYlhxOEJZV2ZxZk1USGJZQzB5cnlYUlpvejhaQTZjWTZieE9Ga01iVXZONzN3MzRlUVBTVUJQQ193V0ZUSElTSHNNU0lRYUpXRldlWjhjSXhfV0lOeE5VVk56YlI2aFBNXzQ1N0RaeTE1QVBDZENDRnhPNlo1ZlJhaFRDakE0S1pCRE83bHZIZUNtRDlrejAwUllrY3lMdktmRm92eE1Cb05KOEQ?oc=5",
-      "date": "Thu, 12 Feb 2026 08:00:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 4
-    },
-    {
       "title": "HYBE Posts Record Annual Revenue, Sales Soar Over $1 Billion USD | Outlook Respawn",
       "source": "Outlook Respawn",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeDVtbmY4QzBvRHhtQkRTSGJBSHIyZlFMLXRseEp4ZENWc1UyUXkwYlowRlZ5VXRXNWNhckwwYmNPNjh5OGp2eEVfaG5BTEhRUXdUblZCUEtmLUY0dlNPanpTZTM5SkttaDgzZ0hIb0pELVJuN0FON1JyOUo4UWtPUmdmS25GcllOcG5sN0dPaHExbm80aU5iVkVBRmhaZERGM1I0QlI4US11a0x3bl9ZUE8tNDBoWjNyUk5QaGthRnFld9IBzwFBVV95cUxQRFBjRVd6ejFPMFU1VmxRalB4VHlkNXloNThyOXpVWFVaU1htaHJpRm1Cb2RGQURDQ1NDczBiMGNUV0ZNYlNiczFneXlLTzZfbVlKN1Z1cnA0UlNkQmxOX1YyQTFINVdFRUxNR1JLbXNwVGtuQkJzN0pVVTRxcjItaVUzaDRKRm1MLTV5bUVwTS1CWmxLUm41ZldQNUdsV1RxMEZCc0VDQWhCWVdpOGJtNnZLQ1p3ZU45bE9iUHVWLWdvc0UzeHlIWURaU2FCU00?oc=5",
@@ -102,13 +102,13 @@
       "confidence": 4
     },
     {
-      "title": "HYBE Co Ltd Stock (KR7352820005): K?pop powerhouse stays in focus as investors watch global expansio",
-      "source": "AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT2t0dWpra0FIZk5TUk4wVTcyWTM4TXFaU3FkaDBDZ0F5VEVyYUlxQ0VfUTdWZkl1Mk9TVkNGMWFneGxkOTZvdFpEQkhqQ2ZhekljTElzWnVGSTk0SjM0ZlBUcGV2aFZGblhRYnRTaEJ1cm9wcGdQMTBmSzVxc2E2ZERzTVdVRWcydmtaTWNyTVFBYmlWZDE3aXdNUGE2eXdYY2NIN0tRNHFIYUxxUldaN3Rha0xQZHhrdmViTWhiTGN5QQ?oc=5",
-      "date": "Fri, 12 Jun 2026 13:30:33 GMT",
+      "title": "Hybe posts record-high revenue last year, profit plunges 73%",
+      "source": "The Korea Times",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNUJ3SzNBX0pscFdVa0RMQ2pkMFZpQ0hCbXdBdlBSdjdqZzRUVWwwNFFRVmJQOHpFTkN5c1VnaVFodUhOcTA0RkdIMkJZM21USU5KTUFMdlY4RjFuVFdCLVNxVmV1bzZDOHdBX2hvOTdBMEFUNXpvMHFtYmxRUkR1NWFYb2JrUFBpZVFKNGQ3TWJ4dUJORnZ0NDdJeTVqX1daTGdUMUdiTFlEZ2xIcFJ2Y3JxVXR6Y0HSAbwBQVVfeXFMT3JHRW5jT25ZOWpNd3dfdzdKYlhxOEJZV2ZxZk1USGJZQzB5cnlYUlpvejhaQTZjWTZieE9Ga01iVXZONzN3MzRlUVBTVUJQQ193V0ZUSElTSHNNU0lRYUpXRldlWjhjSXhfV0lOeE5VVk56YlI2aFBNXzQ1N0RaeTE1QVBDZENDRnhPNlo1ZlJhaFRDakE0S1pCRE83bHZIZUNtRDlrejAwUllrY3lMdktmRm92eE1Cb05KOEQ?oc=5",
+      "date": "Thu, 12 Feb 2026 08:00:00 GMT",
       "snippet": "",
       "side": "for",
-      "confidence": 2
+      "confidence": 4
     },
     {
       "title": "HYBE posts $468 mil. in Q1 revenue on BTS' comeback",
@@ -144,24 +144,6 @@
       "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaHc2YUhpWlg4WUY4TEJkMW04THd5dW5tU29zS09mZzZSWFlwYTZzS1M4dzgzQUlmNjJJcW12R0JIczdCMjZGeC1RUjM5WnpXR25mcTMyRFVtQ2JfbG9vNHo0NldodjZKYzhVQy1rODlOdWxBV3B4LV9HODhXNzYxZjFDU3QzX0lEcFMxa1VzdC1NX24wY0tadG91Q1dzVGZiZ2hjck5nOVZPYjJkRktpRlhhLXNiclBGQzJIcFp5cnhMSGxUejVpQlhR?oc=5",
       "date": "Thu, 01 Jan 2026 08:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 6
-    },
-    {
-      "title": "VCHA’s KG Responds to JYP USA’s Statement Amid Lawsuit Alleging Abuse and Mistreatment",
-      "source": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOWpFWm12X3Z5Z0VJUVFVSXhQMDBPQkwxX29NZ25PUDVDSjlyaEpzNFhuWTdCYzVsQW5DTkpkTVp5TkJzcWswOGFPeGZvOHJkYmxiV180clFyT0RXZE5pWmNzdTNlQjRxNUNuMEFzOFU1dWU1b2U2YjB6bmkzb2NzNA?oc=5",
-      "date": "Mon, 09 Dec 2024 08:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 6
-    },
-    {
-      "title": "Multiple Idols From Same Group Sue \"Problematic\" Company Amid Abuse Allegations",
-      "source": "Koreaboo",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObVgyZWR5b0dKMGxxZjVQSkEwUDZRUklHLTVIdFlIMWZGNnFkQ3JMQ2haVGVHMGc1OXhiZUNNQ2pyODA2cUZRSU5hUFNBRGdiNzJKcU5sNUxBSG5sNmd2N2RSLVZBbWg2X3lyYkEwbVhibEZraVo0QkhLZjhkNzhRbUg3S3k0TF96cjdfLWlFZDdmT2NOenc?oc=5",
-      "date": "Tue, 18 Nov 2025 08:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 6
@@ -203,19 +185,19 @@
       "confidence": 4
     },
     {
-      "title": "Kang Daniel & LM Entertainment Present Arguments In Court Over Contract Dispute; K-Pop Idol Thanked Fans For Support",
-      "source": "en.koreaportal.com",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRUZIaXp3SmFFUGZRN3lKSXdfekpaM3JoYmtlQjAySmhpQVpoUUxReE14S0xhWFowa3FTSmVlVWViWFBTc1NKaFYwQUcyR2NaOWxsb29kU2tFYnV2cmx2X2g2ZHNiQW1jQWVXUFV1anlxUXUtMEphaVU2RXB2TFhFUVBFd3VwNTBPQU54a0xUaW1mMW1zdUZaWkxiMjJrWDlJaF9tRE1GU1Nka2ZoaUlfMEtuN2VuNmhGa0ZvZXVQWUE0Ul9wQktUMUJvYlkyeDl3SXl4clprTWFKX1N4WGYxdW01a0s5YWtkR3R2TzUwZi14TUlGV2JhcE14WXE?oc=5",
-      "date": "Thu, 25 Apr 2019 07:00:00 GMT",
+      "title": "FIFTY FIFTY K-Pop Stars Sio, Saena, and Aran Face Contract Termination Amid Legal Dispute",
+      "source": "thesewardphoenixlog.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTWtyLW1yckVXLUtTV1hHNGM2VlVLUHR6Rzc4N09OVy1saHR5TWpMSTVnV1JPbllaN1BvUG9vdlBzOXF3QWpIdFhxaWFURHc4eE45VHlrQlV5ZEJnRzZrT1JCM0ZPMmIyZHk5ZTBRQ0gxdENxdFpoR1VDcV9pZGlVcG9FWkRGeENpdWxpNlh1djkzMFc0UTYwWG04bjB6MDR1Rko2QWx2MFgzcmlRdlBmeGE1ejRhaEk2MUpfVmlRQXFySXBfM3hB?oc=5",
+      "date": "Mon, 23 Oct 2023 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 4
     },
     {
-      "title": "FIFTY FIFTY K-Pop Stars Sio, Saena, and Aran Face Contract Termination Amid Legal Dispute",
-      "source": "thesewardphoenixlog.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTWtyLW1yckVXLUtTV1hHNGM2VlVLUHR6Rzc4N09OVy1saHR5TWpMSTVnV1JPbllaN1BvUG9vdlBzOXF3QWpIdFhxaWFURHc4eE45VHlrQlV5ZEJnRzZrT1JCM0ZPMmIyZHk5ZTBRQ0gxdENxdFpoR1VDcV9pZGlVcG9FWkRGeENpdWxpNlh1djkzMFc0UTYwWG04bjB6MDR1Rko2QWx2MFgzcmlRdlBmeGE1ejRhaEk2MUpfVmlRQXFySXBfM3hB?oc=5",
-      "date": "Mon, 23 Oct 2023 07:00:00 GMT",
+      "title": "Where Are They Now? The Idols Whose \"Internal Disputes\" Led To Disbandment And A Lawsuit",
+      "source": "Koreaboo",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbzc0MXlnNjFWSXFnNndTY1dudjF0V3ExVm1NTVdPZ3BaVnRhbEVFNnRLQVBFYWN0UUZrN3p6YXJWQS1uWXJxeExtSWdKbUZGNEUzQWZfM2JlMjg2RTEyT2Y0dDNhWC1FNHdjQ1REMDh2NEZrRzlqQlRzR2VlNXNiMFVZWHBiZ0RZNXlHZjl2Vmp2TWZEanAyRw?oc=5",
+      "date": "Sun, 08 Sep 2024 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 4
@@ -248,28 +230,46 @@
       "confidence": 2
     },
     {
-      "title": "ADOR Drops Danielle From NewJeans Ahead of Lawsuit",
-      "source": "Hypebae",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ3IxbzhzYkN5c3M2d2pfeDkxSTRrcTNDM2xTVldxbW5GclhobGZUSVdSU1ZKTHFyRGd0V2RoS3BmcFVmS3dIQ1c0VVNvVFNHVm5TbXJHeUNFWmlyb1VDUXFSLTF6S1V2LXVRT3Ayd0dqQWdGVnZUNnN1cVNzLVkxWHJpV2VIMzhzNm9UNkxnMHM?oc=5",
-      "date": "Fri, 02 Jan 2026 08:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 2
-    },
-    {
-      "title": "ADOR sues ex-NewJeans member Danielle for $31 million? Here's what we know",
-      "source": "WION",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWW5TLU1kUHF3UV9OUDdqWkNoRlBhVzNkWWNDZFU4eHdBdjV6eXNJNFh1S0ZrUjRfUlZ4OWJwTklvZHNrM3R1NmN1UGNVYTJhbzJTSTVUTlBoX0dhVW9OV2UtbWlVUV9QYS1HU1k1TjB0M1NlZ3A0QzdoejZKRXNlZm1BUFpRNHBoSFYwY2l3NWI0TzVyV0VHQnhWM1hOYkF3T0FqLVdHSlJnSnNRQXVqRElpQ1FBTUdpMFlGeWl5N2NZQdIBxwFBVV95cUxPR2MtSE9yM1VDN0VLZUdKODU1cmVMSnMyZTVjc3VMSnY3WWRfODdvTkJSZUZmOUJ5Y0NCUEdCSFZWYUJacU9mLXBjemE1MHc3X3JFSHVYbWlCbUlKRkl6ejgyQ28yUzhSbzlkdHB5WjRpd2xldkt5elZMbHpCZHhaVVBDUVNCdnFaU1dzRzBud0lTSWlvMjA5UDdCSklCYXNUQ1o0RnNkUmNjbFRjdEtSWC1YYUwydTRncmQ3ZEs2SW0ycV9HNno4?oc=5",
-      "date": "Thu, 01 Jan 2026 08:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 2
-    },
-    {
       "title": "K-Pop Singer Park Bom’s Agency Says Her $4.5 Quadrillion Lawsuit Was Never Filed",
       "source": "Complex",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0JuQUh3ckpuWHBlX1dRX2dUUTdZS3pmaXc3anVIcWtwYkktOS1yall3MGc2a1VCTDFfemx1Tmw3ODF2cTAxNWppdy1NLWxhT09FdzU2WHNnWEQ0U01nRndkclhacTl6SmJoRUhrSWFId1Vyc3QtQWpkYnlRN0dpY3hFMFFKNTY2LTUxOUUxNkNnbWRwcUM0b2VXdDJ3ektxNmhTVDZLRTM?oc=5",
       "date": "Thu, 23 Oct 2025 07:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "HYBE in Crisis— NewJeans Faced with Shocking Lawsuit Over \"How Sweet\"",
+      "source": "Dojeon Media",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGpjaVNKSEsxbXdvQVFzckI0RjdYcER5YVRHSlNXUjdTWUN4b0hhVzF3cnpJRjNDQy1fUENyZjE4RHpaS0xBU1ZGTDBUcnZSZmZDa1ZqSzM2eHE2RllxMkw4TGtkNngtcnNGYTZacFA2SFNpWGQzVEJjQ2hOVUcwQlh5RjdRdVZXak5PVUxQRWF4azAwUEJpM3d4ZnNYR2xC?oc=5",
+      "date": "Tue, 19 May 2026 07:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "Kpop star’s agency releases statement after she tries to sue YG Entertainment for trillions",
+      "source": "The Tab",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcGsyVE1DeUk4NlNhcXlQV0NSU2EzMm96Ung5V2JnT0FSbHU4TXl4emtWeXVIeFBGaWlQcGpKREdjb0VpTGd5VGN4a3hidDYweVd5UjY4NkkxMXhyTmhoRHM0SGtRai1QWTljRk5ieWE3YkpVSzhTclBDbnp2bHloV3VzYUxqVV9NTWhzZzctYWh0VmpMd3R3cWx2VTNCVG5VOEVMcDhJTVdvMDhwVHZzc0dSZFdiZnVIQWZvZg?oc=5",
+      "date": "Thu, 23 Oct 2025 07:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "Former NewJeans member Danielle opens Chinese social media as lawsuit looms",
+      "source": "The Korea Times",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeHJPcTJmTlhqeVhsTVdqbngwcGVTWEg1Qm1BY2t3RzIwMFl6NmNwZVJWN3g4b1NubjhUSDFuUjltUmc5RmZJZ0J0U2xYMmRLSUFYdnZYZDlaczBOUjZsUUlhbzdaWm91VW5CSExoUHBnTm1ERE9KLXZpRVJibmI1X2NUSGtRZDhHM2lfMngtVDl4VWpZSUV0T20wRVN0NFhIZmZXUEI1SU9LZlhjZ0lqSHRLOHI0V3FzODNiYjFVWHc3NGJKeV93MFNXWnFDZ9IB0wFBVV95cUxQekZxeEh2RmFUZkhOcjBwVjdiZFdWNVhJazJpa1pQeUxqa19RLXlINHdLRFVyTTl3NmdOdGdIdnpITGhBSmQ3OURzU045SmdwUXlWMko2YkZmSG0tUTBTWEJFU0xPeG91Qm9rbnhwcDhLc05jQkRDT2lzeDFkMnJaT2h1WVNsVllOaEZnYTNvbl9mRGVwLVZRNlY1R3gxN19UX2g4anBJY2ppLVM5MG5Pdk1EYjhuYUJaaW1mNzRocEZTREFSRzZiYVloTDBrNUNfSHRn?oc=5",
+      "date": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "A court ruled that the idol group New Jeans is still a member of the K-pop agency Adore.On the 30th",
+      "source": "매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUbVlra05mdHVUUnVkaU56U0Q5QW5qYjJGUHlxQWJ2X18wejNHcWlYb3BJQmhSYVpxMERuM3RseGxQSE1WWWQtRWUzYXVubzZMNXc?oc=5",
+      "date": "Thu, 30 Oct 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
