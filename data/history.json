@@ -81,10 +81,9 @@
   },
   {
     "date": "2026-06-20",
-    "tilt": 48,
+    "tilt": 52,
     "issues": {
-      "economy": 14,
-      "trainee": 1,
+      "economy": 15,
       "contracts": 15
     },
     "sources": 24
