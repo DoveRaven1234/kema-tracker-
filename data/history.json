@@ -146,5 +146,15 @@
       "contracts": 15
     },
     "sources": 24
+  },
+  {
+    "date": "2026-06-30",
+    "tilt": 50,
+    "issues": {
+      "economy": 14,
+      "trainee": 1,
+      "contracts": 15
+    },
+    "sources": 23
   }
 ]
