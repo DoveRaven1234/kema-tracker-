@@ -218,11 +218,11 @@
   },
   {
     "date": "2026-07-09",
-    "tilt": 55,
+    "tilt": 52,
     "issues": {
       "economy": 15,
       "contracts": 15
     },
-    "sources": 22
+    "sources": 23
   }
 ]
