@@ -313,12 +313,12 @@
   },
   {
     "date": "2026-07-20",
-    "tilt": 50,
+    "tilt": 51,
     "issues": {
       "economy": 14,
       "trainee": 1,
       "contracts": 15
     },
-    "sources": 24
+    "sources": 25
   }
 ]
