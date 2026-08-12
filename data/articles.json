@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11",
+  "generatedAt": "2026-08-12",
   "mode": "static",
   "for": [
     {
@@ -28,15 +28,6 @@
       "snippet": "",
       "side": "for",
       "confidence": 6
-    },
-    {
-      "title": "India next step in HYBE's global expansion: India CEO Damien Woochang Lee",
-      "source": "Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU2x3bGRyODNQUXB6SFdPdWFOTmVUVE5Ia2R2ODBabXpwa1UybHpPdlJMYTZudDVSNUFMQ2p3Y0RBaExxekFhV21xdzdLWUo5THNJbFVCZmdhQ3FHbEpoN2JNamtXMmI4SURlNnlqNXhsaEE5azVCb3FKZktVVExabzBTRjV5NGowMTliOGsyQXVHMVVmRmJRMWtHX1VqVUNUeGNOaXdyNm8ySEVSSGJndm9VR3Z6Zm5wSGVKQldzY0J5M1h5ZFVsMG5FTWdMNWxpZ01TX3dYQXpYeXBl0gHcAUFVX3lxTFBTbHdsZHI4M1BRcHpIV091YU5OZVRUTkhrZHY4MFptenBrVTJsek92UkxhNm50NVI1QUxDandjREFoTHF6QWFXbXF3N0tZSjlMc0lsVUJmZ2FDcUdsSmg3Yk1qa1cyYjhJRGU2eWo1eGxoQTlrNUJvcUpmS1VUTFpvMFNGNXk0ajAxOWI4azJBdUcxVWZGYlExa0dfVWpVQ1R4Y05pd3I2bzJIRVJIYmd2b1VHdnpmbnBIZUpCV3NjQnkzWHlkVWwwbkVNZ0w1bGlnTVNfd1hBelh5cGU?oc=5",
-      "date": "Sun, 09 Aug 2026 10:09:48 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 2
     },
     {
       "title": "K-pop classes being added to schools as music's success seen as growth industry in South Korea - ABC News",
@@ -103,25 +94,16 @@
     },
     {
       "title": "Hybe expands global push with India audition",
-      "source": "The Korea Herald",
+      "source": "koreaherald.com",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0eW5WVXpDblhycDlCSUc3aTZEWjl4alo4NFpTZFpmQnVXTU1NZ3g0WlRCU19xdHBwMEl0UzlhenM2OE5wUzlKWF84cC1zU0o1NGNNeGhsSQ?oc=5",
       "date": "Wed, 25 Mar 2026 07:00:00 GMT",
-      "snippet": "Hybe expands global push with India audition&nbsp;&nbsp;The Korea Herald",
+      "snippet": "Hybe expands global push with India audition&nbsp;&nbsp;koreaherald.com",
       "side": "for",
       "confidence": 3
     },
     {
-      "title": "2025 K-pop: between global success and internal strain",
-      "source": "Aju Press",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKbHFrNzVva3lrMERHYVk3MGU1bGRLYV9oVTZ3Zmp6Sm05VjcwYzRxUC11UGpkSDFEcExvb0RsNldqRW5uTlZiNW9vei1YNDh1eTFoYW9CQTZqaG_SAVdBVV95cUxPbE14VWFRckZydjRBWXEwYjRyaS1pZ1NqdEMxRmFiTlpnUkR3eFBMdzZkY2JXMkxILVp6RXNIQktlcGQ5V19IRl81Q3NfRExHQ0pKOXpUZkk?oc=5",
-      "date": "Tue, 30 Dec 2025 08:00:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 2
-    },
-    {
       "title": "K-pop’s BTS comeback tour rallies South Korea’s global ‘soft power’ drive",
-      "source": "Al Jazeera",
+      "source": "aljazeera.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY1oxeERhY1ZfZG1KRjhMal8yUWlPYm13bmpZSXl2THFENXduLS0tS3g2R0p2eURTc3pfMC1ZQ05oQXZXQnlfcXFmMWhxdFpCSTM5Z05hRnZCZWRrVUppZjVoR3N0cFdScm1UUHBzTFQ4ZkhVd0pjbWV4UFI0cVVUenl5U1EtWERvWEgtYVhiajZUNERqWWpUbGc1WlE1OHZ3emVtTl84NVR6YXpMVWlKWFpR0gG3AUFVX3lxTE9XTGlZVFhTMXluQmpUblJQVHR6bkZMVE15VnJ2ckFrNWdnNkhhSE5RdTlYZHk1azZWYTJ0MFpNcE96SUwxS1NNalNDbVI5bHdrSDhHbnNRc0RuWTZobjZjQ0xjSG81bVVHZEo2c2JtR25Pd2F6YUZDc09mTXRaczRaZVpGMkdMcnN4cFd3T1dRWFFiRmZXNlhVQ3VlVHJmeHNTQ2FZRnRpdFNnRWE5S1VMRzV0U2hnMA?oc=5",
       "date": "Sat, 02 May 2026 07:00:00 GMT",
       "snippet": "",
@@ -136,14 +118,32 @@
       "snippet": "",
       "side": "for",
       "confidence": 2
+    },
+    {
+      "title": "Korea to back smaller K-pop agencies’ global expansion",
+      "source": "koreaherald.com",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GLW1WdW5yZTc0OFMwNzUweWVYR0lMY1cxZDBETmNhbTJpRmZ3eUhZX1liUXBod1Q1YWczNmdTRTZ0OXhON21sQ0ozTVljQXV6Q1luWWxZMA?oc=5",
+      "date": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 2
+    },
+    {
+      "title": "Kakao Surpasses HYBE in K-pop Revenue After Acquiring SM | Outlook Respawn",
+      "source": "Outlook Respawn",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX3ZQUFlZQnlsLXRTNF9DbmNsQ25BVGxwZnR1WlZZakdMeWN0MUJHWFphNndMX0MzcWNqS3ZzUXRoYk85dEticlpoQ2x0X092cE1tNm91MVVnNTAycHhSYzZ2RURzQ3d1SW4yTFBOY3dQbkhONXdGQlFweHI3Ql9TcmtOdFhvc0p2WlhGeURidTkwT3IxTHJlLVVFam1nRmlnOUhPeVBEN3RGQVpTbEtZa19ycDQ3OFJXVU9F0gHIAUFVX3lxTE1kQVNFYTd1Tm9oSHkzUHZjWTB3akIzSnJkX3NGVGxOcTBLWWNzbmM0YmlpMkJOZXZzS0ktbzNnWVg4dzhLcmY1ZmxpYjlTd1hnVVM3S2VDeUlhNUdIWVEzWlhsQmFaZHpWSFlNMXZWdzM2ck4zbjRkaS15ZEFsU1VDUlh2R2ZBQkpONDY1M3B0T2pxbWQzS1NGT1ZObi10bmZfd1NmaExBcFd0T3BjQ1ZBZ3pZa3lzLVNmSTBkWnRURGNtTEJYVUZl?oc=5",
+      "date": "Thu, 30 Jul 2026 14:33:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 2
     }
   ],
   "against": [
     {
-      "title": "NewJeans member Danielle sued for millions after bitter feud with K-pop record label",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaHc2YUhpWlg4WUY4TEJkMW04THd5dW5tU29zS09mZzZSWFlwYTZzS1M4dzgzQUlmNjJJcW12R0JIczdCMjZGeC1RUjM5WnpXR25mcTMyRFVtQ2JfbG9vNHo0NldodjZKYzhVQy1rODlOdWxBV3B4LV9HODhXNzYxZjFDU3QzX0lEcFMxa1VzdC1NX24wY0tadG91Q1dzVGZiZ2hjck5nOVZPYjJkRktpRlhhLXNiclBGQzJIcFp5cnhMSGxUejVpQlhR?oc=5",
-      "date": "Thu, 01 Jan 2026 08:00:00 GMT",
+      "title": "NewJeans: K-pop band member sued for $30m after record label feud",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBub3ZQUlVDb1ByUVFPZ1hQOXZ4TER4d2s3RHE3X0ZlVW1Hemo5N2JYU0hCcXpkajhtd2ZSN1VpVHFUd25SRVZnY2RyZVhLYnFVYnQ4QlBfSHNFZw?oc=5",
+      "date": "Tue, 30 Dec 2025 08:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 6
@@ -185,19 +185,19 @@
       "confidence": 4
     },
     {
-      "title": "Australian K-pop idol Danielle dropped from NewJeans and sued by label",
-      "source": "abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTUZkWjVwWDNsem9ya0lzNFQ3OUFLTlF3YUM5VnBqMDUxQkxidUJwWnljQXJVYzd0X1BMYjFjM2VKekt2VnYyRnV5Nk1salkxV3Riell3cDh3Zkx1RF9pSlZzZnJxS21hUjJEMmVTSzVqamtqY3RueS1oRDBxeVJNdXhxRlFyLXlCMUppdnFIdlJGejlmOWlTWUIyWk1hWlZxcEhYX0pETG92TFBySE1KczRNSQ?oc=5",
-      "date": "Wed, 31 Dec 2025 08:00:00 GMT",
+      "title": "Why Is Danielle Leaving NewJeans? A Complete Timeline Of ADOR Dispute And $30 Million Lawsuit",
+      "source": "Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOakV0dk5NOTRsM1lCM2lCb1M2V1hyRFVZR3dxaGpUVVVxOE00b294Vm91TmNRSDN5OWw2bE9JOFRSMDV4cmtTVkhTQmlVNEFReFR3OG5vNGR1YWdLTlA3YjlMcTRiTXdKT1JYMGw4SUhNR2lhUmlpUEtoNTdZY210LWJFX0JJN05Rc1otTFl0TjQtY1U2TFV4OFJkQ0RTNVgxRXpIcVZsVE1xTndPWTRaOTNZNzI3UU84V1J2Tmg1VUw?oc=5",
+      "date": "Mon, 29 Dec 2025 08:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 4
     },
     {
-      "title": "Why Is Danielle Leaving NewJeans? A Complete Timeline Of ADOR Dispute And $30 Million Lawsuit",
-      "source": "forbes.com",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOakV0dk5NOTRsM1lCM2lCb1M2V1hyRFVZR3dxaGpUVVVxOE00b294Vm91TmNRSDN5OWw2bE9JOFRSMDV4cmtTVkhTQmlVNEFReFR3OG5vNGR1YWdLTlA3YjlMcTRiTXdKT1JYMGw4SUhNR2lhUmlpUEtoNTdZY210LWJFX0JJN05Rc1otTFl0TjQtY1U2TFV4OFJkQ0RTNVgxRXpIcVZsVE1xTndPWTRaOTNZNzI3UU84V1J2Tmg1VUw?oc=5",
-      "date": "Mon, 29 Dec 2025 08:00:00 GMT",
+      "title": "Australian K-pop idol Danielle dropped from NewJeans and sued by label",
+      "source": "abc.net.au",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTUZkWjVwWDNsem9ya0lzNFQ3OUFLTlF3YUM5VnBqMDUxQkxidUJwWnljQXJVYzd0X1BMYjFjM2VKekt2VnYyRnV5Nk1salkxV3Riell3cDh3Zkx1RF9pSlZzZnJxS21hUjJEMmVTSzVqamtqY3RueS1oRDBxeVJNdXhxRlFyLXlCMUppdnFIdlJGejlmOWlTWUIyWk1hWlZxcEhYX0pETG92TFBySE1KczRNSQ?oc=5",
+      "date": "Wed, 31 Dec 2025 08:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 4
@@ -248,6 +248,15 @@
       "confidence": 2
     },
     {
+      "title": "HYBE in Crisis— NewJeans Faced with Shocking Lawsuit Over \"How Sweet\"",
+      "source": "Dojeon Media",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGpjaVNKSEsxbXdvQVFzckI0RjdYcER5YVRHSlNXUjdTWUN4b0hhVzF3cnpJRjNDQy1fUENyZjE4RHpaS0xBU1ZGTDBUcnZSZmZDa1ZqSzM2eHE2RllxMkw4TGtkNngtcnNGYTZacFA2SFNpWGQzVEJjQ2hOVUcwQlh5RjdRdVZXak5PVUxQRWF4azAwUEJpM3d4ZnNYR2xC?oc=5",
+      "date": "Tue, 19 May 2026 07:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
       "title": "ADOR Drops Danielle From NewJeans Ahead of Lawsuit",
       "source": "Hypebae",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ3IxbzhzYkN5c3M2d2pfeDkxSTRrcTNDM2xTVldxbW5GclhobGZUSVdSU1ZKTHFyRGd0V2RoS3BmcFVmS3dIQ1c0VVNvVFNHVm5TbXJHeUNFWmlyb1VDUXFSLTF6S1V2LXVRT3Ayd0dqQWdGVnZUNnN1cVNzLVkxWHJpV2VIMzhzNm9UNkxnMHM?oc=5",
@@ -258,18 +267,9 @@
     },
     {
       "title": "Who is Park Bom? K-pop star behind viral $4.5 quadrillion lawsuit and Lee Min-ho 'husband' claims",
-      "source": "Gulf News",
+      "source": "gulfnews.com",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbklDUThLUUN5eGhtOU5uYldGV1hLaTRDN0ZGVzdJMzdmYnFUZWVsNklDbjRoVFJMbDdla1Y2RFdldXNRYTU1RGY1NmJKUnVjOUZNTDRhUHVtaE1OMVRieWNNc052R1NndmZ4Sk1vUlQ3OXluamQwWjRmMTFSblZPNGdoQkVLTVlXemE3N3ZuRm5VVXc2cWtHb3hXNWlwOW1yQjRjZ2pndlVONUxmT003OUxrV1VId2Z3aXgxMHZFc3hHX3pMZ0duYjA5Y0VYNTRvMnpFWFpn0gHmAUFVX3lxTE1NbjFCeDdHU2hHXzZRTklaRm11Tk1LMV9FYnd3RGM4eFNUQ2JUcUpjZGtla0UtWkZ0dWk2TmtLbDZRRVdkbTNNZVBIQjBzQjQxNlcxUlgyVHNMVklMM3VJTTRKYXdLMUp5aGFfQjNaMHMyMmJQWDY3U3RJVThpb3NHcVpZZHBCTS1pLTZ1dGh0SXFJMExNUDYtSjF4OFdNUG03YjhNRTNoYTgyLTFFVWJfOXpEVFlZQlNpLVB4U25CSF84WFc2WmhDRzQ3YW11NThHakhMeDVfMkhKNWljUWNQZkswQ3Nn?oc=5",
       "date": "Thu, 23 Oct 2025 07:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 2
-    },
-    {
-      "title": "ADOR sues ex-NewJeans member Danielle for $31 million? Here's what we know",
-      "source": "WION",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWW5TLU1kUHF3UV9OUDdqWkNoRlBhVzNkWWNDZFU4eHdBdjV6eXNJNFh1S0ZrUjRfUlZ4OWJwTklvZHNrM3R1NmN1UGNVYTJhbzJTSTVUTlBoX0dhVW9OV2UtbWlVUV9QYS1HU1k1TjB0M1NlZ3A0QzdoejZKRXNlZm1BUFpRNHBoSFYwY2l3NWI0TzVyV0VHQnhWM1hOYkF3T0FqLVdHSlJnSnNRQXVqRElpQ1FBTUdpMFlGeWl5N2NZQdIBxwFBVV95cUxPR2MtSE9yM1VDN0VLZUdKODU1cmVMSnMyZTVjc3VMSnY3WWRfODdvTkJSZUZmOUJ5Y0NCUEdCSFZWYUJacU9mLXBjemE1MHc3X3JFSHVYbWlCbUlKRkl6ejgyQ28yUzhSbzlkdHB5WjRpd2xldkt5elZMbHpCZHhaVVBDUVNCdnFaU1dzRzBud0lTSWlvMjA5UDdCSklCYXNUQ1o0RnNkUmNjbFRjdEtSWC1YYUwydTRncmQ3ZEs2SW0ycV9HNno4?oc=5",
-      "date": "Thu, 01 Jan 2026 08:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
