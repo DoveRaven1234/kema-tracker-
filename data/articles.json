@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25",
+  "generatedAt": "2026-08-27",
   "mode": "static",
   "for": [
     {
@@ -19,24 +19,6 @@
       "snippet": "",
       "side": "for",
       "confidence": 6
-    },
-    {
-      "title": "HYBE Advances Global Growth with India Push, HYBE America Investment",
-      "source": "TicketNews",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcXYtWW84aUtXWTJseFI4aTB3VjZ4clNqbks4SXJWQ2N2NnY3dDRWeHduWWV3REtWMDFWNmhNT0JfNk91V2NxY3RGaGNoNzlKZnJJWVZPVmtTd3lHUjhHWjJIa2U4N20wa2ZueWtSdW9feDVuTTNxS3JoMlU2WXVaMUluOUhmbVYzU2xoY1hvcng1STFhMnBnVTg5ajB2VXE3V2c2bkVn?oc=5",
-      "date": "Fri, 21 Aug 2026 20:33:38 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 4
-    },
-    {
-      "title": "'K-Pop Wave Expands Across the Economy'... KEA Proposes Three Key Tasks for Sustainable Growth",
-      "source": "아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82QTRGa0J6QWRTTVRucExBVU9LLWEzQ0QwZW8tbjlWZDkxdEg5TGhHQTRMUXJueHBIOFFhYTNiU2t4QmxwSXBENkFSVGp4Z1Z5a3NIRW5pYlRQSXJ3bzdpU0pzTGU?oc=5",
-      "date": "Sun, 23 Aug 2026 02:00:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 2
     },
     {
       "title": "K-pop powerhouse Hybe posts record quarterly revenue, nears US$1.37billion in cumulative sales",
@@ -136,6 +118,24 @@
       "snippet": "",
       "side": "for",
       "confidence": 2
+    },
+    {
+      "title": "K-pop Exports Hit $257M in H1 2026 as US Beat Japan as Top Market | Outlook Respawn",
+      "source": "Outlook Respawn",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLTFqVzQ0MEpJSm9EWFloWjl6OWcybWpZTUFtYVA3c0taZklOQjBnSXlRUXc2bEd5SmdPU09Ta245VjhaZWhrU294SlZpZXNtd3RQeXJIVFVLdUhCQ0U2Z3RHVG9EWTFGSlc3ZzN6eFktQVhNdHZ0QTVrWUF2Y0E5OEMzd0RXeTlKWTQ4cDB2VmFrTzQ3bUNfNWoyMzB5TTc1c2phZ1NiU0lBYk9VeVFfZnFBVlY5eWJJTW1QcVNXdVXSAc4BQVVfeXFMTjRBNTZxLUhrSWdvcEJPdDVmZF9ITzZ6ZEZGZVhmTVNfcGFOT3NIa0hkeURMdm5pRnU0S2tQRzVSOE9GQnJTdGlwWFhxT3lQbTNsdXV6QlcwZmZqaU9mMG00Y3E2MWtSOXBJbnFVdFRlU2RuSmJmZ01mS0huOFRDWGY4VXpKc3hzWE0zSFo3RjltMTNsbjZoSHRWU1pyM3NzV3NaeUtIaU11dzdaWU5aMmhhV2doSFBpTXpFdVNfbVZTcDl4TmRzWDN5U2F5a2c?oc=5",
+      "date": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 2
+    },
+    {
+      "title": "K-pop has the recipe for global success, just needs to cook up musicality, Western producer says",
+      "source": "Korea JoongAng Daily",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVS1FUlhqaUpGRWFHYk5KZkpNa08xWTQ3VGgyamJ4eHJ4YlNTZER6RnZSTm9xeUF3TUg0aXlFc2dHTTRnb0NLb1hTc2tWMjRqUmxCVV9XdkVGU21ndlFmUkItOEsxeklZZUdNclE5VENWandqc2F2cTZVdGd5NGJmYUpWRjVmTDlEXzN0QktYUVhHc0VDZXF0TkRVNXpOZkJ5MUkzd2dOVzlyY0hTTk1SVy1EaXdpNlBIMkRkSWdFa1cxWkNYNms1a2RBQWJZUExqcTBQWU5iVkF4RjNmSUxOVEM2ZFNOUQ?oc=5",
+      "date": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 2
     }
   ],
   "against": [
@@ -230,13 +230,13 @@
       "confidence": 4
     },
     {
-      "title": "From Yeonjun, Dino to Evan: HYBE artists take creative control in solo releases",
-      "source": "The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbnRjZUU3YnVyakY4bDhhdjVrOU1YUmRsRTAyUkZfRXo5RGkxWkZKV2tfbnBLTmFRVzhzT0IxRUxQVlVTYWg2X0ZmSDdwUnJRcEVuXzdENF9ldmp5a1AxVmlIbmtmYmx5aGE4R0tic3FTcTFnSHZKMGcwc1IwRUE5MVVOcVpFdjh4S2dzcWpvSmxMNkxkRjE0V01ZWWNobDYwaDliTXlDLUFiRTRBSmhoNVdhbW1BTGVyZDFrdnc2VmtuYzQ5MnhkcmlObnBOVHF4?oc=5",
-      "date": "Wed, 19 Aug 2026 05:28:02 GMT",
+      "title": "K-pop Industry Workers Reveal Abuse, Exploitation",
+      "source": "조선일보",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbmJQSFNndTBySFNUVjQ0dzRRbTMxY2pXaHJkWFhsQ3hYLXRWdDVzenVibGRENF9GZ3NKSWRGdm5Qcm9aa1hGV2xicTVJZnUzeWVMN0lHUC1hZ21kcVdFM1AzYWJUbVdPcGxyX3BjMzNLcVlGeHBXVkE1XzVFR0hpLXVTdE0wRmg3TUdSOWVB?oc=5",
+      "date": "Tue, 28 Oct 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
-      "confidence": 2
+      "confidence": 4
     },
     {
       "title": "'I TRULY CHERISH EVERY MOMENT OF THIS JOURNEY.' K-pop star TEN is leaving SM Entertainment after concluding his exclusive contract to \"take on new challenges, explore new possibilities, and discover new versions\" of himself. Link to full story in the",

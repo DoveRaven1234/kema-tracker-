@@ -635,5 +635,16 @@
       "creative": 1
     },
     "sources": 24
+  },
+  {
+    "date": "2026-08-27",
+    "tilt": 46,
+    "issues": {
+      "economy": 13,
+      "trainee": 1,
+      "creative": 1,
+      "contracts": 15
+    },
+    "sources": 23
   }
 ]
