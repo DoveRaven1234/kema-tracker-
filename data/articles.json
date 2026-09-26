@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-09-26",
   "mode": "static",
   "for": [
     {
       "title": "HYBE Advances Global Growth with India Push, HYBE America Investment",
-      "source": "ticketnews.com",
+      "source": "TicketNews",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcXYtWW84aUtXWTJseFI4aTB3VjZ4clNqbks4SXJWQ2N2NnY3dDRWeHduWWV3REtWMDFWNmhNT0JfNk91V2NxY3RGaGNoNzlKZnJJWVZPVmtTd3lHUjhHWjJIa2U4N20wa2ZueWtSdW9feDVuTTNxS3JoMlU2WXVaMUluOUhmbVYzU2xoY1hvcng1STFhMnBnVTg5ajB2VXE3V2c2bkVn?oc=5",
-      "date": "Wed, 23 Sep 2026 20:31:39 GMT",
+      "date": "Fri, 25 Sep 2026 14:40:52 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 4
@@ -52,15 +52,6 @@
       "source": "EIN News",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOY181ekZwVm01UGpFZVBkTXVqSmEtbUlrSG5sUWwzWkJHbnBpT0NJR0VVOUtzN25CSTVwVXIwODREaGlqR3R4YmdJdHhZQk1rd1BXOEdoMXM3d1RCdUVDX2NCSmlKaWJaVkpDSFpKTFRXbmZKTi1jWnJJLTlieWRkWTVKUHJpX2FPY1VBZDFHRlpHSzVLdHpFaU5nVTI5cGFNaVZtZy0wMjF6RTFBOVh5N3ZmSVRBaXZ3a005R1FYQVRGckhiQU1hdDdKSl9xNEt3aDVCWmd6bkxoUjJtbzJGR2tCblo3Q1F3RFQ2MXZ3?oc=5",
       "date": "Fri, 26 Jun 2026 07:00:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 4
-    },
-    {
-      "title": "K-Pop Looks to China to Supercharge Growth After Strong Earnings",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONEFiSk4wblFNM2t6U281RUpfWTdYc1RqcnJqN0gzbnhhVFJ5c1I5NjVWdEhMSWpwcHFoTjBaM2tGZll1cVJYSkZzZ1VOVnlxR3pJVFUtenBRRjI4dDFUbUhfNDc3bjFpN1NlbFNaWXBuSGc3eEMwbTJHdnY0d0ZSd2p0QU5ldG9ianVKa25zclRmMUw2eExYcWxnWjJsak9mNnJjRQ?oc=5",
-      "date": "Sat, 09 Aug 2025 07:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 4
@@ -120,19 +111,28 @@
       "confidence": 3
     },
     {
-      "title": "Disney Korea unveils \"ICONS UNLEASED\" campaign, partnering with K-pop labels on global expansion",
-      "source": "marketech apac",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLXpjQ2U4Y1cxd2VLRHdjb3dxTEpIRHdTRGVIcXlYVGxWMmFWTHVyLUhnS1VmQjM2Y3c0a3Z1bnZGb0djVmlDeXZBQTc4bk1CSVQ5RGRHMHlmVG5VX2pmMmhielhCSmcyakxzTHliSnhmb1A0alpub1RaeTBPUG5uYkpxM3RpUUFvemZpbU01YW9GbUpKamMxbnBORlJJSlBYdm9aSjh2QlV6UHM5dC1sMTUyUVZOMUVJMVg2MDRB?oc=5",
-      "date": "Fri, 18 Sep 2026 12:04:34 GMT",
+      "title": "2025 K-pop: between global success and internal strain",
+      "source": "Aju Press",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKbHFrNzVva3lrMERHYVk3MGU1bGRLYV9oVTZ3Zmp6Sm05VjcwYzRxUC11UGpkSDFEcExvb0RsNldqRW5uTlZiNW9vei1YNDh1eTFoYW9CQTZqaG_SAVdBVV95cUxPbE14VWFRckZydjRBWXEwYjRyaS1pZ1NqdEMxRmFiTlpnUkR3eFBMdzZkY2JXMkxILVp6RXNIQktlcGQ5V19IRl81Q3NfRExHQ0pKOXpUZkk?oc=5",
+      "date": "Tue, 30 Dec 2025 08:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 2
     },
     {
-      "title": "2025 K-pop: between global success and internal strain",
-      "source": "Aju Press",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKbHFrNzVva3lrMERHYVk3MGU1bGRLYV9oVTZ3Zmp6Sm05VjcwYzRxUC11UGpkSDFEcExvb0RsNldqRW5uTlZiNW9vei1YNDh1eTFoYW9CQTZqaG_SAVdBVV95cUxPbE14VWFRckZydjRBWXEwYjRyaS1pZ1NqdEMxRmFiTlpnUkR3eFBMdzZkY2JXMkxILVp6RXNIQktlcGQ5V19IRl81Q3NfRExHQ0pKOXpUZkk?oc=5",
-      "date": "Tue, 30 Dec 2025 08:00:00 GMT",
+      "title": "K-pop’s BTS comeback tour rallies South Korea’s global ‘soft power’ drive",
+      "source": "Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY1oxeERhY1ZfZG1KRjhMal8yUWlPYm13bmpZSXl2THFENXduLS0tS3g2R0p2eURTc3pfMC1ZQ05oQXZXQnlfcXFmMWhxdFpCSTM5Z05hRnZCZWRrVUppZjVoR3N0cFdScm1UUHBzTFQ4ZkhVd0pjbWV4UFI0cVVUenl5U1EtWERvWEgtYVhiajZUNERqWWpUbGc1WlE1OHZ3emVtTl84NVR6YXpMVWlKWFpR0gG3AUFVX3lxTE9XTGlZVFhTMXluQmpUblJQVHR6bkZMVE15VnJ2ckFrNWdnNkhhSE5RdTlYZHk1azZWYTJ0MFpNcE96SUwxS1NNalNDbVI5bHdrSDhHbnNRc0RuWTZobjZjQ0xjSG81bVVHZEo2c2JtR25Pd2F6YUZDc09mTXRaczRaZVpGMkdMcnN4cFd3T1dRWFFiRmZXNlhVQ3VlVHJmeHNTQ2FZRnRpdFNnRWE5S1VMRzV0U2hnMA?oc=5",
+      "date": "Sat, 02 May 2026 07:00:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 2
+    },
+    {
+      "title": "Stray Kids' 'MEGAVERSE' hits new milestone; K-Pop's rising stars score 100 Million views - WATCH",
+      "source": "The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOR2g2LU1RcHY0RjZtcElpaF9CblZmZlByb2hPUDZRUC1sX2VkM1FWeWdHUlF1S1QySXFaS0s3blVKQ0ZtRVlMSjc2dFI1S0VYekFoRkxIU3hWSFpUc3hYSkJVdjQ4VmxCbkpLa3AzcVNoYmFFYzFtQ19LT1g1WnExT2FGTnROZ2IzTk1vclZqWFZJT294ck1TRUVPMzRmc0ZpaWxFbi1ZY0VxMnJxeVlkZDc4eGdCaHU0cWFGYmp2SXI0VGNTSzdLNXhBQlJhWXU1ellBY2Q4TjN5aDRCclFIM2dDZGlja1hvQTJSVlcxNUhrSDNDM1FqX21TN0ZuUDI3TzhDTGM1cmU0YkV1eV9n0gGUAkFVX3lxTE43Yi1zenhlOG0zcmltdXc3VmdLMWdDaTczSnItRWFUcUgyS2ZRWHJZaTIzRDJBVFhRM19fbU1rUGRTaWg3NENwY2piRFRodURxc1FRSVZkTTJmaVRXZEJ6Ukh4dkU2MVZBWS1LcUdqRklWSGVwVWFTdldxOWVmWDNlRUlScjNoOGk1SUNjaFZnWWRWdTJfTmIzdnRBUGQzejdCa1QzSXJua3A0RC1mZ0xWNVJyRnJXbXRoQ0VYVXgta3c5YktZY0tNU0tGOUNTdWpMb1NRQ2lTemlHX0tQRzNqcFdwOHgxSEkyeHl4T00xM0FnSmcyZjNVV0tzVUdTNGgzb3pIV01uckhISzFnWktjQTJrUQ?oc=5",
+      "date": "Tue, 15 Jul 2025 07:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 2
@@ -141,7 +141,7 @@
   "against": [
     {
       "title": "NewJeans member Danielle sued for millions after bitter feud with K-pop record label",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaHc2YUhpWlg4WUY4TEJkMW04THd5dW5tU29zS09mZzZSWFlwYTZzS1M4dzgzQUlmNjJJcW12R0JIczdCMjZGeC1RUjM5WnpXR25mcTMyRFVtQ2JfbG9vNHo0NldodjZKYzhVQy1rODlOdWxBV3B4LV9HODhXNzYxZjFDU3QzX0lEcFMxa1VzdC1NX24wY0tadG91Q1dzVGZiZ2hjck5nOVZPYjJkRktpRlhhLXNiclBGQzJIcFp5cnhMSGxUejVpQlhR?oc=5",
       "date": "Thu, 01 Jan 2026 08:00:00 GMT",
       "snippet": "",
@@ -168,7 +168,7 @@
     },
     {
       "title": "K-pop star Ju Haknyeon, former The Boyz member, wins court battle as agency's $5.4 million lawsuit is dismissed | Hindustan Times",
-      "source": "Hindustan Times",
+      "source": "hindustantimes.com",
       "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNaGdrWmV4MldqejFVcl9WQjBMRlZucXhhQ0ZQWDgtWVJoRWgzT0NVeC13a2E3SkdXX1FfLWFhYWVkTkVDbXJLZzBWVUVIcDRtUkctWFZtTHR6a0FQZzBUWWJiVG1GUjVaUndaTWxkSHF0Mk5IdHhBczBuMC1sRjhHc0xHSDNpUGluZ29wUkFiVVZBOVBZa2lMa2d6SjRQWWY5NEdlZHBvNVg4UXpQSlFyRzdFbVg1NHZEZ2hGYS1JUWFtOTl0S0RJTEtHTHhhQ0FFbEhxd0FDbDhhNGlQdXMzNVM1Ul9zVnBBajJjNEFBNVRiS1hKVkFITjhEN2Q3YnBuNXlIRmZmNDDSAY4CQVVfeXFMTzNlaTlIenhiMWVsUml3MlB4cU1Ta0ZocDFiNjUzcE5VZnFpbTZETm9Mc3VqVTJRM05ZSVlwblZmQWRBbFAtaXhCZjZ4ckRocTN0dHphZG1pcUsxcDdGTWR0czQzZ2hBakpTRU1kcDM0Mm9MZk5Zd01Qd0VPbGZteG93LXRFT3dhWkEwRXpyN1gwTElxTFgyeHJWbnVKN3lCX3hqT0RkTlZUVFAwQXVjUkxPeGZ6bXZhMVE5WWxJdmZETFliY2M0TFpNR29wbmEzM0tYaHp2VVZqMzlNbGx1c0ZIbmdVNHp1cnBUOUlidS1EM0t5RkJLSXV0SXBuVDUxV2FGdWdoQlN4eVQwSGln?oc=5",
       "date": "Fri, 24 Jul 2026 07:00:00 GMT",
       "snippet": "",
@@ -240,7 +240,7 @@
     },
     {
       "title": "HYBE in Crisis— NewJeans Faced with Shocking Lawsuit Over \"How Sweet\"",
-      "source": "dojeonmedia.com",
+      "source": "Dojeon Media",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGpjaVNKSEsxbXdvQVFzckI0RjdYcER5YVRHSlNXUjdTWUN4b0hhVzF3cnpJRjNDQy1fUENyZjE4RHpaS0xBU1ZGTDBUcnZSZmZDa1ZqSzM2eHE2RllxMkw4TGtkNngtcnNGYTZacFA2SFNpWGQzVEJjQ2hOVUcwQlh5RjdRdVZXak5PVUxQRWF4azAwUEJpM3d4ZnNYR2xC?oc=5",
       "date": "Tue, 19 May 2026 07:00:00 GMT",
       "snippet": "",
