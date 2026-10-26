@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-06-15",
-    "tilt": 54,
-    "issues": {
-      "economy": 14,
-      "trainee": 1,
-      "contracts": 15
-    },
-    "sources": 23
-  },
-  {
     "date": "2026-06-16",
     "tilt": 47,
     "issues": {
@@ -1204,5 +1194,15 @@
       "contracts": 15
     },
     "sources": 25
+  },
+  {
+    "date": "2026-10-26",
+    "tilt": 47,
+    "issues": {
+      "economy": 14,
+      "health": 1,
+      "contracts": 15
+    },
+    "sources": 24
   }
 ]
