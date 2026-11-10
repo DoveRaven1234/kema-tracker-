@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09",
+  "generatedAt": "2026-11-10",
   "mode": "static",
   "for": [
     {
@@ -10,15 +10,6 @@
       "snippet": "",
       "side": "for",
       "confidence": 6
-    },
-    {
-      "title": "HYBE posts record Q3 revenue on BTS tour and global strategy",
-      "source": "Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHNuRldNV01qOHV5Wm5ScWtFMkYxV2pnWFNqZURxRmRyWTVpOHhRMkRER1BPc3lBbE85R0pSUlZBRVUyRkRzYjY3VWlTbW9XMVYyTEkyNzl6TUhXNlhwRjVIdzFfc0FEUDVQaEs5ZFNEREdaVHVfcllIaVdEbFdncVVncEgwRXZZ0gGcAUFVX3lxTFBNRkdYakdvbWtKV09tMFJfMHlUbV9zZkc1VWU3eWdKVDZ1b2NnVF9DVHJXN2UzR1ZuV1diYTF5ZkR6bGN5akRKdGFLWTFmYTE5Q0d5SW85d3R0NGxPVkFwM1ZBMmhaN2hmbGZnWU5adGwzWUd4a2VOZ1lNei1EOThzYXRPLVlxTmZYMWZvdk5sb1FOSVhtREp2REJyOA?oc=5",
-      "date": "Tue, 03 Nov 2026 07:11:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 4
     },
     {
       "title": "K-pop classes being added to schools as music's success seen as growth industry in South Korea - ABC News",
@@ -104,7 +95,7 @@
     {
       "title": "Can Southeast Asian artists replicate K-pop’s global success with SEA-pop?",
       "source": "South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeW14aTZWZ2FJWC0wSzdMMTE2V0g3b2hpbmEwMFRPd1lteVllRldtXzVOSGNibGlXeVF1blc1akc3N2FYU3pfMDVybVJOaUZ3YnFQb2Qzb1J4c254T3JhUzRPRlR4VWh4WWZ3SzRJd2FJWFVXeFBxbVczZ19qd0JFalhadUlQdGdyMHJuVTdsRXFValNnZ2JsRk5YbngzSGViU2N4a2FVX0xFNUtpM3FQWGpaRmYybHFSbTlJdXNyNkhUZ1dGcEdIRWZ6TWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeW14aTZWZ2FJWC0wSzdMMTE2V0g3b2hpbmEwMFRPd1lteVllRldtXzVOSGNibGlXeVF1blc1akc3N2FYU3pfMDVybVJOaUZ3YnFQb2Qzb1J4c254T3JhUzRPRlR4VWh4WWZ3SzRJd2FJWFVXeFBxbVczZ19qd0JFalhadUlQdGdyMHJuVTdsRXFValNnZ2JsRk5YbngzSGViU2N4a2FVX0xFNUtpM3FQWGpaRmYybHFSbTlJdXNyNkhUZ1dGcEdIRWZ6TWTSAcwBQVVfeXFMUFJBZUkxdU1ZV2ZOb21MeWx0NDBTSWtnTW9zX1NPbU1oTVlpY2ZGeXItSkxFN05KaENfVk1uSXQxamVDeFNfQmU3aGZuYVBfYzZmVmF0OTFCTzlSVmlrVzlkZFNEb2dTWG1VZWMxaWJfTTkzdEo1UlhZUC1rQVlTOWVoNUJCMjhTUHp2SDF0ZGNQQ3dXU3NpRDdJbWZGZWJRXzdKWEltZXR6WThPWmgySTd3aWlvNzA0X0ItbHRIWGtReVVucGhya2lpa0lk?oc=5",
       "date": "Sun, 30 Aug 2026 07:00:00 GMT",
       "snippet": "",
       "side": "for",
@@ -115,6 +106,15 @@
       "source": "Morgan Stanley",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NbWFqc0R0U2pkajgwc2xHYW5obUprNUItdUVWYlVsOERFekdPb3RrbS1kR0JxbXg1Q1o3ZE90b1FLV01ibU13bVFBN1QwZWtDMnVYX3dqd0NGVXFCdjhVbGZKbHZVdFloRTlDTW40UQ?oc=5",
       "date": "Mon, 15 Apr 2024 07:00:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 2
+    },
+    {
+      "title": "Who Owns K-POP? Book Explores Industry's Rights and Revenue",
+      "source": "조선일보",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaW1Nc1JlcW1KX0hlaGlKTjJCM1FxSTVhaUpRS09rQTFSTjlwTlYtUGhVSERiWmpqd2dDNGxzbkVfZmpQdHNwUENsVGRtbFZCcTR5OUdvUmViRFY0dlpnLWJxam5DNUJiZER2cDRDbktRWl9ySUxxUTIzYzB0eS1yTEdMaWU0Y3RNczhTMTB3?oc=5",
+      "date": "Mon, 05 Oct 2026 07:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 2
@@ -139,15 +139,6 @@
     }
   ],
   "against": [
-    {
-      "title": "NewJeans' contract details revealed, HYBE responds to questions over artist rights and restrictions",
-      "source": "WION",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVnpUblRlMzJfNUUtYjZNblhHdk1rZWpVb2E1a3dsRGNobnZIZktTQVVTUVlZTzE3UWtDQW5kMTNxYTNTUDRReng4aWU5a1V2eTlIZnpOd0ItU3dYVV81NXhXV3FGZ2FaYmxuckdIdldVbEV0em5ucGsyT0JYak1YSC0tVktTQkpPaWFydER2eUFuX3R3NG9QN0Uwb25WSFJxeTZ2dGFjQ0lSRmViWi1BcV9NWTBuaUMtSlRfUEFVUUV4Q2xya252MEZzNm55NHFKbjR1WS1tejkzcTVIUDNxb1ZpTdIB6AFBVV95cUxQTE1NdEtuT0pIN1Y5NllMVnEzaHpZalNhV1pkTlZaanc2alBHREJOeWdqWk1qQWlhbGtSc1pNWVdLYnAwYk1aN1hIYVE4bUVkTHMwMmZJb0RZSEVjdjZiaG44WUh6cDN0MGxsekV4ZDc3cTlMWVVtMjlReFFKRG1ZcUxhZ083MmNvZ3QxRVJkVlU1SnpRczF3T2lZNEhpdmE3RTBiNWkwSVRvMmpQUW5RZVBUd1UxbFktcEVFbW1FUlk2dmV4TUx1Y0VCWm56M052eG1BUTdDWk9FMEtLT0VndWZqTnNIcms1?oc=5",
-      "date": "Fri, 06 Nov 2026 07:16:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 4
-    },
     {
       "title": "NewJeans member Danielle sued for millions after bitter feud with K-pop record label",
       "source": "The Guardian",
@@ -176,6 +167,15 @@
       "confidence": 6
     },
     {
+      "title": "NewJeans' contract details revealed, HYBE responds to questions over artist rights and restrictions",
+      "source": "WION",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVnpUblRlMzJfNUUtYjZNblhHdk1rZWpVb2E1a3dsRGNobnZIZktTQVVTUVlZTzE3UWtDQW5kMTNxYTNTUDRReng4aWU5a1V2eTlIZnpOd0ItU3dYVV81NXhXV3FGZ2FaYmxuckdIdldVbEV0em5ucGsyT0JYak1YSC0tVktTQkpPaWFydER2eUFuX3R3NG9QN0Uwb25WSFJxeTZ2dGFjQ0lSRmViWi1BcV9NWTBuaUMtSlRfUEFVUUV4Q2xya252MEZzNm55NHFKbjR1WS1tejkzcTVIUDNxb1ZpTdIB6AFBVV95cUxQTE1NdEtuT0pIN1Y5NllMVnEzaHpZalNhV1pkTlZaanc2alBHREJOeWdqWk1qQWlhbGtSc1pNWVdLYnAwYk1aN1hIYVE4bUVkTHMwMmZJb0RZSEVjdjZiaG44WUh6cDN0MGxsekV4ZDc3cTlMWVVtMjlReFFKRG1ZcUxhZ083MmNvZ3QxRVJkVlU1SnpRczF3T2lZNEhpdmE3RTBiNWkwSVRvMmpQUW5RZVBUd1UxbFktcEVFbW1FUlk2dmV4TUx1Y0VCWm56M052eG1BUTdDWk9FMEtLT0VndWZqTnNIcms1?oc=5",
+      "date": "Fri, 06 Nov 2026 07:16:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 4
+    },
+    {
       "title": "K-pop star Ju Haknyeon, former The Boyz member, wins court battle as agency's $5.4 million lawsuit is dismissed | Hindustan Times",
       "source": "Hindustan Times",
       "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNaGdrWmV4MldqejFVcl9WQjBMRlZucXhhQ0ZQWDgtWVJoRWgzT0NVeC13a2E3SkdXX1FfLWFhYWVkTkVDbXJLZzBWVUVIcDRtUkctWFZtTHR6a0FQZzBUWWJiVG1GUjVaUndaTWxkSHF0Mk5IdHhBczBuMC1sRjhHc0xHSDNpUGluZ29wUkFiVVZBOVBZa2lMa2d6SjRQWWY5NEdlZHBvNVg4UXpQSlFyRzdFbVg1NHZEZ2hGYS1JUWFtOTl0S0RJTEtHTHhhQ0FFbEhxd0FDbDhhNGlQdXMzNVM1Ul9zVnBBajJjNEFBNVRiS1hKVkFITjhEN2Q3YnBuNXlIRmZmNDDSAY4CQVVfeXFMTzNlaTlIenhiMWVsUml3MlB4cU1Ta0ZocDFiNjUzcE5VZnFpbTZETm9Mc3VqVTJRM05ZSVlwblZmQWRBbFAtaXhCZjZ4ckRocTN0dHphZG1pcUsxcDdGTWR0czQzZ2hBakpTRU1kcDM0Mm9MZk5Zd01Qd0VPbGZteG93LXRFT3dhWkEwRXpyN1gwTElxTFgyeHJWbnVKN3lCX3hqT0RkTlZUVFAwQXVjUkxPeGZ6bXZhMVE5WWxJdmZETFliY2M0TFpNR29wbmEzM0tYaHp2VVZqMzlNbGx1c0ZIbmdVNHp1cnBUOUlidS1EM0t5RkJLSXV0SXBuVDUxV2FGdWdoQlN4eVQwSGln?oc=5",
@@ -198,15 +198,6 @@
       "source": "Facebook",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNlVrWnJkR0cxVXhmSnFKa285NU4yN20xNFpzTnA0YmJMWFdNeFl1YnM4M0ZUYzVTX1VyMzdNbkhvN0pVbl9pZUo0OUZ2dkVHeW82OG8zWHJFUVlnbk1vWjhBVk1zcnAxbkVQLUhZNWs1YXc5VUVxVHhWQm9ib2lndGRHSDNfQ0stNjQyNnJQMlNfTTM1Yk9faFd1bE9qUk91XzV2R1ZrazkyWXZ0VlF6UXpodndHbTRicXh2cUF0cml4QmRVNlpwYXA5Mlp2akZMbWtBdy0zTQ?oc=5",
       "date": "Tue, 07 Apr 2026 07:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 2
-    },
-    {
-      "title": "K-Pop Group Asks U.S. Court for Help Finding YouTube User in Defamation Case (Published 2024)",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPalkxdWZGUHZyMG1GNGxFSFVDaG1YcXhiOTFxQk5ZalluWk5NTGE5eXhvZGE5amNtOXFUMExUdmNvM1lENzVlTjNDMXlFWHAyOU44aVZxX0hiYjBzdmRhY0NzWjZ4TF9mWU9Lb0pGWEotSHZSV1BfWlVoTGd2dHRmQi1ESnJvR2cxUTNsU2VnbmI4a3E4akE?oc=5",
-      "date": "Wed, 10 Apr 2024 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
@@ -248,10 +239,10 @@
       "confidence": 2
     },
     {
-      "title": "NewJeans controversy deepens as Danielle disappears from fan platform after $32 mil. lawsuit",
-      "source": "The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOV0pjTlZzVXAwOXNWREJfZGJCUFpxMk1LdkpvVDNIbWgzZjhIbEFyZ1Q1VFNGREw0dE92QW5iRVZoRGxDQmdrUTVIT1NGYkZnbGNCbkRFTHpXNHZTaVhvRGs3bklmM18xSElRdnN1TktPcXRxalVsenVmY3JjRmNFblZqeDhBblE3SHRzZFcydDI3ZTlnQjR1X2N5ajVHMXpBazFoemFGT2c5SG1uaGxPTDh4aDhwSzl2c2dPTU8wNGpiS3RvR051OVBfODE0c1RCcHYtdnc0Z2FmSmQyQzNJRjR30gHnAUFVX3lxTFBVOXVCVllCQlFzRmxtVjRFYTIxN3lKZzNxT1ZsalBnMDEwWXFaN2hnbjhLN1NzOFBoa0RzSUJtckxJWXAyWGJNam53a2wtMFFvQlRRUHdQQWZ3NkhIT1FIcnRueDZWbUpIdk51bVlPUzR4SVBUNGV0VW4tbExPcTRRa3VRRTNRUTJqYnk2WHpjWDBLbk1IWTkweko0eFBFcVZmVmdfRkRCZ19qNTBCd2JHbXctSWxTdFpvWDQxTnZScXctRTVNMmJ6SDNCc1dnMURSWkJZaU5jb0FRcjg1bVc2LTdXVDItaw?oc=5",
-      "date": "Wed, 04 Mar 2026 08:00:00 GMT",
+      "title": "K-Pop Group Asks U.S. Court for Help Finding YouTube User in Defamation Case (Published 2024)",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPalkxdWZGUHZyMG1GNGxFSFVDaG1YcXhiOTFxQk5ZalluWk5NTGE5eXhvZGE5amNtOXFUMExUdmNvM1lENzVlTjNDMXlFWHAyOU44aVZxX0hiYjBzdmRhY0NzWjZ4TF9mWU9Lb0pGWEotSHZSV1BfWlVoTGd2dHRmQi1ESnJvR2cxUTNsU2VnbmI4a3E4akE?oc=5",
+      "date": "Wed, 10 Apr 2024 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
@@ -270,6 +261,15 @@
       "source": "The Korea Times",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdzVBdVgtbjB4a0o5SGJ4RzYweGhuUjBfNUxHaC02Uk1abGNvbUwtUmFIZGRpcE9NRi1PX0I4WjU4bFlmREktUlAxcVpuS01TREw2OG5lSHQ5X2JWRDI1UUNCeVlyWHFtT0FjendORmhmVS0yeE43ODVFU0E3dTNtUWVlWVZMLWRkSWhhQzZjVzhzNlI4Skk5UEdMTnk1ZVFuTDZHekFjVlVXaGtfVU9vVkhLX0NFd9IBuwFBVV95cUxQb1U3NXZ3aGdmb0ZfbFFvSVY3RGx4ek5OQUVKNWVUZE5BRFdEQjBQZzYtQWVnTjFNQnBBR1BIRmY3M25OMEU3YmZQTGp6eVRrVnJRQ0ZQUThaeVB1SkpMT2hNYUFBTmJGc1JQNkpucElLS1FlNHBwYWN5QWl0X0ltMU82cGRIYWNmYjVRSklsVFNNOFN5TVZpdkFjZm5PV3dfRzhFOXVNRWhJeXV5SFh2YklaZWFOMl94bGhZ?oc=5",
       "date": "Mon, 09 Dec 2024 08:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "Australian rapper threatens lawsuit against K-pop's ALLDAY PROJECT, trashes genre",
+      "source": "The Korea Times",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcmVTTjkySnNiSURKbzhKakFPLVZicDBFQjJXYUNrcjNzVzVxZVY4MTBqSHpiSVlCU0xVVlM1enJOSjFERm90bVliN2Q1b293emFlYlBVWExHdzIyMXlxdXFrOW1aaEVFLVdrb01JRFpWTnlwaEw0TnFFNmw0TnZWNVN2MF80TTVmblBfRWszS3NDbExaYzQ4VTU2a0lGdVpTZGk3UFlrVmNadnVucUxYbkNyT0tCZ25YcXhLVndTVkN4eG5XUGxmR2lFSjg5RGNxazZtY2RoQzBnbzBUTlhESURnQlF0WVpybmhJ0gHwAUFVX3lxTE5kZWg4ekVjYXE0T0xBVl82bV9HSDFSUnFza0poVUZPZjF6aXlWaXhJVmpnY25UZzk3eW5fSy02NUxHVjBqODAtM0JtWWlYX3hYMG8ycnpMYU5HcWhpTzl0TWxCbVpGUzFJVjdkTGhHWnpWTmNpNngxdGdUYlVBekxKQ1c3RFc3Y19HM0JYV3hBTnY3REN3RXAtVkR2b3lCSWJMX1lYbmFBdG81RThhWVpXZVhMb3Q5Rm5oajIyc3VRMGVMX20wZ0ZZaW9LendndVhQVVVDaHh1VWE2b05LdzViWk9JWlBudW9UQW5vQ1hKag?oc=5",
+      "date": "Sun, 29 Jun 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
