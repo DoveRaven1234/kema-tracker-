@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12",
+  "generatedAt": "2026-11-13",
   "mode": "static",
   "for": [
     {
@@ -10,6 +10,15 @@
       "snippet": "",
       "side": "for",
       "confidence": 6
+    },
+    {
+      "title": "JYP Entertainment posts stronger-than-expected results, driven by Stray Kids’ Western market success",
+      "source": "Music Mundial",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0ZzdF9zZEFSU1poR3hNXy1FcmlNd21GSUtYQWdOTzRBVWFMc0hOQlBkRG5YUDBuMHU0YjRDY1UyU1hzc1VXdVhXSTBsWlNseWhoVGFxU01ILWFmeElGQkgzejFmTUZBM0daaVR6bmh0T0hNdmVHQXI4TlJ4TVJ0S2lyQmNaNTlNNmRjdTQzVVdzaENVaXFvcFZ0Zm5XNkRIcF8zeTBZUmdXOWNuSElDVXcxT19yVmxXZUJMWU9vdHdFZjd6clE?oc=5",
+      "date": "Thu, 12 Nov 2026 08:39:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 2
     },
     {
       "title": "K-pop classes being added to schools as music's success seen as growth industry in South Korea - ABC News",
@@ -84,24 +93,6 @@
       "confidence": 2
     },
     {
-      "title": "Who Owns K-POP? Book Explores Industry's Rights and Revenue",
-      "source": "조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaW1Nc1JlcW1KX0hlaGlKTjJCM1FxSTVhaUpRS09rQTFSTjlwTlYtUGhVSERiWmpqd2dDNGxzbkVfZmpQdHNwUENsVGRtbFZCcTR5OUdvUmViRFY0dlpnLWJxam5DNUJiZER2cDRDbktRWl9ySUxxUTIzYzB0eS1yTEdMaWU0Y3RNczhTMTB3?oc=5",
-      "date": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 2
-    },
-    {
-      "title": "Korean Film, K-pop Industries Face Domestic Crises Despite Global Success",
-      "source": "조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWlRQQ1BjMWM4UEFBR0RZcVZZdnd3cXBlY3pEWG9nV0hLYS1peGVSVWVTTEpKRXhjbjdiNkJEVm93REdsRnlMdTE1NVV0NDBlbFp1ajdybW1OQ3R2eFkwbkd1dWR4QmxSNDJudmJiMldLcXoxZnloSkFlTXhuNl94eXNRclc?oc=5",
-      "date": "Mon, 29 Dec 2025 08:00:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 2
-    },
-    {
       "title": "K-Pop Is Turning Itself Less Korean in Hunt for Global Revenue",
       "source": "Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZHBXcWdHbmJjcTdIVVEtelBfa3NCLVJzR2huTzg4cFNPTmJNbUtZeEJ4VFE4QlZVQllFOWNSd2lmY09JNkRObFZBVGlMWFBTcDEyaDhTcExKZTJQcFk1cnNfUENRU0ZXYXAyd1FQeGFRVU81WV9aZ3FQc0hMUk1ucGVR?oc=5",
@@ -120,10 +111,10 @@
       "confidence": 2
     },
     {
-      "title": "Why teen K-pop trainee numbers are dropping despite greater investment",
-      "source": "The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDd6UjFqd1RadVYyMGtfR0tLNTlHcUQtcTJlUk9QSEhldktadG1rQ2pWcHBGYV9uYmt0XzE0dGpwUVFFMUxGR3JXQl85T1FuVUpEQVJqbHp1RDJ5MjY3MjBheldXNlBFWThSdEVxVnRpTU0waFV1blZvWFRQYm9aeG5la21MLXczRW83ZkphbGIxWURDbGRuVlE2eUhIVWttU004QTZ5b0h5WTBvWkxEVmUtR0xTbkZpbWltLUp4aDZzbGRXUDlR0gHMAUFVX3lxTFAtUzFabjc4Z2k5OWF5QThORlVkSUU0Y1ZBRjNkSVNqaE83Vm5SZXZON1dCMElEYm50U2Yzcjc0R2VHTzE1c3I3RUhobUVoOHFaeGtKREZxNlZZdmFVb2Z5UlFEcjhFenpvdExtMjNGUm9JYjhFalFaSFZfcnY1N1poekd3TXlOc1BRc0E4YnVfSTdFcmJEN01rUTN5Wmx6ZGpJN05rejZSWmZ6aFh2UlRWNHdhRzc2Q1FmZmtMX05IaUVzRXJCbGt5SEdiNQ?oc=5",
-      "date": "Mon, 01 Dec 2025 08:00:00 GMT",
+      "title": "Why 2015 Was A Transformative Year For K-Pop: BTS’ Growth, TWICE’s Debut & More Important Moments",
+      "source": "Grammy",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkZZYTdMUTEtVThXNmEzZzVCd0JIUUJGak9hbTRmOWZuWF9TSUhNNkZEcjZ4Mm5GTlplRU01cEJzVUpzdUVaUnVHa2FEMlVkeDI3eTVXWGQ0OGZBN1ZaX29kakFROHcxWTVyTEVwaU9wLVBQREJlMV8yN0pSUU9rcWpLck9BQ0FGTUQ4Zk1MMEFRaENtOW1PTQ?oc=5",
+      "date": "Mon, 06 Jan 2025 08:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 2
@@ -136,18 +127,18 @@
       "snippet": "",
       "side": "for",
       "confidence": 2
+    },
+    {
+      "title": "SM Entertainment’s revenue slips 8.8% YoY in Q3 even as K-pop concerts boom",
+      "source": "Music Business Worldwide",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaG50b2xFX3JleUFXRmdBaXBVWmEzeEV5NWZNZ19XenpGa2xzWEUybnZsaHBHX20wWDR2eWpwSklKWkZXR1V5ZU9YYjNQaGFJME9ZVk1kekpoMjRJZmNUaGpteHF4clpPLW1EaHI1RG1KVkk4Wl9HNjB6YWs2WVVHOFpEcmM1SWtzNUg0RDNKckwtUlZIWDJlQ0VMSExLc2RvVTA1cnRieTM5UmdtMFBtMHhPbw?oc=5",
+      "date": "Mon, 11 Nov 2024 08:00:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 2
     }
   ],
   "against": [
-    {
-      "title": "NewJeans: K-pop band member sued for $30m after record label feud",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBub3ZQUlVDb1ByUVFPZ1hQOXZ4TER4d2s3RHE3X0ZlVW1Hemo5N2JYU0hCcXpkajhtd2ZSN1VpVHFUd25SRVZnY2RyZVhLYnFVYnQ4QlBfSHNFZw?oc=5",
-      "date": "Tue, 30 Dec 2025 08:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 6
-    },
     {
       "title": "NewJeans member Danielle sued for millions after bitter feud with K-pop record label",
       "source": "The Guardian",
@@ -162,6 +153,15 @@
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YNW1mUjBWWGR2b3ppR0xiRnZBRVNxM2I4bk9saUdSNERURHh4b1QxanNGRmJWN0otWjFrZkUwRlQzS0RreGNGaXp0SUJoVHIwY0tfZHNvZk5TUQ?oc=5",
       "date": "Fri, 19 Sep 2025 07:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 6
+    },
+    {
+      "title": "NewJeans: K-pop band member sued for $30m after record label feud",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBub3ZQUlVDb1ByUVFPZ1hQOXZ4TER4d2s3RHE3X0ZlVW1Hemo5N2JYU0hCcXpkajhtd2ZSN1VpVHFUd25SRVZnY2RyZVhLYnFVYnQ4QlBfSHNFZw?oc=5",
+      "date": "Tue, 30 Dec 2025 08:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 6
@@ -194,19 +194,19 @@
       "confidence": 2
     },
     {
-      "title": "THANK YOU FOR LETTING US BE PART OF YOUR YOUTH, MARK LEE 💚 Days after announcing his departure from NCT and label SM Entertainment, this Wednesday, April 8, K-pop star Mark Lee's exclusive contract will end.",
-      "source": "Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNlVrWnJkR0cxVXhmSnFKa285NU4yN20xNFpzTnA0YmJMWFdNeFl1YnM4M0ZUYzVTX1VyMzdNbkhvN0pVbl9pZUo0OUZ2dkVHeW82OG8zWHJFUVlnbk1vWjhBVk1zcnAxbkVQLUhZNWs1YXc5VUVxVHhWQm9ib2lndGRHSDNfQ0stNjQyNnJQMlNfTTM1Yk9faFd1bE9qUk91XzV2R1ZrazkyWXZ0VlF6UXpodndHbTRicXh2cUF0cml4QmRVNlpwYXA5Mlp2akZMbWtBdy0zTQ?oc=5",
-      "date": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "title": "South Korea passed a bill to protect underage K-pop idols from exploitation",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa0F5Tk9ZbGphYlJjY3lSU1Vxd3dsSnhTTXMybTdWZ0FKQV9vc3J4Z01pczY1eFZraE9YT3NRR05vWWs5VkNOWXRzaFBiNElmU1hJYjRWWDBLcDQxbURST0VnTGpBMThrb3pueWFWMWxOVFF4d2lISmc2NDFoMkVyVFBKOWFNdw?oc=5",
+      "date": "Mon, 24 Apr 2023 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
     },
     {
-      "title": "South Korea passed a bill to protect underage K-pop idols from exploitation",
-      "source": "Quartz",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa0F5Tk9ZbGphYlJjY3lSU1Vxd3dsSnhTTXMybTdWZ0FKQV9vc3J4Z01pczY1eFZraE9YT3NRR05vWWs5VkNOWXRzaFBiNElmU1hJYjRWWDBLcDQxbURST0VnTGpBMThrb3pueWFWMWxOVFF4d2lISmc2NDFoMkVyVFBKOWFNdw?oc=5",
-      "date": "Mon, 24 Apr 2023 07:00:00 GMT",
+      "title": "Kesha Shows Support for NewJeans After K-Pop Group Loses ADOR Lawsuit: ‘My Heart Is With You’",
+      "source": "Billboard",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMG5MbVY4dWJ1SWFzUFEzZjB5MjQ4VW5uLVBxOGE4bUtjU0lLR3d5MVFBLWhRRGpSVkwyaWxmWFExcHNNY0FqTXdDekwwRW1Od3NqUkZldGh3NDZ5VnVqNHhXRi1meDVpSkc2bTNUTGVyN0xZTU51QVJ5dW9kZzlJSzZzT0VIOUFuVEtiajFDM1pYTmRqak0tM3BnN3hoV0VMWnRWTg?oc=5",
+      "date": "Thu, 30 Oct 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
@@ -230,10 +230,10 @@
       "confidence": 2
     },
     {
-      "title": "K-Pop Singer Park Bom’s Agency Says Her $4.5 Quadrillion Lawsuit Was Never Filed",
-      "source": "Complex",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0JuQUh3ckpuWHBlX1dRX2dUUTdZS3pmaXc3anVIcWtwYkktOS1yall3MGc2a1VCTDFfemx1Tmw3ODF2cTAxNWppdy1NLWxhT09FdzU2WHNnWEQ0U01nRndkclhacTl6SmJoRUhrSWFId1Vyc3QtQWpkYnlRN0dpY3hFMFFKNTY2LTUxOUUxNkNnbWRwcUM0b2VXdDJ3ektxNmhTVDZLRTM?oc=5",
-      "date": "Thu, 23 Oct 2025 07:00:00 GMT",
+      "title": "THANK YOU FOR LETTING US BE PART OF YOUR YOUTH, MARK LEE 💚 Days after announcing his departure from NCT and label SM Entertainment, this Wednesday, April 8, K-pop star Mark Lee's exclusive contract will end.",
+      "source": "Facebook",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNlVrWnJkR0cxVXhmSnFKa285NU4yN20xNFpzTnA0YmJMWFdNeFl1YnM4M0ZUYzVTX1VyMzdNbkhvN0pVbl9pZUo0OUZ2dkVHeW82OG8zWHJFUVlnbk1vWjhBVk1zcnAxbkVQLUhZNWs1YXc5VUVxVHhWQm9ib2lndGRHSDNfQ0stNjQyNnJQMlNfTTM1Yk9faFd1bE9qUk91XzV2R1ZrazkyWXZ0VlF6UXpodndHbTRicXh2cUF0cml4QmRVNlpwYXA5Mlp2akZMbWtBdy0zTQ?oc=5",
+      "date": "Tue, 07 Apr 2026 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
@@ -257,19 +257,19 @@
       "confidence": 2
     },
     {
-      "title": "K-pop management agencies under fire for allegedly mistreating idols",
-      "source": "The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdzVBdVgtbjB4a0o5SGJ4RzYweGhuUjBfNUxHaC02Uk1abGNvbUwtUmFIZGRpcE9NRi1PX0I4WjU4bFlmREktUlAxcVpuS01TREw2OG5lSHQ5X2JWRDI1UUNCeVlyWHFtT0FjendORmhmVS0yeE43ODVFU0E3dTNtUWVlWVZMLWRkSWhhQzZjVzhzNlI4Skk5UEdMTnk1ZVFuTDZHekFjVlVXaGtfVU9vVkhLX0NFd9IBuwFBVV95cUxQb1U3NXZ3aGdmb0ZfbFFvSVY3RGx4ek5OQUVKNWVUZE5BRFdEQjBQZzYtQWVnTjFNQnBBR1BIRmY3M25OMEU3YmZQTGp6eVRrVnJRQ0ZQUThaeVB1SkpMT2hNYUFBTmJGc1JQNkpucElLS1FlNHBwYWN5QWl0X0ltMU82cGRIYWNmYjVRSklsVFNNOFN5TVZpdkFjZm5PV3dfRzhFOXVNRWhJeXV5SFh2YklaZWFOMl94bGhZ?oc=5",
-      "date": "Mon, 09 Dec 2024 08:00:00 GMT",
+      "title": "K-Pop Singer Park Bom’s Agency Says Her $4.5 Quadrillion Lawsuit Was Never Filed",
+      "source": "Complex",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0JuQUh3ckpuWHBlX1dRX2dUUTdZS3pmaXc3anVIcWtwYkktOS1yall3MGc2a1VCTDFfemx1Tmw3ODF2cTAxNWppdy1NLWxhT09FdzU2WHNnWEQ0U01nRndkclhacTl6SmJoRUhrSWFId1Vyc3QtQWpkYnlRN0dpY3hFMFFKNTY2LTUxOUUxNkNnbWRwcUM0b2VXdDJ3ektxNmhTVDZLRTM?oc=5",
+      "date": "Thu, 23 Oct 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
     },
     {
-      "title": "Australian rapper threatens lawsuit against K-pop's ALLDAY PROJECT, trashes genre",
-      "source": "The Korea Times",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcmVTTjkySnNiSURKbzhKakFPLVZicDBFQjJXYUNrcjNzVzVxZVY4MTBqSHpiSVlCU0xVVlM1enJOSjFERm90bVliN2Q1b293emFlYlBVWExHdzIyMXlxdXFrOW1aaEVFLVdrb01JRFpWTnlwaEw0TnFFNmw0TnZWNVN2MF80TTVmblBfRWszS3NDbExaYzQ4VTU2a0lGdVpTZGk3UFlrVmNadnVucUxYbkNyT0tCZ25YcXhLVndTVkN4eG5XUGxmR2lFSjg5RGNxazZtY2RoQzBnbzBUTlhESURnQlF0WVpybmhJ0gHwAUFVX3lxTE5kZWg4ekVjYXE0T0xBVl82bV9HSDFSUnFza0poVUZPZjF6aXlWaXhJVmpnY25UZzk3eW5fSy02NUxHVjBqODAtM0JtWWlYX3hYMG8ycnpMYU5HcWhpTzl0TWxCbVpGUzFJVjdkTGhHWnpWTmNpNngxdGdUYlVBekxKQ1c3RFc3Y19HM0JYV3hBTnY3REN3RXAtVkR2b3lCSWJMX1lYbmFBdG81RThhWVpXZVhMb3Q5Rm5oajIyc3VRMGVMX20wZ0ZZaW9LendndVhQVVVDaHh1VWE2b05LdzViWk9JWlBudW9UQW5vQ1hKag?oc=5",
-      "date": "Sun, 29 Jun 2025 07:00:00 GMT",
+      "title": "Former K-pop idol Park Yu-chun ordered to pay management company $456k for breach of contract",
+      "source": "The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQamJWcGhXZjd5OTNtbHdtd0ZmaEUxLUlySUw5bEJMYUVEZnlRaDJhT3lFNEhrc2MyaXgycEF5b1VlMldoYnFWNmpWb1NUUGY5aXVaUHQta0xOOVdjdzdPRzN0b3RsY3FOSUxFMmNyRE1YbjNRRTR0RVlWNVlPNlVnX3E4RnlLdGh4bHJjcjd2eUx5S2t5b1JTV2JpYU9lejFYYW00d2tMX3JhakJJRkM2SmJoMDczRTZ5MW1ncTBtUDFMay1CRlJr?oc=5",
+      "date": "Mon, 29 Sep 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
