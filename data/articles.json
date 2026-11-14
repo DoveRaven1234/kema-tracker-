@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "mode": "static",
   "for": [
     {
@@ -34,6 +34,15 @@
       "source": "Music Business Worldwide",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaHRHSnlXaFBwbUsxT1hCUjRGcEN0YUkyNkVYRVVnTHdKVEExU3FxeUo3S3dyRmdBR0F0VXVKRkZLXzB5V3JHbVhfcTRzUmtjUEtGRHZ6MHVvcnBscVhmRlZtUktTVTdFMHZKRDFTZkxjcV96TzQ2V3NFaExVMmhJclNYT05sYzhzT2Q5d0NNX01xVnpjV2NOUjdodVR5VVJ1WHkxUUF1d3QzdU9NZEVZ?oc=5",
       "date": "Thu, 29 May 2025 07:00:00 GMT",
+      "snippet": "",
+      "side": "for",
+      "confidence": 4
+    },
+    {
+      "title": "HYBE CEO Outlines Global K-Pop Expansion Strategy",
+      "source": "조선일보",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdlo1SUI2R2J2UTR4TWRHajFjS1VaMC1rVzJqUDJ2UkRTbTc0c1RWdFFKeVpuVjU4OG1TLWhKdS16VVBlZzNDUUZ2NzJrS2FYRVhpQzdMNmdrR3Yzd3F3Z2VFWHA0NTVuME1JTzBjVE1FQUhHMzVhMXRETUVxR3dhbzlZVENUdTFmLXJxLXNR?oc=5",
+      "date": "Tue, 28 Oct 2025 07:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 4
@@ -111,15 +120,6 @@
       "confidence": 2
     },
     {
-      "title": "Why 2015 Was A Transformative Year For K-Pop: BTS’ Growth, TWICE’s Debut & More Important Moments",
-      "source": "Grammy",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkZZYTdMUTEtVThXNmEzZzVCd0JIUUJGak9hbTRmOWZuWF9TSUhNNkZEcjZ4Mm5GTlplRU01cEJzVUpzdUVaUnVHa2FEMlVkeDI3eTVXWGQ0OGZBN1ZaX29kakFROHcxWTVyTEVwaU9wLVBQREJlMV8yN0pSUU9rcWpLck9BQ0FGTUQ4Zk1MMEFRaENtOW1PTQ?oc=5",
-      "date": "Mon, 06 Jan 2025 08:00:00 GMT",
-      "snippet": "",
-      "side": "for",
-      "confidence": 2
-    },
-    {
       "title": "In K-Pop’s Quest for Global Growth, Korean Fans Feel Cast Aside (Published 2023)",
       "source": "The New York Times",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZHM3Wkg5RWZNN1Uxbkc4OTVmbDQ2bHcxMTB4bFhqTzZ3QnVSR09PSjY3NW9FLVMwOTN3dGZ6ajJoRy01ekE5OGdySGhWd3ZtZU1iTjcwQS0yYW1rb2hvd1lBZE0yZ2tvYzNPUjBiOUx4SXdzMXluWC1kSWhISTBKdVZvVmtxYXU2?oc=5",
@@ -129,10 +129,10 @@
       "confidence": 2
     },
     {
-      "title": "SM Entertainment’s revenue slips 8.8% YoY in Q3 even as K-pop concerts boom",
-      "source": "Music Business Worldwide",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaG50b2xFX3JleUFXRmdBaXBVWmEzeEV5NWZNZ19XenpGa2xzWEUybnZsaHBHX20wWDR2eWpwSklKWkZXR1V5ZU9YYjNQaGFJME9ZVk1kekpoMjRJZmNUaGpteHF4clpPLW1EaHI1RG1KVkk4Wl9HNjB6YWs2WVVHOFpEcmM1SWtzNUg0RDNKckwtUlZIWDJlQ0VMSExLc2RvVTA1cnRieTM5UmdtMFBtMHhPbw?oc=5",
-      "date": "Mon, 11 Nov 2024 08:00:00 GMT",
+      "title": "Why 2015 Was A Transformative Year For K-Pop: BTS’ Growth, TWICE’s Debut & More Important Moments",
+      "source": "Grammy",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkZZYTdMUTEtVThXNmEzZzVCd0JIUUJGak9hbTRmOWZuWF9TSUhNNkZEcjZ4Mm5GTlplRU01cEJzVUpzdUVaUnVHa2FEMlVkeDI3eTVXWGQ0OGZBN1ZaX29kakFROHcxWTVyTEVwaU9wLVBQREJlMV8yN0pSUU9rcWpLck9BQ0FGTUQ4Zk1MMEFRaENtOW1PTQ?oc=5",
+      "date": "Mon, 06 Jan 2025 08:00:00 GMT",
       "snippet": "",
       "side": "for",
       "confidence": 2
@@ -167,15 +167,6 @@
       "confidence": 6
     },
     {
-      "title": "NewJeans' contract details revealed, HYBE responds to questions over artist rights and restrictions",
-      "source": "WION",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVnpUblRlMzJfNUUtYjZNblhHdk1rZWpVb2E1a3dsRGNobnZIZktTQVVTUVlZTzE3UWtDQW5kMTNxYTNTUDRReng4aWU5a1V2eTlIZnpOd0ItU3dYVV81NXhXV3FGZ2FaYmxuckdIdldVbEV0em5ucGsyT0JYak1YSC0tVktTQkpPaWFydER2eUFuX3R3NG9QN0Uwb25WSFJxeTZ2dGFjQ0lSRmViWi1BcV9NWTBuaUMtSlRfUEFVUUV4Q2xya252MEZzNm55NHFKbjR1WS1tejkzcTVIUDNxb1ZpTdIB6AFBVV95cUxQTE1NdEtuT0pIN1Y5NllMVnEzaHpZalNhV1pkTlZaanc2alBHREJOeWdqWk1qQWlhbGtSc1pNWVdLYnAwYk1aN1hIYVE4bUVkTHMwMmZJb0RZSEVjdjZiaG44WUh6cDN0MGxsekV4ZDc3cTlMWVVtMjlReFFKRG1ZcUxhZ083MmNvZ3QxRVJkVlU1SnpRczF3T2lZNEhpdmE3RTBiNWkwSVRvMmpQUW5RZVBUd1UxbFktcEVFbW1FUlk2dmV4TUx1Y0VCWm56M052eG1BUTdDWk9FMEtLT0VndWZqTnNIcms1?oc=5",
-      "date": "Fri, 06 Nov 2026 07:16:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 4
-    },
-    {
       "title": "K-pop star Ju Haknyeon, former The Boyz member, wins court battle as agency's $5.4 million lawsuit is dismissed | Hindustan Times",
       "source": "Hindustan Times",
       "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNaGdrWmV4MldqejFVcl9WQjBMRlZucXhhQ0ZQWDgtWVJoRWgzT0NVeC13a2E3SkdXX1FfLWFhYWVkTkVDbXJLZzBWVUVIcDRtUkctWFZtTHR6a0FQZzBUWWJiVG1GUjVaUndaTWxkSHF0Mk5IdHhBczBuMC1sRjhHc0xHSDNpUGluZ29wUkFiVVZBOVBZa2lMa2d6SjRQWWY5NEdlZHBvNVg4UXpQSlFyRzdFbVg1NHZEZ2hGYS1JUWFtOTl0S0RJTEtHTHhhQ0FFbEhxd0FDbDhhNGlQdXMzNVM1Ul9zVnBBajJjNEFBNVRiS1hKVkFITjhEN2Q3YnBuNXlIRmZmNDDSAY4CQVVfeXFMTzNlaTlIenhiMWVsUml3MlB4cU1Ta0ZocDFiNjUzcE5VZnFpbTZETm9Mc3VqVTJRM05ZSVlwblZmQWRBbFAtaXhCZjZ4ckRocTN0dHphZG1pcUsxcDdGTWR0czQzZ2hBakpTRU1kcDM0Mm9MZk5Zd01Qd0VPbGZteG93LXRFT3dhWkEwRXpyN1gwTElxTFgyeHJWbnVKN3lCX3hqT0RkTlZUVFAwQXVjUkxPeGZ6bXZhMVE5WWxJdmZETFliY2M0TFpNR29wbmEzM0tYaHp2VVZqMzlNbGx1c0ZIbmdVNHp1cnBUOUlidS1EM0t5RkJLSXV0SXBuVDUxV2FGdWdoQlN4eVQwSGln?oc=5",
@@ -194,10 +185,10 @@
       "confidence": 2
     },
     {
-      "title": "South Korea passed a bill to protect underage K-pop idols from exploitation",
-      "source": "Quartz",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa0F5Tk9ZbGphYlJjY3lSU1Vxd3dsSnhTTXMybTdWZ0FKQV9vc3J4Z01pczY1eFZraE9YT3NRR05vWWs5VkNOWXRzaFBiNElmU1hJYjRWWDBLcDQxbURST0VnTGpBMThrb3pueWFWMWxOVFF4d2lISmc2NDFoMkVyVFBKOWFNdw?oc=5",
-      "date": "Mon, 24 Apr 2023 07:00:00 GMT",
+      "title": "THANK YOU FOR LETTING US BE PART OF YOUR YOUTH, MARK LEE 💚 Days after announcing his departure from NCT and label SM Entertainment, this Wednesday, April 8, K-pop star Mark Lee's exclusive contract will end.",
+      "source": "Facebook",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNlVrWnJkR0cxVXhmSnFKa285NU4yN20xNFpzTnA0YmJMWFdNeFl1YnM4M0ZUYzVTX1VyMzdNbkhvN0pVbl9pZUo0OUZ2dkVHeW82OG8zWHJFUVlnbk1vWjhBVk1zcnAxbkVQLUhZNWs1YXc5VUVxVHhWQm9ib2lndGRHSDNfQ0stNjQyNnJQMlNfTTM1Yk9faFd1bE9qUk91XzV2R1ZrazkyWXZ0VlF6UXpodndHbTRicXh2cUF0cml4QmRVNlpwYXA5Mlp2akZMbWtBdy0zTQ?oc=5",
+      "date": "Tue, 07 Apr 2026 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
@@ -207,6 +198,24 @@
       "source": "Billboard",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMG5MbVY4dWJ1SWFzUFEzZjB5MjQ4VW5uLVBxOGE4bUtjU0lLR3d5MVFBLWhRRGpSVkwyaWxmWFExcHNNY0FqTXdDekwwRW1Od3NqUkZldGh3NDZ5VnVqNHhXRi1meDVpSkc2bTNUTGVyN0xZTU51QVJ5dW9kZzlJSzZzT0VIOUFuVEtiajFDM1pYTmRqak0tM3BnN3hoV0VMWnRWTg?oc=5",
       "date": "Thu, 30 Oct 2025 07:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "K-Pop Group Asks U.S. Court for Help Finding YouTube User in Defamation Case (Published 2024)",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPalkxdWZGUHZyMG1GNGxFSFVDaG1YcXhiOTFxQk5ZalluWk5NTGE5eXhvZGE5amNtOXFUMExUdmNvM1lENzVlTjNDMXlFWHAyOU44aVZxX0hiYjBzdmRhY0NzWjZ4TF9mWU9Lb0pGWEotSHZSV1BfWlVoTGd2dHRmQi1ESnJvR2cxUTNsU2VnbmI4a3E4akE?oc=5",
+      "date": "Wed, 10 Apr 2024 07:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "South Korea passed a bill to protect underage K-pop idols from exploitation",
+      "source": "Quartz",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa0F5Tk9ZbGphYlJjY3lSU1Vxd3dsSnhTTXMybTdWZ0FKQV9vc3J4Z01pczY1eFZraE9YT3NRR05vWWs5VkNOWXRzaFBiNElmU1hJYjRWWDBLcDQxbURST0VnTGpBMThrb3pueWFWMWxOVFF4d2lISmc2NDFoMkVyVFBKOWFNdw?oc=5",
+      "date": "Mon, 24 Apr 2023 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
@@ -230,27 +239,9 @@
       "confidence": 2
     },
     {
-      "title": "THANK YOU FOR LETTING US BE PART OF YOUR YOUTH, MARK LEE 💚 Days after announcing his departure from NCT and label SM Entertainment, this Wednesday, April 8, K-pop star Mark Lee's exclusive contract will end.",
+      "title": "K-pop star Ju Haknyeon denies claims made by his agency ONE HUNDRED after the latter announced the termination of his contract and departure from THE BOYZ. Full story: https://www.rappler.com/entertainment/korean-popular-music/the-boyz-ju-haknyeo",
       "source": "Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNlVrWnJkR0cxVXhmSnFKa285NU4yN20xNFpzTnA0YmJMWFdNeFl1YnM4M0ZUYzVTX1VyMzdNbkhvN0pVbl9pZUo0OUZ2dkVHeW82OG8zWHJFUVlnbk1vWjhBVk1zcnAxbkVQLUhZNWs1YXc5VUVxVHhWQm9ib2lndGRHSDNfQ0stNjQyNnJQMlNfTTM1Yk9faFd1bE9qUk91XzV2R1ZrazkyWXZ0VlF6UXpodndHbTRicXh2cUF0cml4QmRVNlpwYXA5Mlp2akZMbWtBdy0zTQ?oc=5",
-      "date": "Tue, 07 Apr 2026 07:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 2
-    },
-    {
-      "title": "K-Pop Group Asks U.S. Court for Help Finding YouTube User in Defamation Case (Published 2024)",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPalkxdWZGUHZyMG1GNGxFSFVDaG1YcXhiOTFxQk5ZalluWk5NTGE5eXhvZGE5amNtOXFUMExUdmNvM1lENzVlTjNDMXlFWHAyOU44aVZxX0hiYjBzdmRhY0NzWjZ4TF9mWU9Lb0pGWEotSHZSV1BfWlVoTGd2dHRmQi1ESnJvR2cxUTNsU2VnbmI4a3E4akE?oc=5",
-      "date": "Wed, 10 Apr 2024 07:00:00 GMT",
-      "snippet": "",
-      "side": "against",
-      "confidence": 2
-    },
-    {
-      "title": "Rappler. . K-pop star Ju Haknyeon denies claims made by his agency ONE HUNDRED after the latter announced the termination of his contract and departure from THE BOYZ. Full story: https://www.rappler.com/entertainment/korean-popular-music/the-boyz-ju",
-      "source": "Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRHJoRUtsQWdYSVc4TEotVzdMS1diVG5YMUM3SHF0UmdMMHlXMkpnZWxYZjVrR3UzX0I1V3ZGSWJkdXVlMktRR3B1cm9oWHlRSl9razMtd0daZlhPbk9qT2QwWEpsenFubTBQTV9YcTQ5R003ZEZ6Zk5WRXRJX0VrOEEtclgybUpjUk9aSHNsYnVIcUVjREhPLXRBamx1OGE5WktWTUtveXdtT3BCdmR1YVdFNnkya2lBRzM0cC11V29JT1A1X3FTWkhZdnVoeHo0bXF6QmFidVVsdmFv?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQmkxMXNWZmZLak1WaXk0WUcxWFA3VEVTeE1QU0xrb2FFenR5VzR3am5STUI1cC04OFk4U2E3WUtQaDhwWm1Ga0x3WkNvS0l3d0pvNzQ1ODlsaU5DSEVTN2tweG5PQVBoWWU2ZkFiQVZ1cXVOTnhpU1lSbVpvSG1FQ3VIUmtKdUl2WHBQT1dZbG0zMi0yY3lLZTN2amFyOWFLcHgxYi1XdFpMeXQ1OEsxWXBOTXBjYkh4WWhEX3pUcnJzNnAtODY3X3U3c0hOVUppdU9TRlZ3Rk5VOEk?oc=5",
       "date": "Thu, 19 Jun 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
@@ -266,10 +257,19 @@
       "confidence": 2
     },
     {
-      "title": "Former K-pop idol Park Yu-chun ordered to pay management company $456k for breach of contract",
-      "source": "The Straits Times",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQamJWcGhXZjd5OTNtbHdtd0ZmaEUxLUlySUw5bEJMYUVEZnlRaDJhT3lFNEhrc2MyaXgycEF5b1VlMldoYnFWNmpWb1NUUGY5aXVaUHQta0xOOVdjdzdPRzN0b3RsY3FOSUxFMmNyRE1YbjNRRTR0RVlWNVlPNlVnX3E4RnlLdGh4bHJjcjd2eUx5S2t5b1JTV2JpYU9lejFYYW00d2tMX3JhakJJRkM2SmJoMDczRTZ5MW1ncTBtUDFMay1CRlJr?oc=5",
-      "date": "Mon, 29 Sep 2025 07:00:00 GMT",
+      "title": "Sony Faces K-Pop Lawsuit Over Unlicensed Song in 'The Interview'",
+      "source": "NBC News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcUxBQlRORl9DYVdSMDZvYlY3ZnBoa2FxR1JUNW9qVVRCY3lJMjVBNll2MTZoUlRpdDVOTFg2eGdtejFxd256NDRHQW1xVG5URmUtcG5YNTM5MjdWUDhHWU1SZDFIQzgyTDJ3bEROMUdrdFlKd0FFc3RCSVVNdUZhZnQxejI1UWRqb1JmTzhXWmhnek5mRnF4UWhhNFZwSHNtOGZCbHdaZUJSdw?oc=5",
+      "date": "Mon, 29 Dec 2014 08:00:00 GMT",
+      "snippet": "",
+      "side": "against",
+      "confidence": 2
+    },
+    {
+      "title": "K-Pop star demands $4.5 quadrillion in record label lawsuit – more than Korea’s GDP",
+      "source": "Dexerto",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeloxcmNVNGVibXJtX25fQUp6WldzckRnUVJPTmlGLVpla2t0WjkyWGc1R01FcDZnSW5VaWZ5cExlUk1lOEUwU2JJQ1RKdElVWnlCWVpMM00zRExlbzlsZlNibGR1cF9FV1kyWVpKdFZOTHY4S3lLWm5YNE5ybkl6Xy1rSG1sVlMtN1RGc0VRcFlDclFPQ1RXZEhBUk5ZM0NZSThJbnZhRlVVLXVyT1hmU3oyMjJTODJjd193dVZFRjl3eHM1?oc=5",
+      "date": "Wed, 22 Oct 2025 07:00:00 GMT",
       "snippet": "",
       "side": "against",
       "confidence": 2
